@@ -16,7 +16,7 @@ The complete bibliometric analysis pipeline is available at:
 
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/MattPears1/bibliometric-llm-healthcare-simulation.git
 cd bibliometric-llm-healthcare-simulation
 
 # Install dependencies

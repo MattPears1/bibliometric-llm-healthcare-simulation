@@ -14,7 +14,7 @@ A fully replicable bibliometric analysis pipeline examining the research landsca
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/[username]/bibliometric-llm-healthcare-simulation.git
+git clone https://github.com/MattPears1/bibliometric-llm-healthcare-simulation.git
 cd bibliometric-llm-healthcare-simulation
 pip install -r requirements.txt
 
