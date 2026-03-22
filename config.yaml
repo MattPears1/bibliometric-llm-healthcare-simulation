@@ -47,7 +47,7 @@ search:
         - "foundation model"
         - "transformer model"
         - "natural language processing"
-      domain_specific:  # Medical AI models
+      domain_specific:  # Medical AI models and 2024-2026 additions
         - "BioGPT"
         - "Med-PaLM"
         - "Med-PaLM 2"
@@ -55,8 +55,30 @@ search:
         - "Llama"
         - "Llama 2"
         - "Llama 3"
+        - "Llama 4"
         - "Mistral"
         - "GPT-4 Turbo"
+        # 2024-2026 model releases
+        - "GPT-o1"
+        - "o1-preview"
+        - "o1-mini"
+        - "o3"
+        - "o3-mini"
+        - "DeepSeek"
+        - "DeepSeek-R1"
+        - "Qwen"
+        - "Qwen 2"
+        - "Phi-3"
+        - "Phi-4"
+        - "Copilot"
+        - "Claude 3"
+        - "Claude 3.5"
+        - "Claude 4"
+        - "Gemini 2"
+        - "Gemini Pro"
+        - "Gemini Flash"
+        - "Command R"
+        - "Grok"
 
     simulation_terms:
       primary:
@@ -85,6 +107,19 @@ search:
         - "roleplay"
         - "role-play"
         - "standardised patient"
+        # Additional simulation terms
+        - "simulation center"
+        - "simulation centre"
+        - "sim lab"
+        - "skills lab"
+        - "clinical skills laboratory"
+        - "moulage"
+        - "task trainer"
+        - "part-task trainer"
+        - "serious game"
+        - "gamification"
+        - "digital twin"
+        - "haptic"
 
     nts_terms:
       primary:
@@ -92,12 +127,13 @@ search:
         - "non technical skills"
         - "nontechnical skills"
         - "NTS"
-        - "communication"
+        - "communication skills"  # more specific than bare "communication"
         - "teamwork"
         - "leadership"
         - "decision making"
         - "decision-making"
         - "situational awareness"
+        - "situation awareness"
       secondary:
         - "human factors"
         - "CRM"
@@ -106,6 +142,8 @@ search:
         - "NOTSS"
         - "ANTS"
         - "NOTECHS"
+        - "SPLINTS"
+        - "TEAMSTEPPS"
         - "soft skills"
         - "interprofessional"
         - "collaboration"
@@ -117,6 +155,21 @@ search:
         - "empathy"
         - "clinical reasoning"
         - "shared mental model"
+        # Additional NTS terms from validated frameworks
+        - "task management"
+        - "workload management"
+        - "assertiveness"
+        - "patient handover"
+        - "handoff"
+        - "SBAR"
+        - "breaking bad news"
+        - "motivational interviewing"
+        - "psychological safety"
+        - "reflective practice"
+        - "professionalism"
+        - "debriefing skills"
+        - "followership"
+        - "delegation"
 
     medical_terms:
       primary:
