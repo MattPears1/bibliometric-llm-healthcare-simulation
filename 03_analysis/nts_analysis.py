@@ -16,7 +16,7 @@ v2 IMPROVEMENTS (Methodology Review 2026-03-22):
     cause", "leading to", etc.). Added "team leader" and "followership".
   - "Decision-making": added "therapeutic reasoning", "clinical decision",
     "prioriti[sz]ation".
-  - "Situational awareness": added "anticipat\w+" with context, "cue
+  - "Situational awareness": added "anticipat" with context, "cue
     recognition", "fixation error".
   - "Stress management": added "burnout", "wellbeing", "well-being",
     "emotional regulation", "psychological safety".

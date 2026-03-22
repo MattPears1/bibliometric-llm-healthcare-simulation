@@ -442,7 +442,7 @@ class PaperScreener:
                 categories_hit = sum([llm_c >= 1, sim_c >= 1, nts_c >= 1, med_c >= 1])
                 total = llm_c + sim_c + nts_c + med_c
 
-                if categories_hit >= 3 or (categories_hit >= 2 and total >= 4):
+                if categories_hit >= 3 or (categories_hit >= 2 and total >= 6):
                     paper["screening_decision"] = "include"
                     paper["screening_confidence"] = "low"
                     paper["screening_rationale"] = (
