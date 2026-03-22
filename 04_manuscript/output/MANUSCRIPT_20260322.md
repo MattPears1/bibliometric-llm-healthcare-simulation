@@ -278,7 +278,7 @@ The integration of large language models into healthcare simulation holds genuin
 
 ## Data Availability Statement
 
-The complete data collection pipeline, processing scripts, and analysis code are available at [GitHub URL]. Raw bibliometric data and analysis outputs are available upon reasonable request from the corresponding author.
+The complete data collection pipeline, processing scripts, and analysis code are available at https://github.com/MattPears1/bibliometric-llm-healthcare-simulation. Raw bibliometric data and analysis outputs are available upon reasonable request from the corresponding author.
 
 ## Funding
 
