@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Raw data (too large for git)
+01_collection/raw/
+01_collection/checkpoints/
+
+# Processing intermediates
+02_processing/merged/
+02_processing/screened/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
