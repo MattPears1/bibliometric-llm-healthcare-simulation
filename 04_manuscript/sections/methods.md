@@ -36,7 +36,13 @@ Uncertain papers were screened using Claude (Anthropic, claude-sonnet-4-20250514
 
 Inter-rater reliability was assessed on a stratified random sample of 100 papers per reviewer, with 50 common papers reviewed independently by three human reviewers. The sample was stratified equally between included and excluded papers. Cohen's kappa was computed for all pairwise comparisons, following the benchmarks of Hanegraaf et al. (2024), who reported a mean human-human kappa of 0.82 for abstract screening. The human reviewer retained final authority in all disagreements.
 
-Following screening, 7,893 papers were included: 4,308 at Tier 1 (LLMs in healthcare), 1,969 at Tier 2 (LLMs in healthcare simulation), and 1,309 at Tier 3 (LLMs in healthcare simulation and NTS), with 307 classified outside the tier structure. The PRISMA flow diagram (Figure 1) details the selection process.
+Following screening, the results were organised into a three-level corpus structure designed to provide transparency in the narrowing process while ensuring analytical rigour:
+
+- **Extended corpus (7,893 papers):** All papers meeting inclusion criteria across all tiers---4,308 at Tier 1 (LLMs in healthcare), 1,969 at Tier 2 (LLMs in healthcare simulation), and 1,309 at Tier 3 (LLMs in healthcare simulation and NTS), with 307 classified outside the tier structure. This broadest level provides landscape context.
+- **Primary corpus (3,587 papers):** Papers from the extended corpus that contain explicit simulation-related terminology, combining Tier 2 and Tier 3 papers with Tier 1 papers that include simulation terms.
+- **Core corpus (3,000 papers):** The primary analysis dataset, restricted to papers classified at Tier 2 or Tier 3 with high or medium confidence ratings from the screening process. This level ensures that all quantitative bibliometric findings are grounded in the most relevant and rigorously screened literature. The core corpus comprises 1,725 papers at Tier 2 (57.5%) and 1,275 at Tier 3 (42.5%).
+
+All bibliometric analyses reported in the Results section are based on the core corpus of 3,000 papers unless otherwise specified. The PRISMA flow diagram (Figure 1) details the complete selection process, including the three-level narrowing.
 
 ## 2.5 Inclusion and Exclusion Criteria
 
