@@ -4,13 +4,13 @@ Dear Editor,
 
 We are pleased to submit our manuscript entitled **"Large Language Models in Healthcare Simulation: A Bibliometric Analysis Mapping the Research Landscape"** for consideration for publication in [Journal Name].
 
-This study presents the first comprehensive bibliometric analysis of the intersection between large language models (LLMs), healthcare simulation, and non-technical skills (NTS) training. Using a novel three-tier analytical framework and data from seven free, open-access databases, we analysed 12,715 papers published between 2020 and 2026, identifying key trends, thematic clusters, and critical research gaps.
+This study presents the first comprehensive bibliometric analysis of the intersection between large language models (LLMs), healthcare simulation, and non-technical skills (NTS) training. Using a novel three-tier analytical framework and data from seven free, open-access databases, we analysed 3,000 verified papers published between 2020 and 2026, identifying key trends, thematic clusters, and critical research gaps.
 
 ## Key contributions of this work:
 
-1. **Scale and scope:** This is the largest bibliometric analysis in this domain, covering over 100,000 initial records systematically reduced to 12,715 included papers---substantially exceeding previous bibliometric studies in medical education.
+1. **Scale and scope:** This is the largest bibliometric analysis in this domain, covering over 100,000 initial records systematically narrowed through a three-level corpus structure to 3,000 verified core papers---substantially exceeding previous bibliometric studies in medical education.
 
-2. **Novel findings:** We identify a striking imbalance in NTS research, with decision-making and communication receiving extensive attention while crisis resource management (7 papers) and situational awareness (52 papers) remain critically under-researched. We also document a 34.8% to 1.7% disparity between proprietary and open-source LLM research, raising important questions about reproducibility.
+2. **Novel findings:** We identify a striking imbalance in NTS research, with decision-making and communication receiving extensive attention while crisis resource management (8 papers) and situational awareness remain critically under-researched. We also document a significant disparity between proprietary and open-source LLM research, raising important questions about reproducibility.
 
 3. **Methodological innovation:** Our two-stage screening process combines automated keyword filtering with AI-assisted context screening, following the PRISMA-trAIce reporting framework. We validate this approach through inter-rater reliability testing with human reviewers.
 
