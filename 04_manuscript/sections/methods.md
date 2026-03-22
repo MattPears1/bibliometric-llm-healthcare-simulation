@@ -26,7 +26,7 @@ A three-stage deduplication algorithm was applied: exact DOI matching; fuzzy tit
 
 ### 2.4.1 Stage 1: Keyword Pre-filter
 
-Automated keyword matching across four categories (LLM, simulation, NTS, and medical terms) classified each paper as a definite include (at least five cross-category matches with at least one LLM term), definite exclude (zero LLM terms), or uncertain. This yielded 3,316 definite includes, 69,472 definite excludes, and 8,213 uncertain cases.
+Automated keyword matching across four categories (LLM, simulation, NTS, and medical terms) classified each paper as a definite include (at least five cross-category matches with at least one LLM term), definite exclude (zero LLM terms), or uncertain. This yielded 3,648 definite includes, 73,990 definite excludes, and 8,997 uncertain cases.
 
 ### 2.4.2 Stage 2: AI-Assisted Screening
 

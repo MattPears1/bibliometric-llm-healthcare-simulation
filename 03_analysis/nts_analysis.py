@@ -6,11 +6,11 @@ Non-Technical Skills (NTS) Domain Analysis
 - Cross-tab heatmap: NTS domain by year
 
 v2 IMPROVEMENTS (Methodology Review 2026-03-22):
-  - "Communication" domain: tightened from broad \bcommunicat\w+\b to
+  - "Communication" domain: tightened from broad \\bcommunicat\\w+\\b to
     context-aware matching. Bare "communication" now requires proximity to
     training/simulation/education context words. This prevents cancer
     communication, science communication, etc. from being classified as NTS.
-  - "Teamwork": similarly, "collaborat\w+" now requires educational context
+  - "Teamwork": similarly, "collaborat\\w+" now requires educational context
     proximity to avoid matching generic research collaboration mentions.
   - "Leadership": removed overly broad "leading" pattern (matched "leading
     cause", "leading to", etc.). Added "team leader" and "followership".
@@ -49,12 +49,16 @@ logger = logging.getLogger(__name__)
 # Helper: context-aware pattern matching
 # ---------------------------------------------------------------------------
 # Education/training context words that should be near broad NTS terms
+# All use word boundaries to prevent substring false positives
+# (e.g., "nts" matching inside "patients", "skill" matching "deskilling")
 _CONTEXT_WORDS = (
-    "training|simulation|education|skill|competenc|debrief|assessment|"
-    "curriculum|teach|learn|workshop|course|faculty|resident|student|"
-    "trainee|performance|feedback|scenario|osce|nts|non.?technical|"
-    "nontechnical|sim.?based|medical education|nursing education|"
-    "surgical education|clinical training"
+    r"\btraining\b|\bsimulation\b|\beducation\b|\bskills?\b|\bcompetenc\w+\b|"
+    r"\bdebrief\w*\b|\bassessment\b|\bcurriculum\b|\bteach\w*\b|\blearn\w*\b|"
+    r"\bworkshop\b|\bcourse\b|\bfaculty\b|\bresidents?\b|\bstudents?\b|"
+    r"\btrainees?\b|\bperformance\b|\bfeedback\b|\bscenarios?\b|\bosce\b|"
+    r"\bnts\b|\bnon.?technical\b|\bnontechnical\b|\bsim.?based\b|"
+    r"\bmedical education\b|\bnursing education\b|"
+    r"\bsurgical education\b|\bclinical training\b"
 )
 
 
