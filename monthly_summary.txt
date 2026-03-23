@@ -1,0 +1,9 @@
+Bibliometric Monthly Update - March 2026
+
+Core dataset: 3112 papers
+CAGR: CAGR:
+h-index: 92
+Figures: 32 regenerated with GPT-5.1 descriptions
+Manuscript: updated and rebuilt
+
+View the latest at: https://github.com/MattPears1/bibliometric-llm-healthcare-simulation
