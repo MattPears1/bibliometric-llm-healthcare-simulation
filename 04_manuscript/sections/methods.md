@@ -28,9 +28,9 @@ A three-stage deduplication algorithm was applied: exact DOI matching; fuzzy tit
 
 Automated keyword matching across four categories (LLM, simulation, NTS, and medical terms) classified each paper as a definite include (at least five cross-category matches with at least one LLM term), definite exclude (zero LLM terms), or uncertain. This yielded 3,648 definite includes, 73,990 definite excludes, and 8,997 uncertain cases.
 
-### 2.4.2 Stage 2: AI-Assisted Screening
+### 2.4.2 Stage 2: Conservative Heuristic Screening
 
-Uncertain papers were screened using Claude (Anthropic, claude-sonnet-4-20250514), following PRISMA-trAIce (Holst et al., 2025) and RAISE recommendations (Version 2, 2025). This approach aligns with methodological guidance permitting AI as a second reviewer (Flemyng et al., 2025; Gartlehner et al., 2025) and has been validated in studies demonstrating human-comparable screening accuracy (Matsui et al., 2024; Sanghera et al., 2025; Insuk et al., 2025). Each paper's title and abstract were assessed against the inclusion criteria, returning a decision, confidence level, and rationale. Papers were processed in batches of ten. Complete prompts and model parameters are documented in the project repository.
+Uncertain papers were screened using a conservative heuristic algorithm that re-evaluated keyword evidence across all four categories with stricter thresholds. Papers were included only if they matched at least three of the four keyword categories, or at least two categories with a cumulative match score of six or higher. This conservative approach was designed to err on the side of inclusion while filtering papers with weak evidence of relevance. The pipeline also supports AI-assisted screening using Claude (Anthropic) following PRISMA-trAIce (Holst et al., 2025) and RAISE recommendations (Version 2, 2025), consistent with methodological guidance permitting AI as a second reviewer (Flemyng et al., 2025; Gartlehner et al., 2025). This capability is documented in the project repository for use in future iterations of the analysis.
 
 ### 2.4.3 Validation
 

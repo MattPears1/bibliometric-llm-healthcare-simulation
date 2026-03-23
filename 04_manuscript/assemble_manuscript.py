@@ -22,6 +22,7 @@ SECTION_FILES = [
     "results.md",
     "discussion.md",
     "conclusions.md",
+    "references.md",
 ]
 
 HEADER = """---
