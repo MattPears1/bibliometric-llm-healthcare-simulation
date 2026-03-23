@@ -108,10 +108,13 @@ jobs:
           " 2>/dev/null || true
           python prisma_diagram.py 2>/dev/null || true
 
-      - name: Build manuscript and figure compendium
+      - name: GPT-5.1 write manuscript from results (3-agent pipeline)
         run: |
-          python 04_manuscript/build_manuscript.py
-          python 04_manuscript/assemble_manuscript.py
+          python 04_manuscript/ai_writer.py
+        timeout-minutes: 30
+
+      - name: Build figure compendium with GPT-5.1 descriptions
+        run: |
           python build_figure_compendium.py
 
       - name: Generate summary report
@@ -177,13 +180,13 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
-          server_port: 465
+          server_port: 587
           secure: true
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "Bibliometric Update - ${{ steps.summary.outputs.month }} - ${{ steps.summary.outputs.papers }} papers"
           to: ${{ secrets.NOTIFY_EMAIL }}
-          from: "Bibliometric Bot <${{ secrets.EMAIL_USERNAME }}>"
+          from: "Simuro Bibliometric Bot <${{ secrets.EMAIL_USERNAME }}>"
           body: |
             Hi Matt,
 
@@ -193,18 +196,16 @@ jobs:
             Month: ${{ steps.summary.outputs.month }}
 
             What was done:
-            - Fresh data collected from 7 databases
-            - Normalised, deduplicated, and screened
-            - All 15 analyses re-run, 32 figures regenerated
-            - GPT-5.1 wrote descriptions for each figure
-            - Manuscript and figure compendium rebuilt
+            - Fresh data collected from 7 databases (100,000+ raw records)
+            - Normalised, deduplicated, and screened to core corpus
+            - GPT-5.1 wrote all manuscript sections from fresh results
+            - GPT-5.1 reviewed for accuracy (3-agent pipeline)
+            - GPT-5.1 described all 32 figures
+            - Manuscript and figure compendium rebuilt (.docx)
 
-            View the results: https://github.com/MattPears1/bibliometric-llm-healthcare-simulation
+            View & download: https://github.com/MattPears1/bibliometric-llm-healthcare-simulation
 
-            If the paper count has changed significantly, consider updating
-            the manuscript numbers before the next submission round.
-
-            -- Bibliometric Bot
+            -- Simuro Bibliometric Bot
         continue-on-error: true
 
       - name: Fallback notification via GitHub Issue
