@@ -225,12 +225,19 @@ def populate_manuscript(results):
         capture_output=True, timeout=60
     )
 
-    # Build figure compendium
+    # Build enhanced manuscript (.docx with tables)
     subprocess.run(
-        [sys.executable, str(BASE_DIR / "build_figure_compendium.py")],
+        [sys.executable, str(BASE_DIR / "04_manuscript" / "build_manuscript.py")],
         capture_output=True, timeout=120
     )
-    logger.info("Figure compendium generated")
+    logger.info("Enhanced manuscript generated")
+
+    # Build AI-described figure compendium
+    subprocess.run(
+        [sys.executable, str(BASE_DIR / "build_figure_compendium.py")],
+        capture_output=True, timeout=600  # AI descriptions take time
+    )
+    logger.info("Figure compendium with AI descriptions generated")
 
 
 def git_commit_and_push(push=False):
