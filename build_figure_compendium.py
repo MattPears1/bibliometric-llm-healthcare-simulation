@@ -80,8 +80,8 @@ def describe_figure_with_gpt(image_path: Path, title: str) -> str:
             b64 = base64.b64encode(f.read()).decode("utf-8")
 
         response = client.chat.completions.create(
-            model="gpt-4o",
-            max_tokens=300,
+            model="gpt-5.1",
+            max_completion_tokens=300,
             messages=[
                 {
                     "role": "system",
