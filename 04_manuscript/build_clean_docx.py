@@ -22,14 +22,23 @@ def load(name):
 
 def add_table(doc, rows):
     t = doc.add_table(rows=len(rows), cols=len(rows[0]))
-    t.style = 'Light Shading Accent 1'
+    t.style = 'Table Grid'  # Full gridlines (horizontal + vertical)
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
     for ri, row in enumerate(rows):
         for ci, val in enumerate(row):
             t.rows[ri].cells[ci].text = val
             for run in t.rows[ri].cells[ci].paragraphs[0].runs:
                 run.font.size = Pt(10)
-                if ri == 0: run.bold = True
+                run.font.name = 'Calibri'
+                if ri == 0:
+                    run.bold = True
+                    run.font.color.rgb = RGBColor(255, 255, 255)
+            # Header row: dark background
+            if ri == 0:
+                from docx.oxml import parse_xml
+                from docx.oxml.ns import nsdecls
+                shading = parse_xml(f'<w:shd {nsdecls("w")} w:fill="003366"/>')
+                t.rows[ri].cells[ci]._element.get_or_add_tcPr().append(shading)
     doc.add_paragraph('')
 
 def add_fig(doc, filename, title, caption):
