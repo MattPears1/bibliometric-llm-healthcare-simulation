@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   monthly-update:
@@ -43,7 +44,6 @@ jobs:
           echo "API_CONTACT_EMAIL=${{ secrets.API_CONTACT_EMAIL }}" >> .env
 
       - name: Run data collection
-        if: ${{ github.event.inputs.skip_collection != 'true' }}
         run: |
           cd 01_collection
           python collection_manager.py
