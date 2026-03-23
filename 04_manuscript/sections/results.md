@@ -32,7 +32,7 @@ Bradford's law analysis partitioned the journals into three zones of approximate
 
 ## 3.6 Geographic Distribution
 
-Country-level authorship data revealed contributions from 106 countries, reflecting broad global engagement with LLMs in healthcare (Table 8; Figure 4). The United States led in absolute output, followed by China, India, the United Kingdom, and Canada. International collaborations---defined as papers with authors from more than one country---accounted for 21.8% of geographically identified papers, suggesting moderate but not dominant cross-border cooperation. The geographic concentration of output in high-income countries raises equity concerns regarding whose perspectives shape the evidence base for LLM integration in healthcare education.
+Country-level authorship data revealed contributions from 84 countries, reflecting broad global engagement with LLMs in healthcare (Table 8; Figure 4). The United States led in absolute output, followed by China, India, the United Kingdom, and Canada. International collaborations---defined as papers with authors from more than one country---accounted for 21.6% of geographically identified papers, suggesting moderate but not dominant cross-border cooperation. The geographic concentration of output in high-income countries raises equity concerns regarding whose perspectives shape the evidence base for LLM integration in healthcare education.
 
 ## 3.7 Thematic Mapping
 
