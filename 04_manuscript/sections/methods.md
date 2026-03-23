@@ -40,9 +40,9 @@ Following screening, the results were organised into a three-level corpus struct
 
 - **Extended corpus (7,893 papers):** All papers meeting inclusion criteria across all tiers---4,308 at Tier 1 (LLMs in healthcare), 1,969 at Tier 2 (LLMs in healthcare simulation), and 1,309 at Tier 3 (LLMs in healthcare simulation and NTS), with 307 classified outside the tier structure. This broadest level provides landscape context.
 - **Primary corpus (3,587 papers):** Papers from the extended corpus that contain explicit simulation-related terminology, combining Tier 2 and Tier 3 papers with Tier 1 papers that include simulation terms.
-- **Core corpus (3,000 papers):** The primary analysis dataset, restricted to papers classified at Tier 2 or Tier 3 with high or medium confidence ratings from the screening process. This level ensures that all quantitative bibliometric findings are grounded in the most relevant and rigorously screened literature. The core corpus comprises 1,725 papers at Tier 2 (57.5%) and 1,275 at Tier 3 (42.5%).
+- **Core corpus (3,112 papers):** The primary analysis dataset, restricted to papers classified at Tier 2 or Tier 3 with high or medium confidence ratings from the screening process. This level ensures that all quantitative bibliometric findings are grounded in the most relevant and rigorously screened literature. The core corpus comprises 1,789 papers at Tier 2 (57.5%) and 1,323 at Tier 3 (42.5%).
 
-All bibliometric analyses reported in the Results section are based on the core corpus of 3,000 papers unless otherwise specified. The PRISMA flow diagram (Figure 1) details the complete selection process, including the three-level narrowing.
+All bibliometric analyses reported in the Results section are based on the core corpus of 3,112 papers unless otherwise specified. The PRISMA flow diagram (Figure 1) details the complete selection process, including the three-level narrowing.
 
 ## 2.5 Inclusion and Exclusion Criteria
 
