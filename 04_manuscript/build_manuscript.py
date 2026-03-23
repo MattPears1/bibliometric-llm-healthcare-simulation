@@ -33,7 +33,7 @@ FIGS_DIR = BASE_DIR / "03_analysis" / "figures"
 
 
 def add_rich_paragraph(doc, text, style=None, alignment=None, space_after=None):
-    """Add a paragraph with proper bold/italic/reference handling."""
+    """Add a paragraph with proper bold/italic rendering. No raw ** or * in output."""
     p = doc.add_paragraph()
     if style:
         p.style = doc.styles[style]
@@ -42,23 +42,58 @@ def add_rich_paragraph(doc, text, style=None, alignment=None, space_after=None):
     if space_after is not None:
         p.paragraph_format.space_after = Pt(space_after)
 
-    # Parse markdown inline formatting: **bold**, *italic*, [num] refs
-    # Split on ** for bold and * for italic
-    parts = re.split(r'(\*\*.*?\*\*|\*.*?\*)', text)
-    for part in parts:
-        if part.startswith('**') and part.endswith('**'):
-            run = p.add_run(part[2:-2])
+    # First, replace em/en dashes
+    text = text.replace('---', '\u2014').replace('--', '\u2013')
+    # Replace unicode dash variants
+    text = text.replace('\u2010', '-').replace('\u2012', '\u2013')
+
+    # Process bold (**text**) and italic (*text*) with a state machine
+    # This handles all cases including **100.0%**, mid-sentence bold, etc.
+    i = 0
+    current_text = ''
+    bold = False
+    italic = False
+
+    while i < len(text):
+        # Check for ** (bold toggle)
+        if i < len(text) - 1 and text[i] == '*' and text[i+1] == '*':
+            # Flush current text
+            if current_text:
+                run = p.add_run(current_text)
+                if bold:
+                    run.bold = True
+                if italic:
+                    run.italic = True
+                current_text = ''
+            bold = not bold
+            i += 2
+            continue
+
+        # Check for single * (italic toggle) - but not if next char is also *
+        if text[i] == '*' and (i + 1 >= len(text) or text[i+1] != '*'):
+            # Only toggle italic if we're not inside bold markers
+            if current_text:
+                run = p.add_run(current_text)
+                if bold:
+                    run.bold = True
+                if italic:
+                    run.italic = True
+                current_text = ''
+            italic = not italic
+            i += 1
+            continue
+
+        current_text += text[i]
+        i += 1
+
+    # Flush remaining text
+    if current_text:
+        run = p.add_run(current_text)
+        if bold:
             run.bold = True
-        elif part.startswith('*') and part.endswith('*') and not part.startswith('**'):
-            run = p.add_run(part[1:-1])
+        if italic:
             run.italic = True
-        elif part.startswith('---'):
-            # Em dash
-            run = p.add_run(part.replace('---', '\u2014'))
-        else:
-            # Handle em dashes within text
-            cleaned = part.replace('---', '\u2014').replace('--', '\u2013')
-            run = p.add_run(cleaned)
+
     return p
 
 
@@ -99,10 +134,15 @@ def add_md_section(doc, content):
             i += 1
             continue
 
-        # Bullet list with bold prefix
-        if line.startswith('- '):
+        # Bullet list (markdown or unicode bullet)
+        if line.startswith('- ') or line.startswith('• '):
             text = line[2:]
             add_rich_paragraph(doc, text, style='List Bullet')
+            i += 1
+            continue
+        if line.startswith('  - ') or line.startswith('  • '):
+            text = line[4:]
+            add_rich_paragraph(doc, text, style='List Bullet 2' if 'List Bullet 2' in [s.name for s in doc.styles] else 'List Bullet')
             i += 1
             continue
 
@@ -238,7 +278,7 @@ def build_manuscript():
 
         # Skip the Keywords line in abstract (we'll add it manually)
         if sf == 'abstract.md':
-            content = re.sub(r'\*\*Keywords[:\*].*', '', content)
+            content = '\n'.join(l for l in content.split('\n') if not l.strip().startswith('**Keywords'))
 
         add_md_section(doc, content)
 
@@ -332,6 +372,36 @@ def build_manuscript():
     run = p.add_run('Competing Interests: ')
     run.bold = True
     p.add_run('The authors declare no competing interests.')
+
+    # ── Final cleanup: re-render any paragraphs that still have raw ** ──
+    for para in doc.paragraphs:
+        if '**' in para.text:
+            full_text = para.text
+            # Remove ALL existing runs from the paragraph XML
+            from lxml import etree
+            p_elem = para._element
+            for r_elem in list(p_elem.findall(qn('w:r'))):
+                p_elem.remove(r_elem)
+            # Re-parse with state machine, creating fresh runs
+            idx = 0
+            current = ''
+            bold_on = False
+            while idx < len(full_text):
+                if idx < len(full_text) - 1 and full_text[idx] == '*' and full_text[idx+1] == '*':
+                    if current:
+                        r = para.add_run(current)
+                        if bold_on:
+                            r.bold = True
+                        current = ''
+                    bold_on = not bold_on
+                    idx += 2
+                    continue
+                current += full_text[idx]
+                idx += 1
+            if current:
+                r = para.add_run(current)
+                if bold_on:
+                    r.bold = True
 
     # ── Save ──
     out_path = Path(__file__).parent / 'output' / f'MANUSCRIPT_{datetime.now().strftime("%Y%m%d")}.docx'
