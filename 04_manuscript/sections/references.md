@@ -72,8 +72,6 @@
 
 36. Pears, M., Konstantinidis, S., Biyani, C. S., et al. (2025). Non-technical skills for urology trainees: A double-blinded study of ChatGPT4 AI benchmarking against consultant interaction. *Journal of Healthcare Informatics Research*, 9, 165-191.
 
-37. Pears, M., Biyani, C. S., Joyce, A. D., Spearpoint, K., Yiasemidou, M., Van Cleynenbreugel, B., Patterson, J., & Mushtaq, F. (2021). Capturing the non-technical skills of a technical skills trainer (NTS-TeST) during simulation. *Surgical Innovation*, 28(6), 716-724.
+37. Pears, M., Wadhwa, K., Hanchanale, V., Jain, S., Elmamoun, M. H., Payne, S. R., Konstantinidis, S., Rochester, M., Doherty, R., & Biyani, C. S. (2023). 'Bingo'-style cue identification techniques: enhancing non-technical skills in urology trainees. *BJS (British Journal of Surgery)*, 110(11), 1549-1551.
 
-38. Pears, M., Wadhwa, K., Hanchanale, V., Jain, S., Elmamoun, M. H., Payne, S. R., Konstantinidis, S., Rochester, M., Doherty, R., & Biyani, C. S. (2023). 'Bingo'-style cue identification techniques: enhancing non-technical skills in urology trainees. *BJS (British Journal of Surgery)*, 110(11), 1549-1551.
-
-39. Pears, M., Rochester, M., Wadhwa, K., Payne, S. R., Konstantinidis, S., Hanchanale, V., Elmamoun, M. H., Biyani, C. S., & Doherty, R. (2023). A pilot study evaluating a virtual reality-based nontechnical skills training application for urology trainees: usability, acceptability, and impact. *Journal of Endourology*, 37(11), 1190-1198.
+38. Pears, M., Rochester, M., Wadhwa, K., Payne, S. R., Konstantinidis, S., Hanchanale, V., Elmamoun, M. H., Biyani, C. S., & Doherty, R. (2023). A pilot study evaluating a virtual reality-based nontechnical skills training application for urology trainees: usability, acceptability, and impact. *Journal of Endourology*, 37(11), 1190-1198.
