@@ -15,7 +15,7 @@ Simulation work most often involved VR/MR/XR modalities (766 papers; 24.6%), fol
 
 Research methods could be classified for 2,040 papers (65.6%) [8]. Development studies were most frequent (653; 21.0%), followed by validation studies (535; 17.2%) and comparative studies (604; 19.4%) [8]. Only 35 randomised controlled trials (1.1% of the corpus) were identified, indicating that higher‑level experimental evidence remains relatively sparse [8].  
 
-Within urology, 117 papers (3.8% of the corpus) were identified [9]. Although manual supplementary searching identified isolated examples of LLM use for NTS feedback in urology simulation [36], no studies were found evaluating LLM-powered mannequin voices or conversational agents within urology boot camp formats specifically, despite the apparent feasibility of such applications.
+Within urology, 117 papers (3.8% of the corpus) were identified [9]. Manual supplementary searching identified only one study directly examining LLM use for NTS training in urology simulation [36], with no studies evaluating LLM applications within urology boot camp formats, despite the apparent feasibility of such integration.
 
 **Conclusions**  
 LLM‑enabled healthcare simulation related to NTS training is expanding rapidly but appears methodologically immature, with relatively few randomised controlled trials and marked under‑representation of CRM. Urology is represented within the broader corpus, yet LLM-powered boot camp applications remain unreported. Targeted, high‑quality experimental work—particularly around team‑based CRM and specialty boot camps using LLM‑powered patient surrogates—seems strongly warranted.
