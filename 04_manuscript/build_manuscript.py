@@ -222,6 +222,7 @@ def build_manuscript():
     style.font.name = 'Calibri'
     style.font.size = Pt(11)
     style.paragraph_format.space_after = Pt(4)
+    style.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
 
     for level in range(1, 4):
         hs = doc.styles[f'Heading {level}']
@@ -293,39 +294,54 @@ def build_manuscript():
             run.font.size = Pt(10)
             doc.add_page_break()
 
-        # After results, insert figures and summary tables inline
+        # After results section, insert key figures and tables INLINE
         if sf == 'results.md':
-            _add_results_visuals(doc)
+            # Summary metrics table
+            doc.add_paragraph('')
+            h = doc.add_heading('Table 1: Key Metrics Summary', level=3)
+            for r in h.runs: r.font.color.rgb = RGBColor(0, 51, 102)
+            _add_inline_table(doc, [
+                ['Metric', 'Value'],
+                ['Core corpus', '3,112 papers'],
+                ['CAGR', '37.5%'],
+                ['Post-ChatGPT share', '93.6%'],
+                ['Peak year', '2025 (1,415)'],
+                ['h-index / g-index', '92 / 166'],
+                ['Total citations', '46,823'],
+                ['Mean citations', '15.05'],
+                ['Authors', '12,937'],
+                ['Journals', '1,343'],
+                ['Countries', '86'],
+                ['Lotka \u03b2', '2.559 (R\u00b2=0.941)'],
+                ['RCTs', '35 (1.1%)'],
+                ['Urology', '117 (3.8%)'],
+            ])
 
-    doc.add_page_break()
+            # Figure 1
+            _add_inline_figure(doc, 'publication_trends.png',
+                'Figure 1: Publication Trends (2020\u20132026)',
+                'Annual counts showing ChatGPT inflection point. Peak: 1,415 in 2025. CAGR: 37.5%.')
 
-    # ══════════════════════════════════════════════════════════════
-    # KEY RESULTS TABLES
-    # ══════════════════════════════════════════════════════════════
-    doc.add_heading('Appendix: Key Results Tables', level=1)
+            # NTS table
+            h = doc.add_heading('Table 2: NTS Domain Distribution', level=3)
+            for r in h.runs: r.font.color.rgb = RGBColor(0, 51, 102)
+            _add_inline_table(doc, [
+                ['Domain', 'Papers', '%'],
+                ['Decision-making', '889', '29.6%'],
+                ['Communication', '612', '20.4%'],
+                ['Teamwork', '374', '12.5%'],
+                ['Leadership', '234', '7.8%'],
+                ['Stress management', '147', '4.9%'],
+                ['Professionalism', '93', '3.1%'],
+                ['Situational awareness', '53', '1.8%'],
+                ['Task management', '38', '1.3%'],
+                ['CRM', '4', '0.1%'],
+            ])
 
-    table_configs = [
-        ('publication_trends', 'Table 1: Publication Trends by Year'),
-        ('citation_summary', 'Table 2: Citation Summary Statistics'),
-        ('author_summary', 'Table 3: Author Analysis Summary'),
-        ('nts_domains', 'Table 4: NTS Domain Classification'),
-        ('llm_model_summary', 'Table 5: LLM Model Distribution'),
-        ('simulation_type_summary', 'Table 6: Simulation Type Classification'),
-        ('geographic_analysis', 'Table 7: Geographic Distribution'),
-        ('research_methods', 'Table 8: Research Methods Distribution'),
-        ('urology_results', 'Table 9: Urology Sub-Analysis'),
-    ]
-
-    for prefix, title in table_configs:
-        content = read_latest_table(prefix)
-        if content:
-            h = doc.add_heading(title, level=3)
-            for run in h.runs:
-                run.font.size = Pt(11)
-            # Extract and render the table
-            table_lines = [l for l in content.split('\n') if l.strip().startswith('|')]
-            if table_lines:
-                _add_table_from_md(doc, table_lines)
+            # Figure 2
+            _add_inline_figure(doc, 'nts_domain_frequencies.png',
+                'Figure 2: Non-Technical Skills Domain Frequencies',
+                'Decision-making (889) and Communication (612) dominate. CRM: only 4 papers (222:1 disparity).')
 
     doc.add_page_break()
 
@@ -376,22 +392,25 @@ def build_manuscript():
     out_path = Path(__file__).parent / 'output' / f'MANUSCRIPT_{datetime.now().strftime("%Y%m%d")}.docx'
     doc.save(str(out_path))
 
-    # ── Post-process: fix any remaining ** in text-only paragraphs ──
-    # Reload and fix, being careful not to touch paragraphs with images
+    # ── Post-process: fix ** in text-only paragraphs, preserve images/tables ──
     doc2 = Document(str(out_path))
     for para in doc2.paragraphs:
         if '**' not in para.text:
             continue
-        # Check if this paragraph contains images - skip if so
-        has_image = bool(para._element.findall('.//' + qn('w:drawing')))
-        if has_image:
+        # SKIP paragraphs that contain images
+        if para._element.findall('.//' + qn('w:drawing')):
             continue
+        # Only remove w:r elements that are pure text (no embedded objects)
         full_text = para.text
-        p_elem = para._element
-        # Remove only w:r elements (runs), keep everything else
-        for r_elem in list(p_elem.findall(qn('w:r'))):
-            p_elem.remove(r_elem)
-        # Rebuild with bold
+        runs_to_remove = []
+        for r_elem in para._element.findall(qn('w:r')):
+            # Skip runs that contain drawings or pictures
+            if r_elem.findall('.//' + qn('w:drawing')) or r_elem.findall('.//' + qn('w:pict')):
+                continue
+            runs_to_remove.append(r_elem)
+        for r_elem in runs_to_remove:
+            para._element.remove(r_elem)
+        # Rebuild text runs with bold
         idx = 0
         current = ''
         bold_on = False
@@ -413,122 +432,7 @@ def build_manuscript():
                 r.bold = True
     doc2.save(str(out_path))
 
-    # ── Step 3: Reopen and add figures + tables (after ** cleanup) ──
-    doc3 = Document(str(out_path))
-
-    # Find the paragraph after Results section to insert visuals
-    insert_before_discussion = None
-    for i, para in enumerate(doc3.paragraphs):
-        if para.text.strip().startswith('4.') or 'Discussion' in para.text:
-            insert_before_discussion = i
-            break
-
-    # Add visuals at end (before references) since inserting mid-doc is complex
-    # Find references heading
-    ref_idx = None
-    for i, para in enumerate(doc3.paragraphs):
-        if para.text.strip() == 'References':
-            ref_idx = i
-            break
-
-    # Add summary table
-    h = doc3.add_heading('Key Metrics Summary', level=2)
-    for run in h.runs:
-        run.font.color.rgb = RGBColor(0, 51, 102)
-
-    summary_data = [
-        ['Metric', 'Value'],
-        ['Core corpus', '3,112 papers'],
-        ['CAGR', '37.5%'],
-        ['Post-ChatGPT share', '93.6%'],
-        ['Peak year', '2025 (1,415)'],
-        ['h-index / g-index', '92 / 166'],
-        ['Total citations', '46,823'],
-        ['Mean citations', '15.05'],
-        ['Authors', '12,937'],
-        ['Journals', '1,343'],
-        ['Countries', '86'],
-        ['Lotka beta', '2.559 (R\u00b2=0.941)'],
-        ['RCTs', '35 (1.1%)'],
-        ['Urology papers', '117 (3.8%)'],
-    ]
-    t = doc3.add_table(rows=len(summary_data), cols=2)
-    t.style = 'Light Shading Accent 1'
-    t.alignment = WD_TABLE_ALIGNMENT.CENTER
-    for r_i, row in enumerate(summary_data):
-        for c_i, val in enumerate(row):
-            cell = t.rows[r_i].cells[c_i]
-            cell.text = val
-            for run in cell.paragraphs[0].runs:
-                run.font.size = Pt(10)
-                if r_i == 0:
-                    run.bold = True
-
-    # NTS table
-    doc3.add_paragraph('')
-    h = doc3.add_heading('NTS Domain Distribution', level=2)
-    nts_data = [
-        ['Domain', 'Papers', '%'],
-        ['Decision-making', '889', '29.6%'],
-        ['Communication', '612', '20.4%'],
-        ['Teamwork', '374', '12.5%'],
-        ['Leadership', '234', '7.8%'],
-        ['Stress management', '147', '4.9%'],
-        ['Professionalism', '93', '3.1%'],
-        ['Situational awareness', '53', '1.8%'],
-        ['Task management', '38', '1.3%'],
-        ['CRM', '4', '0.1%'],
-    ]
-    t2 = doc3.add_table(rows=len(nts_data), cols=3)
-    t2.style = 'Light Shading Accent 1'
-    t2.alignment = WD_TABLE_ALIGNMENT.CENTER
-    for r_i, row in enumerate(nts_data):
-        for c_i, val in enumerate(row):
-            cell = t2.rows[r_i].cells[c_i]
-            cell.text = val
-            for run in cell.paragraphs[0].runs:
-                run.font.size = Pt(10)
-                if r_i == 0:
-                    run.bold = True
-
-    # Figures
-    doc3.add_paragraph('')
-    fig1 = FIGS_DIR / 'publication_trends.png'
-    if fig1.exists():
-        p = doc3.add_paragraph()
-        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        run = p.add_run('Figure 1: Publication Trends (2020\u20132026)')
-        run.bold = True
-        run.font.size = Pt(11)
-        run.font.color.rgb = RGBColor(0, 51, 102)
-        doc3.add_picture(str(fig1), width=Inches(5.5))
-        doc3.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        p = doc3.add_paragraph()
-        run = p.add_run('Annual counts showing the ChatGPT inflection point. Peak: 1,415 papers in 2025. CAGR: 37.5%.')
-        run.font.size = Pt(9)
-        run.italic = True
-        run.font.color.rgb = RGBColor(80, 80, 80)
-
-    doc3.add_paragraph('')
-    fig2 = FIGS_DIR / 'nts_domain_frequencies.png'
-    if fig2.exists():
-        p = doc3.add_paragraph()
-        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        run = p.add_run('Figure 2: Non-Technical Skills Domain Frequencies')
-        run.bold = True
-        run.font.size = Pt(11)
-        run.font.color.rgb = RGBColor(0, 51, 102)
-        doc3.add_picture(str(fig2), width=Inches(5.5))
-        doc3.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        p = doc3.add_paragraph()
-        run = p.add_run('Decision-making (889) and Communication (612) dominate. CRM has only 4 papers \u2014 a 222:1 disparity.')
-        run.font.size = Pt(9)
-        run.italic = True
-        run.font.color.rgb = RGBColor(80, 80, 80)
-
-    doc3.save(str(out_path))
-
-    # Final count
+    # Final verification
     doc_final = Document(str(out_path))
     word_count = sum(len(p.text.split()) for p in doc_final.paragraphs)
     stars = sum(1 for p in doc_final.paragraphs if '**' in p.text)
@@ -542,6 +446,47 @@ def build_manuscript():
                    capture_output=True, timeout=60)
 
     return out_path
+
+
+def _add_inline_table(doc, rows):
+    """Add a formatted table inline in the document."""
+    n_cols = len(rows[0])
+    table = doc.add_table(rows=len(rows), cols=n_cols)
+    table.style = 'Light Shading Accent 1'
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    for ri, row_data in enumerate(rows):
+        for ci in range(min(len(row_data), n_cols)):
+            cell = table.rows[ri].cells[ci]
+            cell.text = row_data[ci]
+            for run in cell.paragraphs[0].runs:
+                run.font.size = Pt(10)
+                if ri == 0:
+                    run.bold = True
+                    run.font.color.rgb = RGBColor(0, 51, 102)
+    doc.add_paragraph('')
+
+
+def _add_inline_figure(doc, filename, title, caption):
+    """Add a figure with title and caption inline."""
+    filepath = FIGS_DIR / filename
+    if not filepath.exists():
+        return
+    doc.add_paragraph('')
+    p = doc.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = p.add_run(title)
+    run.bold = True
+    run.font.size = Pt(11)
+    run.font.color.rgb = RGBColor(0, 51, 102)
+    doc.add_picture(str(filepath), width=Inches(5.5))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p = doc.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+    run = p.add_run(caption)
+    run.font.size = Pt(9)
+    run.italic = True
+    run.font.color.rgb = RGBColor(80, 80, 80)
+    doc.add_paragraph('')
 
 
 def _add_results_visuals(doc):
