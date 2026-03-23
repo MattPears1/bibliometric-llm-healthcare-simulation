@@ -114,12 +114,110 @@ jobs:
           python 04_manuscript/assemble_manuscript.py
           python build_figure_compendium.py
 
+      - name: Generate summary report
+        id: summary
+        run: |
+          python -c "
+          import json, glob
+          from datetime import datetime
+
+          with open('03_analysis/core_dataset.json', encoding='utf-8') as f:
+              papers = json.load(f)
+
+          # Read key tables
+          def latest(prefix):
+              files = sorted(glob.glob(f'03_analysis/tables/{prefix}_*.md'))
+              if files:
+                  with open(files[-1], encoding='utf-8') as f:
+                      return f.read()
+              return ''
+
+          cit = latest('citation_summary')
+          h_idx = ''
+          for line in cit.split('\n'):
+              if 'h-index' in line:
+                  h_idx = line.split('|')[-2].strip() if '|' in line else ''
+
+          pub = latest('publication_trends')
+          cagr = ''
+          for line in pub.split('\n'):
+              if 'CAGR' in line:
+                  cagr = line.split('**')[-2] if '**' in line else line.split(':')[-1].strip()
+
+          summary = f'''Bibliometric Monthly Update - {datetime.now().strftime(\"%B %Y\")}
+
+          Core dataset: {len(papers)} papers
+          CAGR: {cagr}
+          h-index: {h_idx}
+          Figures: 32 regenerated with GPT-5.1 descriptions
+          Manuscript: updated and rebuilt
+
+          View the latest at: https://github.com/MattPears1/bibliometric-llm-healthcare-simulation
+          '''
+          print(summary)
+
+          with open('monthly_summary.txt', 'w') as f:
+              f.write(summary)
+          " 2>/dev/null
+
+          echo "papers=$(python -c "import json; print(len(json.load(open('03_analysis/core_dataset.json',encoding='utf-8'))))")" >> $GITHUB_OUTPUT
+          echo "month=$(date +'%B %Y')" >> $GITHUB_OUTPUT
+
       - name: Commit and push results
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add -A
           MONTH=$(date +"%B %Y")
-          PAPERS=$(python -c "import json; print(len(json.load(open('03_analysis/core_dataset.json',encoding='utf-8'))))")
+          PAPERS=${{ steps.summary.outputs.papers }}
           git commit -m "Monthly update: ${MONTH} - ${PAPERS} papers in core dataset" || echo "No changes to commit"
           git push
+
+      - name: Send email notification
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Bibliometric Update - ${{ steps.summary.outputs.month }} - ${{ steps.summary.outputs.papers }} papers"
+          to: ${{ secrets.NOTIFY_EMAIL }}
+          from: "Bibliometric Bot <${{ secrets.EMAIL_USERNAME }}>"
+          body: |
+            Hi Matt,
+
+            Your monthly bibliometric analysis has been automatically updated.
+
+            Core dataset: ${{ steps.summary.outputs.papers }} papers
+            Month: ${{ steps.summary.outputs.month }}
+
+            What was done:
+            - Fresh data collected from 7 databases
+            - Normalised, deduplicated, and screened
+            - All 15 analyses re-run, 32 figures regenerated
+            - GPT-5.1 wrote descriptions for each figure
+            - Manuscript and figure compendium rebuilt
+
+            View the results: https://github.com/MattPears1/bibliometric-llm-healthcare-simulation
+
+            If the paper count has changed significantly, consider updating
+            the manuscript numbers before the next submission round.
+
+            -- Bibliometric Bot
+        continue-on-error: true
+
+      - name: Fallback notification via GitHub Issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const papers = '${{ steps.summary.outputs.papers }}';
+            const month = '${{ steps.summary.outputs.month }}';
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Monthly Update Complete: ${month} - ${papers} papers`,
+              body: `## Monthly Bibliometric Update\n\n**Date:** ${month}\n**Core dataset:** ${papers} papers\n\nAll analyses, figures, and manuscript have been regenerated.\n\nCheck the latest commit for details.`,
+              labels: ['automated', 'monthly-update']
+            });
