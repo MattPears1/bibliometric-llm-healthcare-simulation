@@ -1,0 +1,617 @@
+{
+  "publication_trends": {
+    "total_papers": 3107,
+    "year_distribution": {
+      "2025": 1419,
+      "2023": 361,
+      "2026": 368,
+      "2024": 764,
+      "2022": 86,
+      "2020": 54,
+      "2021": 55
+    },
+    "cagr_percent": 37.7,
+    "pre_chatgpt_count": 195,
+    "post_chatgpt_count": 2912,
+    "earliest_year": 2020,
+    "latest_year": 2026,
+    "peak_year": 2025,
+    "peak_count": 1419
+  },
+  "citation_analysis": {
+    "total_papers": 3107,
+    "total_citations": 47061,
+    "mean_citations": 15.15,
+    "median_citations": 2.0,
+    "max_citations": 1150,
+    "h_index": 92,
+    "g_index": 166,
+    "i10_index": 778,
+    "uncited_papers": 1246,
+    "pct_uncited": 40.1
+  },
+  "author_analysis": {
+    "total_unique_authors": 12958,
+    "papers_with_authors": 3088,
+    "collaboration_index": 5.54,
+    "single_paper_authors": 11176,
+    "multi_paper_authors": 1782,
+    "single_multi_ratio": 6.27,
+    "top5_authors": [
+      [
+        "Wang, Y",
+        43
+      ],
+      [
+        "Li, Y",
+        36
+      ],
+      [
+        "Zhang, Y",
+        29
+      ],
+      [
+        "Li, J",
+        29
+      ],
+      [
+        "Liu, Y",
+        29
+      ]
+    ],
+    "lotka_beta": 2.499,
+    "lotka_r_squared": 0.936
+  },
+  "journal_analysis": {
+    "total_unique_journals": 1338,
+    "papers_with_journal": 2412,
+    "papers_without_journal": 695,
+    "top5_journals": [
+      [
+        "Cureus",
+        88
+      ],
+      [
+        "arXiv (Cornell University)",
+        86
+      ],
+      [
+        "ArXiv.org",
+        35
+      ],
+      [
+        "arXiv.org",
+        35
+      ],
+      [
+        "JMIR medical education",
+        30
+      ]
+    ],
+    "publication_types": [
+      [
+        "article",
+        1125
+      ],
+      [
+        "(not specified)",
+        424
+      ],
+      [
+        "Journal Article",
+        295
+      ],
+      [
+        "review",
+        247
+      ],
+      [
+        "preprint",
+        239
+      ],
+      [
+        "JournalArticle",
+        128
+      ],
+      [
+        "journal-article",
+        89
+      ],
+      [
+        "Journal Article, Review",
+        71
+      ],
+      [
+        "book-chapter",
+        70
+      ],
+      [
+        "JournalArticle, Review",
+        58
+      ],
+      [
+        "posted-content",
+        46
+      ],
+      [
+        "other",
+        27
+      ],
+      [
+        "letter",
+        24
+      ],
+      [
+        "Journal Article, Comparative Study",
+        22
+      ],
+      [
+        "Review, JournalArticle",
+        18
+      ],
+      [
+        "editorial",
+        16
+      ],
+      [
+        "Conference",
+        16
+      ],
+      [
+        "research article",
+        15
+      ],
+      [
+        "Journal Article, Scoping Review",
+        14
+      ],
+      [
+        "proceedings-article",
+        14
+      ],
+      [
+        "Journal Article, Randomized Controlled Trial",
+        14
+      ],
+      [
+        "Journal Article, Systematic Review",
+        9
+      ],
+      [
+        "Editorial",
+        9
+      ],
+      [
+        "Journal Article, Research Support, Non-U.S. Gov't",
+        9
+      ],
+      [
+        "JournalArticle, Conference",
+        8
+      ],
+      [
+        "thesis",
+        6
+      ],
+      [
+        "dissertation",
+        5
+      ],
+      [
+        "English Abstract, Journal Article",
+        5
+      ],
+      [
+        "book",
+        5
+      ],
+      [
+        "Book, Conference",
+        4
+      ],
+      [
+        "English Abstract, Journal Article, Review",
+        4
+      ],
+      [
+        "dataset",
+        4
+      ],
+      [
+        "Review",
+        4
+      ],
+      [
+        "conference paper",
+        3
+      ],
+      [
+        "Letter",
+        3
+      ],
+      [
+        "Randomized Controlled Trial, Journal Article, Research Support, Non-U.S. Gov't",
+        3
+      ],
+      [
+        "JournalArticle, Book, Conference",
+        2
+      ],
+      [
+        "text",
+        2
+      ],
+      [
+        "research article review",
+        2
+      ],
+      [
+        "thesis text",
+        2
+      ],
+      [
+        "paratext",
+        2
+      ],
+      [
+        "Conference, Review",
+        2
+      ],
+      [
+        "Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't",
+        2
+      ],
+      [
+        "Journal Article, Observational Study, Comparative Study",
+        2
+      ],
+      [
+        "Journal Article, Comparative Study, Research Support, Non-U.S. Gov't",
+        2
+      ],
+      [
+        "Book, JournalArticle",
+        2
+      ],
+      [
+        "JournalArticle, Conference, Review",
+        2
+      ],
+      [
+        "JournalArticle, Book",
+        2
+      ],
+      [
+        "peer-review",
+        1
+      ],
+      [
+        "Study, JournalArticle",
+        1
+      ],
+      [
+        "Journal Article, Multicenter Study",
+        1
+      ],
+      [
+        "software",
+        1
+      ],
+      [
+        "review book book part",
+        1
+      ],
+      [
+        "edited-book",
+        1
+      ],
+      [
+        "Clinical Trial Protocol, Journal Article",
+        1
+      ],
+      [
+        "Observational Study, Journal Article",
+        1
+      ],
+      [
+        "Journal Article, Network Meta-Analysis, Research Support, Non-U.S. Gov't, Systematic Review",
+        1
+      ],
+      [
+        "Journal Article, Preprint",
+        1
+      ],
+      [
+        "Journal Article, Scoping Review, Review",
+        1
+      ],
+      [
+        "Journal Article, Randomized Controlled Trial, Multicenter Study",
+        1
+      ],
+      [
+        "Journal Article, Review, English Abstract",
+        1
+      ],
+      [
+        "English Abstract, Journal Article, Systematic Review",
+        1
+      ],
+      [
+        "Journal Article, Comparative Study, Randomized Controlled Trial",
+        1
+      ],
+      [
+        "Journal Article, Validation Study, Research Support, Non-U.S. Gov't",
+        1
+      ],
+      [
+        "Equivalence Trial, Journal Article",
+        1
+      ],
+      [
+        "Journal Article, Validation Study",
+        1
+      ],
+      [
+        "Review, English Abstract, Journal Article",
+        1
+      ],
+      [
+        "Case Reports, Journal Article",
+        1
+      ],
+      [
+        "Journal Article, Randomized Controlled Trial, Validation Study",
+        1
+      ],
+      [
+        "Journal Article, Observational Study",
+        1
+      ],
+      [
+        "Journal Article, Evaluation Study",
+        1
+      ],
+      [
+        "Review, Journal Article",
+        1
+      ],
+      [
+        "Preprint, Journal Article",
+        1
+      ],
+      [
+        "Journal Article, Validation Study, Comparative Study",
+        1
+      ],
+      [
+        "report",
+        1
+      ],
+      [
+        "Randomized Controlled Trial, Journal Article",
+        1
+      ],
+      [
+        "Study, JournalArticle, Review",
+        1
+      ],
+      [
+        "research article text",
+        1
+      ]
+    ],
+    "bradford_zone_journals": {
+      "zone1": 63,
+      "zone2": 471,
+      "zone3": 804
+    },
+    "bradford_zone_papers": {
+      "zone1": 807,
+      "zone2": 801,
+      "zone3": 804
+    },
+    "bradford_multiplier_1_2": 7.48,
+    "bradford_multiplier_2_3": 1.71
+  },
+  "geographic_analysis": {
+    "papers_with_country": 1009,
+    "international_collab": 218,
+    "collab_pct": 21.605550049554015,
+    "total": 3107,
+    "unique_countries": 86,
+    "top10_countries": [
+      [
+        "United States",
+        250
+      ],
+      [
+        "China",
+        174
+      ],
+      [
+        "United Kingdom",
+        79
+      ],
+      [
+        "India",
+        65
+      ],
+      [
+        "Canada",
+        59
+      ],
+      [
+        "Germany",
+        57
+      ],
+      [
+        "Italy",
+        45
+      ],
+      [
+        "Hong Kong",
+        42
+      ],
+      [
+        "Australia",
+        41
+      ],
+      [
+        "South Korea",
+        34
+      ]
+    ],
+    "continent_counts": {
+      "North America": 320,
+      "Middle East": 136,
+      "Asia": 441,
+      "South America": 36,
+      "Europe": 394,
+      "Africa": 25,
+      "Oceania": 46
+    }
+  },
+  "nts_analysis": {
+    "domain_counts": {
+      "Communication": 620,
+      "Decision-making": 922,
+      "Teamwork": 382,
+      "Professionalism": 94,
+      "Stress management": 149,
+      "Leadership": 238,
+      "Situational awareness": 55,
+      "Task management": 38,
+      "CRM": 4
+    }
+  },
+  "llm_model_analysis": {
+    "model_counts": {
+      "ChatGPT (generic)": 788,
+      "GPT-4": 220,
+      "Generic LLM": 283,
+      "Gemini": 147,
+      "Claude": 90,
+      "Llama": 49,
+      "GPT-3.5": 74,
+      "GPT-4o": 75,
+      "Med-PaLM": 10,
+      "GPT-5": 13,
+      "Mistral": 7
+    }
+  },
+  "simulation_type_analysis": {
+    "type_counts": {
+      "Virtual Patient / Chatbot": 302,
+      "VR / MR / XR": 763,
+      "Standardized Patient": 170,
+      "Roleplay": 42,
+      "Scenario-based": 407,
+      "Mannequin": 96,
+      "Debriefing": 52,
+      "OSCE": 86
+    }
+  },
+  "keyword_cooccurrence": {
+    "unique_keywords": 6266,
+    "top10_keywords": [
+      [
+        "artificial intelligence",
+        1148
+      ],
+      [
+        "computer science",
+        1067
+      ],
+      [
+        "medicine",
+        969
+      ],
+      [
+        "psychology",
+        626
+      ],
+      [
+        "medical education",
+        539
+      ],
+      [
+        "health care",
+        454
+      ],
+      [
+        "humans",
+        286
+      ],
+      [
+        "chatgpt",
+        260
+      ],
+      [
+        "political science",
+        236
+      ],
+      [
+        "virtual reality",
+        233
+      ]
+    ]
+  },
+  "thematic_mapping": {
+    "n_clusters": 7,
+    "figure_path": "C:\\Users\\MattP\\Desktop\\Papers\\03_Bibliometric_Analysis\\Bibliometric_v2\\03_analysis\\replication_20260325\\figures\\strategic_diagram.png"
+  },
+  "urology_subanalysis": {
+    "total_papers": 3107,
+    "urology_papers": 114,
+    "urology_percentage": 3.7,
+    "bootcamp_papers": 6,
+    "urology_bootcamp_papers": 0,
+    "year_distribution": {
+      "2025": 49,
+      "2024": 33,
+      "2023": 18,
+      "2026": 7,
+      "2022": 3,
+      "2021": 2,
+      "2020": 2
+    },
+    "nts_domains": {
+      "Decision-making": 24,
+      "Teamwork": 14,
+      "Communication": 24,
+      "Leadership": 10
+    },
+    "llm_models": {
+      "ChatGPT": 35,
+      "Generic LLM": 15,
+      "GPT-4": 7,
+      "Gemini": 8,
+      "Claude": 5
+    },
+    "mean_citations": 10.4,
+    "total_citations": 1181
+  },
+  "research_methods": {
+    "classified": 2040,
+    "total": 3107,
+    "methods": {
+      "Unclassified": 1067,
+      "Qualitative": 278,
+      "Cross-sectional Survey": 353,
+      "Scoping Review": 127,
+      "Validation Study": 532,
+      "Development Study": 646,
+      "Feasibility Study": 230,
+      "Systematic Review": 204,
+      "Quasi-experimental": 57,
+      "Narrative Review": 247,
+      "Observational": 210,
+      "Comparative Study": 605,
+      "Mixed Methods": 123,
+      "Case Study": 69,
+      "Randomised Controlled Trial": 36
+    }
+  }
+}
