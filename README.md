@@ -57,8 +57,11 @@ python run_pipeline.py --loop --interval 24 --max-days 7
 02_processing/          Data processing
   normalizer.py         Standardize to common schema
   deduplicator.py       3-tier dedup (DOI, fuzzy title, author+year)
-  screener.py           2-stage screening (keyword + AI-assisted)
+  screener.py           2-stage screening (keyword pre-filter + heuristic)
   irr_sampler.py        Inter-rater reliability sample generator
+  ai_screening_log_171_papers.csv   AI screening validation (171 papers)
+  irr_answer_key.csv    Human-AI IRR answer key (30-paper sample)
+  low_confidence_review.csv  Low-confidence papers for review
 
 03_analysis/            Bibliometric analyses
   publication_trends.py
@@ -71,10 +74,14 @@ python run_pipeline.py --loop --interval 24 --max-days 7
   nts_analysis.py
   llm_model_analysis.py
   simulation_type_analysis.py
+  research_methods_analysis.py
   urology_subanalysis.py
   prisma_diagram.py
+  run_replication.py    Replication master script
+  core_corpus_dataset.json  3,107-paper analysis dataset
   figures/              Publication-quality PNG (300 DPI)
   tables/               Summary tables (Markdown)
+  replication_20260325/ Full replication output (26 figs, 17 tables, report)
 
 04_manuscript/          Manuscript generation
   template.md           IMRAD template with placeholders
@@ -95,15 +102,25 @@ run_pipeline.py         Master orchestrator
 
 ## Key Findings (March 2026)
 
-- **12,715 papers** included from 100,277 raw records
-- **CAGR: 35.5%** - explosive growth post-ChatGPT
-- **92.8%** of papers published after ChatGPT launch (Nov 2022)
-- **h-index: 155** with 168,407 total citations
-- **Lotka's law**: beta = 2.06 (R² = 0.908) - near-perfect fit
-- **Bradford's law**: 75 core journals produce 1/3 of papers
-- **ChatGPT dominates** LLM mentions (29.7%); open-source models only 1.7%
-- **NTS gap**: CRM (7 papers) and situational awareness (52) critically under-researched
-- **320 urology papers**, 0 combining LLMs with simulation boot camps
+- **3,112 core corpus** (Tier 2+3, high/medium confidence) from 100,277 raw records across 7 databases
+- **CAGR: 37.5%** — explosive growth post-ChatGPT (93.6% of papers published 2023–2026)
+- **h-index: 92** with 46,823 total citations (mean 15.05, median 1)
+- **12,937 unique authors** — 86.3% are single-paper contributors (Lotka's law: beta = 2.559, R² = 0.941)
+- **Bradford's law**: 63 core journals produce 33% of papers; 1,343 total journals
+- **ChatGPT dominates** LLM mentions (25.3%); open-source models only 1.7% (52 papers)
+- **NTS gap**: CRM (4 papers, 0.1%) and situational awareness (54, 1.7%) critically under-researched
+- **117 urology papers** (3.8%), 0 combining LLMs with simulation boot camps
+- **AI-validated screening**: 171 borderline papers reviewed by individual AI agents (kappa = 0.93 with human reviewer); 200-paper pipeline validation confirmed 100% specificity on exclusions
+
+## Screening Validation
+
+The screening pipeline was validated at three levels:
+
+1. **171 low-confidence Tier 2/3 papers** independently screened by 171 individual Claude Sonnet 4.6 agents (1 agent per paper), each providing a written rationale. 22 included, 149 excluded.
+2. **30-paper IRR sample** — lead researcher independently screened a stratified sample blinded to AI decisions. Cohen's kappa = 0.93 (almost perfect agreement).
+3. **200-paper pipeline validation** — stratified sample of 100 algorithmic includes + 100 algorithmic excludes reviewed by AI agents. Exclusion agreement: 100%. Inclusion agreement: 19% (by design — Stage 1 is deliberately liberal; subsequent tiering and confidence filtering refines the corpus).
+
+All screening logs with individual decisions and rationales are provided in `02_processing/`.
 
 ## Citation
 
