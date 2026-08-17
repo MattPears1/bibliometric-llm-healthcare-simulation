@@ -1,0 +1,201 @@
+{
+  "schema_version": "fresh-analysis-amendment-v2.0",
+  "amendment_id": "gse_fresh_analysis_v2_amendment_006_final_eligibility_correction_and_integration",
+  "created_at_utc": "2026-08-16T22:59:32Z",
+  "classification": "post_analysis_objective_eligibility_correction_and_final_six_source_integration_requiring_complete_rerun",
+  "status": "frozen_before_successor_analysis_run",
+  "base_specification": {
+    "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_2026-08-14.json",
+    "sha256": "db0b4354352e684768734ecc7c547708642e9a4037bef74ad0b0ac1350aa804d"
+  },
+  "supersedes_or_updates": [
+    {
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_AMENDMENT_005_SCOPUS_EXTENSION_AND_FINAL_INTEGRATION_2026-08-16.json",
+      "sha256": "e125ae2b2801e6a9db6336da0e6d45efe76cdd19282aacde08a5f72f5c4de64e",
+      "relationship": "retained_as_historical_audit_record_but_superseded_after_independent_scopus_eligibility_correction"
+    }
+  ],
+  "timing_and_transparency": {
+    "prior_five_source_results_seen_before_scopus_extension": true,
+    "scopus_screening_and_preliminary_integration_seen_before_final_correction": true,
+    "correction_trigger": "independent official-source audit of every initially included Scopus record",
+    "correction_was_outcome_aware": true,
+    "all_affected_analyses_must_be_rerun": true,
+    "manual_editing_of_prior_output_counts_permitted": false,
+    "classification_as_fully_prespecified_six_source_search_permitted": false,
+    "reader_facing_manuscript_rule": "present the final study and final corpus without calling the article an update or revision; disclose search chronology and post-analysis quality-control checks in Methods and Limitations",
+    "response_letter_rule": "describe the post-review Scopus extension and correction transparently"
+  },
+  "study_window": {
+    "from": "2020-01-01",
+    "through": "2026-08-13",
+    "inclusive": true,
+    "unchanged_from_locked_codebook": true
+  },
+  "completed_discovery_sources": [
+    "OpenAlex",
+    "PubMed",
+    "Europe PMC",
+    "Semantic Scholar",
+    "DOAJ",
+    "Scopus"
+  ],
+  "source_roles_and_limits": {
+    "crossref": "exact DOI metadata checking and enrichment only; not a discovery source",
+    "core": "no complete reproducible snapshot was obtained; no partial CORE record is permitted in the analysis",
+    "public_reporting_rule": "list only the six completed discovery sources and make no quantified complete-coverage claim"
+  },
+  "locked_codebook": {
+    "path": "ACTIVE_GSE_REVISION_2026-08-13/03_PIPELINE/SCREENING_CODEBOOK_FULL_RERUN_V2_2026-08-13.md",
+    "sha256": "ab74c88c27d7efbf34f0b3cb680cea62b03eaec4ef11bdd630925ee8639ab9bc"
+  },
+  "correction": {
+    "record_id": "sci_42a355e3f11b03dc7d88",
+    "previous_final_decision": "INCLUDE",
+    "corrected_final_decision": "EXCLUDE",
+    "corrected_primary_code": "E2_NOT_HEALTH_ED",
+    "reason": "The official source describes generic undergraduate psychology students rather than learners in healthcare or a health-professions programme, so the record fails the unchanged health-professions-education criterion.",
+    "correction_package": {
+      "manifest_path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_eligibility_correction_run01/SCOPUS_INCREMENT_ELIGIBILITY_CORRECTION_MANIFEST_V2.json",
+      "manifest_sha256": "d1489db7d15a5b660d42a89ab612efa4379305d39c215cf96ec7ed78599f56ce",
+      "hash_ledger_path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_eligibility_correction_run01/SCOPUS_INCREMENT_ELIGIBILITY_CORRECTION_HASHES_V2.csv",
+      "hash_ledger_sha256": "7026ea9ee829f13311074f6cd50cad3c2fbcefb464952459a6d5d255f6f58e7c",
+      "corrected_screening_sha256": "a29c62942dab2bc97084df62a204a1cc6ca09f255750ca583f41436010a6b8cd",
+      "corrected_included_records_sha256": "20bf8efc5ac12d7c66ebbb4e9d930078bdda22a6b97966e52db24929034bdbd0",
+      "scopus_candidate_records": 1244,
+      "included_records": 30,
+      "excluded_records": 1214,
+      "corrected_records": 1
+    }
+  },
+  "corrected_scopus_extraction": {
+    "manifest_path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_extraction_corrected_run02/SCOPUS_INCREMENT_EXTRACTION_CORRECTED_MANIFEST_V2.json",
+    "manifest_sha256": "03494e6c3f1f04f2774d3792c237813bd5fcfbe27d904b2abff445d21bbde0bf",
+    "hash_ledger_path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_extraction_corrected_run02/SCOPUS_INCREMENT_EXTRACTION_CORRECTED_HASHES_V2.csv",
+    "hash_ledger_sha256": "280c2dc5eb8dab9f289ca67cdfca7e6d337e162a373185d4898c2d91314b0027",
+    "data_path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_extraction_corrected_run02/SCOPUS_INCREMENT_CHECKED_WORK_LEVEL_EXTRACTION_CORRECTED_V2.csv",
+    "data_sha256": "d137d846b5f2627920c0d4bb929fd6b06f2754cb1fd7160d7daf0d56b38b5a8d",
+    "records": 30,
+    "preservation_rule": "all retained rows and source fields remain byte-for-value equal to the checked 31-record predecessor"
+  },
+  "corrected_publication_version_review": {
+    "completion_manifest_path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_version_review_package_run03/review_completed/RUN03_VERSION_REVIEW_COMPLETION_MANIFEST.json",
+    "completion_manifest_sha256": "5c8176c164b4e6802497cda409caf8640925176c564fe0ed50ee6142e29f6327",
+    "completion_hash_ledger_path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_version_review_package_run03/review_completed/RUN03_VERSION_REVIEW_COMPLETION_HASHES.csv",
+    "completion_hash_ledger_sha256": "d957cd66d8ee900a35a5006cc63d6dcbd722bdd823256adf6f9d5e463339d218",
+    "completed_pair_review_sha256": "d177b376d5ba9e1e50e8a5dc5b8bbb374c43e0122b32057a0a306ce80c860ee2",
+    "completed_family_ledger_sha256": "5b5eb42da5078fc3dc4ad0508d92f249d44a08182db3fa8b992e87e9c3acbc86",
+    "eligible_publication_records": 547,
+    "unique_study_families": 485,
+    "alternate_versions": 62,
+    "scopus_related_pair_decisions_same_study": 3,
+    "scopus_related_pair_decisions_distinct_study": 5,
+    "unresolved": 0,
+    "base_v4_families_preserved": 458
+  },
+  "final_combined_integration": {
+    "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02",
+    "manifest": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/SCOPUS_FINAL_INTEGRATION_CORRECTED_MANIFEST_V2.json",
+      "sha256": "39dbe763bc3ed2277734a769fd4d7a984205af54836adc52778220f80e55c7e8"
+    },
+    "hash_ledger": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/SCOPUS_FINAL_INTEGRATION_CORRECTED_HASHES_V2.csv",
+      "sha256": "9bfd0c80b610b0f702789cb712ab959c5c54f183af0417250c56c0fbcbd9cf60"
+    },
+    "frozen_marker": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/SCOPUS_FINAL_INTEGRATION_CORRECTED_FROZEN_V2.json",
+      "sha256": "93d3270e15ba5f0af3942b8c00269e9139f713b385739e12a8e9e6c793b2ad46"
+    },
+    "eligible_version_ledger": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_ELIGIBLE_PUBLICATION_VERSION_LEDGER_CORRECTED_V2.csv",
+      "sha256": "44f8ae7ecb6205d8d9df75b1b597929bd0c2bd157c627c4b3bd0a0ff3ebd4df7",
+      "rows": 547
+    },
+    "checked_corpus": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_CANONICAL_CHECKED_EXTRACTION_CORRECTED_V2.csv",
+      "sha256": "61b69a206a52929ecdb1b04fdcdcc9e6d8ec7b411d31c3dc7560c765f4d316d6",
+      "rows": 485
+    },
+    "metadata": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_CANONICAL_METADATA_CORRECTED_V2.csv",
+      "sha256": "211fbaa4f3e3c296815fb1479ba22caddc3edc03b58825bb4e340621a1df1404",
+      "rows": 485
+    },
+    "openalex": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_CANONICAL_OPENALEX_CORRECTED_V2.csv",
+      "sha256": "e2a92e974104d793399595d6e83e38b5ef728db558d3d0f7939330814d4c7d2c",
+      "rows": 485
+    },
+    "record_level_screening": {
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_RECORD_LEVEL_SCREENING_CORRECTED_V2.csv",
+      "sha256": "ce2b33e62368e101a55de691d3a54893f48ec42e4d8e76408bf9b93876a11696",
+      "rows": 3919,
+      "included_records": 547,
+      "excluded_records": 3372
+    },
+    "study_selection_ledger_sha256": "25f4769a0d092a3c2ca67956a94a0ec6c8027a1a653e62b0d762e72d802a5212",
+    "expected_counts": {
+      "eligible_publications": 547,
+      "unique_studies": 485,
+      "alternate_versions": 62,
+      "canonical_rows": 485,
+      "screening_rows": 3919
+    }
+  },
+  "screening_and_resolution": {
+    "paired_candidate_records": 3919,
+    "separate_resolution_checks": {
+      "direct_include_exclude": 477,
+      "one_or_both_uncertain": 84,
+      "different_exclusion_codes": 525,
+      "total": 1086
+    },
+    "agreement_rule": "recompute from every preserved pre-resolution paired decision; do not average source-specific agreement percentages",
+    "reference_standard_available": false
+  },
+  "lead_author_oversight": {
+    "scope": "stratified 100-record sample from the earlier five-source pipeline at the time of that audit",
+    "agreement_summary_path": "GSE_FULL_RERUN_2026-08-13/12_HUMAN_AUDIT/SAMPLE2_human_audit_FINAL/HUMAN_AUDIT_AGREEMENT_SUMMARY.json",
+    "agreement_summary_sha256": "c9e70d8d535a7323a24741e589483df515c719d63d8da4612d4181d853032f57",
+    "finalization_manifest_sha256": "5b346d1a9fe7ff75fb65d380b61d6e1fa67759a1e0bf2df2ab823950cb3fb71d",
+    "concordant_records": 85,
+    "sample_size": 100,
+    "exact_95pct_lower": 0.7646924998510451,
+    "exact_95pct_upper": 0.9135456143583514,
+    "unmatched_without_second_human_resolution": 15,
+    "covers_scopus_increment": false,
+    "independent_reference_standard": false,
+    "permitted_reporting": "lead-author oversight and human-model concordance in the deliberately stratified earlier sample",
+    "prohibited_reporting": [
+      "screening accuracy",
+      "sensitivity",
+      "specificity",
+      "independent human validation",
+      "human inter-rater reliability",
+      "validation of the final six-source corpus"
+    ]
+  },
+  "successor_analysis_contract": {
+    "require_this_amendment_sha256": true,
+    "validate_every_bound_input_and_output_hash": true,
+    "validate_exact_ID_order_across_the_485_canonical_rows": true,
+    "validate_every_one_of_the_547_version_rows_and_one_preferred_per_family": true,
+    "derive_and_reconcile_all_denominators_from_the_frozen_files": true,
+    "recompute_every_summary_table_figure_sensitivity_and_manuscript_number": true,
+    "bind_the_complete_eligible_version_ledger_and_claim_to_source_register": true,
+    "retain_pre_resolution_decisions_for_combined_agreement": true,
+    "manual_patch_of_prior_analysis_outputs_permitted": false,
+    "production_output_must_use_a_new_no_clobber_directory": true
+  },
+  "prohibited_claims": [
+    "Do not describe the six-source strategy as fully prespecified before earlier results were seen.",
+    "Do not call agreement between the two model streams screening accuracy.",
+    "Do not treat the lead-author oversight sample as an independent human reference standard or validation of the final corpus.",
+    "Do not imply that incomplete CORE records contributed to the analysis.",
+    "Do not claim complete database coverage or a quantified percentage of all discoverable literature.",
+    "Do not call the article an update or revision in reader-facing manuscript text.",
+    "Do not manually edit prior counts, tables, figures, percentages, or interpretations instead of regenerating them.",
+    "Do not use the superseded 548-publication or 486-study package in any final output."
+  ]
+}

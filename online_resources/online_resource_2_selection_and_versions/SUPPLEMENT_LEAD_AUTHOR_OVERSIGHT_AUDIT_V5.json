@@ -1,0 +1,41 @@
+{
+  "denominator_contract": "Every analytical row states its denominator definition and response type.",
+  "fields": [
+    "section",
+    "measure",
+    "category",
+    "numerator",
+    "denominator",
+    "estimate",
+    "ci_lower",
+    "ci_upper",
+    "ci_level",
+    "ci_method",
+    "denominator_definition",
+    "response_type",
+    "value_text",
+    "note"
+  ],
+  "missingness_contract": "Missing metadata is reported as missing and is never converted to zero.",
+  "rows": [
+    {
+      "category": "Deliberately stratified 100-record oversight sample",
+      "ci_level": 0.95,
+      "ci_lower": 0.7646924998510451,
+      "ci_method": "Exact two-sided Clopper-Pearson interval",
+      "ci_upper": 0.9135456143583514,
+      "denominator": 100,
+      "denominator_definition": "the deliberately stratified lead-author sample from the five-source pipeline at the time of audit",
+      "estimate": 0.85,
+      "measure": "Concordance with the five-source pipeline decision",
+      "note": "This check predates the Scopus extension and later objective eligibility corrections; it does not validate the final six-source corpus or the 1,244 Scopus records. Fifteen human-pipeline differences did not receive the planned second-human resolution. It is not accuracy, sensitivity, specificity, or an independent reference standard.",
+      "numerator": 85,
+      "response_type": "lead-author oversight concordance; not a representative random sample",
+      "section": "Lead-author oversight",
+      "value_text": ""
+    }
+  ],
+  "schema_version": "fresh-analysis-engine-v2.0",
+  "table_id": "SUPPLEMENT_LEAD_AUTHOR_OVERSIGHT_AUDIT_V5",
+  "table_kind": "supplement"
+}

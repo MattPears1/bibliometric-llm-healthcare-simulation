@@ -1,17 +1,19 @@
-# Temp screening batch files
-02_processing/micro_batch_*.csv
-02_processing/validation_excludes_batch_*.csv
-02_processing/validation_includes_batch_*.csv
-02_processing/review_batch_*.csv
-
-# Python cache
 __pycache__/
-*.pyc
-
-# Large data files (tracked via separate download)
-02_processing/merged/*.json
-02_processing/screened/*.json
-
-# OS files
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
 .DS_Store
 Thumbs.db
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.token
+tmp/
+temp/
+raw_provider_responses/
+private_inputs/
+internal_execution_logs/

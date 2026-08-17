@@ -1,0 +1,109 @@
+{
+  "alternate_publication_versions": 62,
+  "candidate_records": 3919,
+  "canonical_works": 485,
+  "eligible_publication_records": 547,
+  "generated_at_utc": "2026-08-16T23:44:21Z",
+  "human_reference_standard_available": false,
+  "interpretation": "Agreement measures consistency between two model reviewers; it is not screening accuracy.",
+  "model_review_agreement": {
+    "binary": {
+      "bootstrap_replicates_defined": 10000,
+      "bootstrap_replicates_requested": 10000,
+      "bootstrap_replicates_undefined": 0,
+      "bootstrap_seed": 2026081306,
+      "bootstrap_unit": "paired candidate record",
+      "cohen_kappa": 0.5797016754186941,
+      "cohen_kappa_percentile_bootstrap_95_ci": [
+        0.5484298645156634,
+        0.6101217337786027
+      ],
+      "confusion_matrix": {
+        "INCLUDE": {
+          "INCLUDE": 463,
+          "NON_INCLUDE": 471
+        },
+        "NON_INCLUDE": {
+          "INCLUDE": 30,
+          "NON_INCLUDE": 2955
+        }
+      },
+      "kappa_interval_status": "reported",
+      "labels": [
+        "NON_INCLUDE",
+        "INCLUDE"
+      ],
+      "n": 3919,
+      "raw_agreement": 0.872161265628987,
+      "raw_agreement_count": 3418,
+      "raw_agreement_wilson_95_ci": [
+        0.8613414087997168,
+        0.8822522415225486
+      ]
+    },
+    "three_way": {
+      "bootstrap_replicates_defined": 10000,
+      "bootstrap_replicates_requested": 10000,
+      "bootstrap_replicates_undefined": 0,
+      "bootstrap_seed": 2026081306,
+      "bootstrap_unit": "paired candidate record",
+      "cohen_kappa": 0.5648719644477116,
+      "cohen_kappa_percentile_bootstrap_95_ci": [
+        0.5343129173355504,
+        0.5945172294530251
+      ],
+      "confusion_matrix": {
+        "EXCLUDE": {
+          "EXCLUDE": 2895,
+          "INCLUDE": 20,
+          "UNCERTAIN": 37
+        },
+        "INCLUDE": {
+          "EXCLUDE": 457,
+          "INCLUDE": 463,
+          "UNCERTAIN": 14
+        },
+        "UNCERTAIN": {
+          "EXCLUDE": 13,
+          "INCLUDE": 10,
+          "UNCERTAIN": 10
+        }
+      },
+      "kappa_interval_status": "reported",
+      "labels": [
+        "EXCLUDE",
+        "INCLUDE",
+        "UNCERTAIN"
+      ],
+      "n": 3919,
+      "raw_agreement": 0.859402908905333,
+      "raw_agreement_count": 3368,
+      "raw_agreement_wilson_95_ci": [
+        0.8481676397684571,
+        0.8699342844543133
+      ]
+    }
+  },
+  "output_contracts": {
+    "all_denominators_explicit": true,
+    "eps_companions": true,
+    "missing_values_converted_to_zero": false,
+    "png_dpi": 600,
+    "urology_only_analysis_included": false,
+    "word_cloud_included": false
+  },
+  "partial_2026": {
+    "annualized": false,
+    "through": "2026-08-13"
+  },
+  "schema_version": "gse-combined-analysis-engine-v5.0",
+  "scopus_after_cutoff_removed": 150,
+  "separate_review_resolution_checks": 1086,
+  "six_source_retrieval_occurrences": 9719,
+  "status": "gse_six_source_combined_analysis_v5_completed_hash_frozen",
+  "study_window": {
+    "from": "2020-01-01",
+    "inclusive": true,
+    "through": "2026-08-13"
+  }
+}

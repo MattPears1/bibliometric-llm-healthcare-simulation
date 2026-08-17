@@ -1,0 +1,2 @@
+# Preserve the exact frozen bytes recorded in SHA256SUMS.csv on every platform.
+* -text

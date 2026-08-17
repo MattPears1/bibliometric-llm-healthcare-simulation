@@ -1,0 +1,35 @@
+group,label,variants
+scope_check,large language model,large language model | large language models | LLM | LLMs
+scope_check,generative artificial intelligence,generative artificial intelligence | generative AI | GenAI
+scope_check,retrieval-augmented generation,retrieval-augmented generation | retrieval augmented generation
+interface,chatbot or conversational agent,chatbot | chatbots | conversational agent | conversational agents | conversational AI
+simulation,virtual patient,virtual patient | virtual patients | digital patient | digital patients
+simulation,simulated patient,simulated patient | simulated patients
+simulation,standardized patient,standardized patient | standardized patients | standardised patient | standardised patients
+simulation,scenario-based simulation,scenario-based simulation | scenario based simulation | scenario-based training | scenario based training | clinical simulation scenario | clinical simulation scenarios
+simulation,objective structured clinical examination,objective structured clinical examination | objective structured clinical examinations | OSCE | OSCEs
+simulation,role-play,role-play | role play | role-playing | role playing
+simulation,mannequin simulation,mannequin simulation | manikin simulation | high-fidelity mannequin | high fidelity mannequin | high-fidelity manikin | high fidelity manikin
+simulation,task trainer,task trainer | task trainers | part-task trainer | part task trainer | part-task trainers | part task trainers
+simulation,virtual reality,virtual reality
+simulation,augmented or extended reality,augmented reality | mixed reality | extended reality
+simulation,serious game,serious game | serious games | simulation game | simulation games
+simulation,debriefing,debrief | debriefing | debriefings
+educational_method,automated feedback,automated feedback | AI-generated feedback | AI generated feedback
+educational_context,medical or health-professions education,medical education | health-professions education | health professions education
+educational_context,surgical education,surgical education | surgical training | surgery education
+educational_context,nursing education,nursing education | nursing student | nursing students
+educational_context,dental education,dental education | dental student | dental students
+educational_context,interprofessional education,interprofessional education | interprofessional learning | interprofessional training
+skill_or_outcome,communication skills,communication skill | communication skills | patient communication | clinical communication
+skill_or_outcome,clinical reasoning,clinical reasoning | diagnostic reasoning
+skill_or_outcome,decision-making,decision-making | decision making | clinical decision | clinical decisions
+skill_or_outcome,teamwork,teamwork | team-based skill | team based skill | team-based skills | team based skills | interprofessional teamwork
+skill_or_outcome,leadership,leadership
+skill_or_outcome,situational awareness,situational awareness | situation awareness
+skill_or_outcome,task management,task management
+skill_or_outcome,stress management,stress management | coping with stress
+skill_or_outcome,professionalism,professionalism | professional behaviour | professional behavior
+skill_or_outcome,crisis resource management,crisis resource management | crew resource management
+skill_or_outcome,empathy,empathy | empathic communication | empathetic communication
+skill_or_outcome,assessment or scoring,assessment | scoring

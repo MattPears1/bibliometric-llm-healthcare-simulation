@@ -1,0 +1,24 @@
+﻿field,group,description,format
+paper_id,Identity,Stable identifier for the preferred publication representing one included study.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+version_family_id,Identity,Identifier linking eligible publications judged to describe the same study.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+doi,Bibliographic,Canonical DOI for the preferred publication when available.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+year,Bibliographic,Publication year used in analysis.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+publication_date,Bibliographic,Most precise retained publication date.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_correction_applied,Metadata audit,Whether a dated bibliographic correction was applied.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_correction_ids,Metadata audit,Identifiers for applied correction-ledger entries.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_corrected_fields,Metadata audit,Bibliographic fields corrected by the ledger.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_source_row_sha256,Provenance,SHA-256 of the source metadata row.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_corrected_row_sha256,Provenance,SHA-256 of the corrected metadata row.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_evidence_urls,Metadata audit,Evidence URLs supporting metadata corrections.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_correction_rationale,Metadata audit,Rationale for any metadata correction.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+metadata_reviewed_at_utc,Metadata audit,UTC timestamp of metadata review.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+final_model_families,Checked classification,Semicolon-delimited model-family labels.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+final_model_description_raw,Checked classification,Source-faithful model description.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+final_simulation_modalities,Checked classification,Semicolon-delimited simulation approaches.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+final_nts_domains,Checked classification,Semicolon-delimited explicit non-technical-skill domains; blank means none identified.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+final_specialty,Checked classification,Semicolon-delimited specialty/profession labels.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+final_study_design,Checked classification,One mutually exclusive study-design label.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+source_checked_by,Provenance,Recorded source-checking actor or stream.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+source_checked_at_utc,Provenance,UTC source-check timestamp.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+evidence_url_1,Evidence,Primary evidence URL used for checked classifications.,UTF-8 text; semicolon-delimited where multiple values are permitted.
+evidence_url_2,Evidence,Optional second evidence URL.,UTF-8 text; semicolon-delimited where multiple values are permitted.

@@ -1,0 +1,184 @@
+{
+  "denominator_contract": "Not applicable to this dictionary or per-study indicator resource.",
+  "fields": [
+    "group",
+    "label",
+    "variants"
+  ],
+  "missingness_contract": "Missing metadata is reported as missing and is never converted to zero.",
+  "rows": [
+    {
+      "group": "scope_check",
+      "label": "large language model",
+      "variants": "large language model | large language models | LLM | LLMs"
+    },
+    {
+      "group": "scope_check",
+      "label": "generative artificial intelligence",
+      "variants": "generative artificial intelligence | generative AI | GenAI"
+    },
+    {
+      "group": "scope_check",
+      "label": "retrieval-augmented generation",
+      "variants": "retrieval-augmented generation | retrieval augmented generation"
+    },
+    {
+      "group": "interface",
+      "label": "chatbot or conversational agent",
+      "variants": "chatbot | chatbots | conversational agent | conversational agents | conversational AI"
+    },
+    {
+      "group": "simulation",
+      "label": "virtual patient",
+      "variants": "virtual patient | virtual patients | digital patient | digital patients"
+    },
+    {
+      "group": "simulation",
+      "label": "simulated patient",
+      "variants": "simulated patient | simulated patients"
+    },
+    {
+      "group": "simulation",
+      "label": "standardized patient",
+      "variants": "standardized patient | standardized patients | standardised patient | standardised patients"
+    },
+    {
+      "group": "simulation",
+      "label": "scenario-based simulation",
+      "variants": "scenario-based simulation | scenario based simulation | scenario-based training | scenario based training | clinical simulation scenario | clinical simulation scenarios"
+    },
+    {
+      "group": "simulation",
+      "label": "objective structured clinical examination",
+      "variants": "objective structured clinical examination | objective structured clinical examinations | OSCE | OSCEs"
+    },
+    {
+      "group": "simulation",
+      "label": "role-play",
+      "variants": "role-play | role play | role-playing | role playing"
+    },
+    {
+      "group": "simulation",
+      "label": "mannequin simulation",
+      "variants": "mannequin simulation | manikin simulation | high-fidelity mannequin | high fidelity mannequin | high-fidelity manikin | high fidelity manikin"
+    },
+    {
+      "group": "simulation",
+      "label": "task trainer",
+      "variants": "task trainer | task trainers | part-task trainer | part task trainer | part-task trainers | part task trainers"
+    },
+    {
+      "group": "simulation",
+      "label": "virtual reality",
+      "variants": "virtual reality"
+    },
+    {
+      "group": "simulation",
+      "label": "augmented or extended reality",
+      "variants": "augmented reality | mixed reality | extended reality"
+    },
+    {
+      "group": "simulation",
+      "label": "serious game",
+      "variants": "serious game | serious games | simulation game | simulation games"
+    },
+    {
+      "group": "simulation",
+      "label": "debriefing",
+      "variants": "debrief | debriefing | debriefings"
+    },
+    {
+      "group": "educational_method",
+      "label": "automated feedback",
+      "variants": "automated feedback | AI-generated feedback | AI generated feedback"
+    },
+    {
+      "group": "educational_context",
+      "label": "medical or health-professions education",
+      "variants": "medical education | health-professions education | health professions education"
+    },
+    {
+      "group": "educational_context",
+      "label": "surgical education",
+      "variants": "surgical education | surgical training | surgery education"
+    },
+    {
+      "group": "educational_context",
+      "label": "nursing education",
+      "variants": "nursing education | nursing student | nursing students"
+    },
+    {
+      "group": "educational_context",
+      "label": "dental education",
+      "variants": "dental education | dental student | dental students"
+    },
+    {
+      "group": "educational_context",
+      "label": "interprofessional education",
+      "variants": "interprofessional education | interprofessional learning | interprofessional training"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "communication skills",
+      "variants": "communication skill | communication skills | patient communication | clinical communication"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "clinical reasoning",
+      "variants": "clinical reasoning | diagnostic reasoning"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "decision-making",
+      "variants": "decision-making | decision making | clinical decision | clinical decisions"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "teamwork",
+      "variants": "teamwork | team-based skill | team based skill | team-based skills | team based skills | interprofessional teamwork"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "leadership",
+      "variants": "leadership"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "situational awareness",
+      "variants": "situational awareness | situation awareness"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "task management",
+      "variants": "task management"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "stress management",
+      "variants": "stress management | coping with stress"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "professionalism",
+      "variants": "professionalism | professional behaviour | professional behavior"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "crisis resource management",
+      "variants": "crisis resource management | crew resource management"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "empathy",
+      "variants": "empathy | empathic communication | empathetic communication"
+    },
+    {
+      "group": "skill_or_outcome",
+      "label": "assessment or scoring",
+      "variants": "assessment | scoring"
+    }
+  ],
+  "schema_version": "fresh-analysis-engine-v2.0",
+  "table_id": "SUPPLEMENT_PREDEFINED_PHRASE_DICTIONARY",
+  "table_kind": "supplement"
+}

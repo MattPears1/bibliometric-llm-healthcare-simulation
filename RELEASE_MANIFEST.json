@@ -1,0 +1,22 @@
+{
+  "schema_version": "gse-public-repository-release-v2.0",
+  "status": "PASS",
+  "version": "2.0.0",
+  "created_at_utc": "2026-08-17T18:45:19+00:00",
+  "authoritative_counts": {
+    "completed_discovery_sources": 6,
+    "retrieval_occurrences": 9719,
+    "candidate_records": 3919,
+    "eligible_publication_records": 547,
+    "alternate_publication_versions": 62,
+    "unique_studies": 485
+  },
+  "source_authority_sha256": {
+    "analysis_manifest": "af417351ef267b8eccbae300744cc1b25b7191894b11eccd60bcea276706aff5",
+    "analysis_summary": "b945d6f225f6ff3f99163385b40f88389853db9e071cac18bd249bf2de615e35",
+    "analysis_hash_ledger": "b88b572ebb3009562fc028200ea37766f726c9b78ee58cd87342f43a723a2e13",
+    "analysis_frozen": "a6028b31dbf60bfe21a4277b987d2b823cff0d3593c5e5319b41ad4cc681f162",
+    "integration_manifest": "39dbe763bc3ed2277734a769fd4d7a984205af54836adc52778220f80e55c7e8"
+  },
+  "rights_scope": "No raw provider response, abstract/full text corpus, credential, or internal execution log is redistributed."
+}

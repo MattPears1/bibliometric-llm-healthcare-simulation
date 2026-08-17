@@ -1,0 +1,601 @@
+{
+  "schema_version": "gse-combined-analysis-input-contract-v5.0",
+  "contract_id": "gse_six_source_combined_analysis_v5_ready_2026-08-17",
+  "created_at_utc": "2026-08-16T23:30:00Z",
+  "status": "ready_for_production",
+  "production_analysis_performed": false,
+  "purpose": "Fail-closed contract for the first complete six-source analysis after the corrected Scopus/base publication-version consolidation. Every production input is byte-, row-, schema-, and SHA-256-pinned before analysis.",
+  "study_window": {
+    "from": "2020-01-01",
+    "through": "2026-08-13",
+    "inclusive": true
+  },
+  "lead_author_oversight": {
+    "scope": "five_source_pipeline_decision_at_time_of_audit",
+    "sampling": "deliberately_stratified_100_record_oversight_sample",
+    "successes": 85,
+    "total": 100,
+    "exact_95pct_lower": 0.7646924998510451,
+    "exact_95pct_upper": 0.9135456143583514,
+    "unmatched_without_second_human_resolution": 15,
+    "covers_scopus_increment": false,
+    "independent_reference_standard": false,
+    "screening_accuracy_measure": false
+  },
+  "selection_flow": {
+    "retrieval_occurrences_by_source": {
+      "openalex": 2910,
+      "pubmed": 722,
+      "europepmc": 578,
+      "semantic_scholar": 2037,
+      "doaj": 468,
+      "scopus": 3004
+    },
+    "retrieval_occurrences_total": 9719,
+    "scopus_after_cutoff_removed": 150,
+    "retrieval_occurrences_after_scopus_cutoff": 9569,
+    "primary_five_occurrence_date_status": {
+      "inside_window": 6690,
+      "before_window": 7,
+      "after_window": 1,
+      "unknown": 3,
+      "unresolved_boundary": 14
+    },
+    "automatic_duplicate_merges": {
+      "primary_five_within_and_cross_source": 3573,
+      "scopus_within_source": 387,
+      "scopus_to_primary_exact_or_cautious_match": 1219,
+      "total": 5179
+    },
+    "records_after_automatic_merging": 4390,
+    "reviewed_same_record_merges": {
+      "primary_five": 6,
+      "scopus_to_primary_ambiguous_identity": 4,
+      "total": 10
+    },
+    "deduplicated_records": 4380,
+    "records_outside_candidate_frame": 461,
+    "candidate_records": {
+      "primary_five": 2675,
+      "scopus_increment": 1244,
+      "total": 3919
+    },
+    "separate_resolution_checks": {
+      "direct_include_exclude": 477,
+      "one_or_both_uncertain": 84,
+      "exclusion_code_only": 525,
+      "total": 1086
+    },
+    "final_out_of_range_exclusions": 4,
+    "excluded_candidate_records": 3372,
+    "eligible_publication_records": 547,
+    "canonical_works": 485,
+    "canonical_count_rule": "Counts are proved by the corrected frozen screening, publication-version, study-selection, checked-corpus, and integration ledgers. The superseded 548-publication/486-study package is prohibited."
+  },
+  "inputs": {
+    "analysis_specification": {
+      "state": "locked",
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_2026-08-14.json",
+      "bytes": 19394,
+      "sha256": "db0b4354352e684768734ecc7c547708642e9a4037bef74ad0b0ac1350aa804d",
+      "expected_json": {
+        "specification_id": "gse_fresh_analysis_v2_2026-08-14"
+      }
+    },
+    "amendment_001": {
+      "state": "locked",
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_AMENDMENT_001_HUMAN_AUDIT_DEFERRAL_2026-08-14.json",
+      "bytes": 2143,
+      "sha256": "aca5d00091a9aab220d1ce0c1f4435fa19f90d7d7f452149f24e3b20ae9b9465",
+      "expected_json": {
+        "amendment_id": "gse_fresh_analysis_v2_amendment_001_human_audit_deferral"
+      }
+    },
+    "amendment_002": {
+      "state": "locked",
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_AMENDMENT_002_SENSITIVITY_RULES_2026-08-14.json",
+      "bytes": 1867,
+      "sha256": "22a45d87f623944bace2530dbd11def03776b44716584e48c8fcb6d76c79f3f5",
+      "expected_json": {
+        "amendment_id": "gse_fresh_analysis_v2_amendment_002_sensitivity_rules"
+      }
+    },
+    "amendment_003": {
+      "state": "locked",
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_AMENDMENT_003_TIMESTAMP_CORRECTION_2026-08-14.json",
+      "bytes": 1350,
+      "sha256": "8203ea9c3e04c8759dfe71729c3fd8c612143e15d9a43eff7e7d72889ebcd2df",
+      "expected_json": {
+        "amendment_id": "gse_fresh_analysis_v2_amendment_003_timestamp_correction"
+      }
+    },
+    "amendment_004": {
+      "state": "locked",
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_AMENDMENT_004_LEAD_ELIGIBILITY_CORRECTION_2026-08-15.json",
+      "bytes": 3784,
+      "sha256": "9c49c836b4130c6d427161770e3e2529863feb5c93c6ad5f11ef6267f7499441",
+      "expected_json": {
+        "amendment_id": "gse_fresh_analysis_v2_amendment_004_lead_eligibility_correction"
+      }
+    },
+    "primary_raw_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/01_RAW_SNAPSHOT/primary_five_full_20200101_20260813_run02/run_manifest.json",
+      "bytes": 40817,
+      "sha256": "0d231ffd9fb0aa44f10c38655823d1a95755632396d5497716b493bd348fd473"
+    },
+    "primary_normalization_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/02_NORMALIZED/primary_five_normalized_run02/normalization_manifest.json",
+      "bytes": 11573,
+      "sha256": "e94ce38b0c14d1e90a3bf58bafd02e009f4cdbf1f4931029ed4588ef93409e47",
+      "expected_json": {
+        "counts.retrieval_occurrences": 6715
+      }
+    },
+    "primary_deduplication_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/03_DEDUPLICATED/primary_five_deduplicated_resolved_run02_v4/DEDUPLICATION_MANIFEST.json",
+      "bytes": 4266,
+      "sha256": "8cb7a39335517de38a32919a93bdda887019ca16ba629481d152b921610247dd",
+      "expected_json": {
+        "counts.deduplicated_records": 3136,
+        "counts.records_removed_by_reviewed_same_work_merges": 6
+      }
+    },
+    "primary_candidate_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/04_SCREENING/primary_five_final_run02_v1/CANDIDATE_BUILD_MANIFEST.json",
+      "bytes": 7148,
+      "sha256": "dbef76deb876b27dce22e0d8adbc2a2748c64c3d9863064c29ab9d6c1933840b",
+      "expected_json": {
+        "counts.candidate_records": 2675
+      }
+    },
+    "primary_review_comparison": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/06_REVIEW_COMPARISON/model_reviews_comparison_run01/REVIEW_COMPARISON_V2.csv",
+      "bytes": 2148474,
+      "rows": 2675,
+      "sha256": "b036ee37be237b352d5a466d359c5463246b2162a390f090aee7a0ca0b5e5f9b",
+      "required_columns": ["paper_id", "reviewer_A_decision", "reviewer_B_decision", "comparison_class"]
+    },
+    "primary_review_comparison_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/06_REVIEW_COMPARISON/model_reviews_comparison_run01/REVIEW_COMPARISON_MANIFEST_V2.json",
+      "bytes": 89420,
+      "sha256": "636e96e0674062c7a7ee5cba2d3e4c790fd427553930e6dfd46e6c1e6f6d8396",
+      "expected_json": {
+        "counts.records": 2675,
+        "counts.adjudication_rows": 982
+      }
+    },
+    "base_correction_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/15_BASE_CORPUS_CORRECTED/base_corpus_correction_v4_run01/BASE_CORPUS_CORRECTION_MANIFEST_V4.json",
+      "bytes": 7728,
+      "sha256": "7a65116be8f80918fe9096f2197bedfd9de05ead1e2b2bb84252be6e0ac0aeeb",
+      "expected_json": {
+        "status": "base_corpus_correction_v4_frozen_analysis_ready",
+        "counts.eligible_publication_records": 517,
+        "counts.unique_studies": 458
+      }
+    },
+    "base_correction_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/15_BASE_CORPUS_CORRECTED/base_corpus_correction_v4_run01/BASE_CORPUS_CORRECTION_HASH_MANIFEST_V4.csv",
+      "bytes": 5133,
+      "rows": 24,
+      "sha256": "06d20bca33e6c474088ad3d7bbd53ade7843978cdf22c01236fe2c9803be027c"
+    },
+    "base_final_screening": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/15_BASE_CORPUS_CORRECTED/base_corpus_correction_v4_run01/FINAL_RECORD_LEVEL_SCREENING_BASE_CORRECTED_V4.csv",
+      "bytes": 13411891,
+      "rows": 2675,
+      "sha256": "adb1207621d9194c9994f7f700621b23254405406afbb926dcbbd3604f1574f4",
+      "required_columns": ["paper_id", "final_decision", "final_primary_code", "decision_basis"]
+    },
+    "base_eligible_version_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/15_BASE_CORPUS_CORRECTED/base_corpus_correction_v4_run01/ELIGIBLE_PUBLICATION_VERSION_LEDGER_BASE_CORRECTED_V4.csv",
+      "bytes": 641005,
+      "rows": 517,
+      "sha256": "1dcf4158c36b1720d26eb4c3761f30eb71a28c3eb3e6be7d36ad048bdee0ce03",
+      "required_columns": ["version_family_id", "paper_id", "preferred_for_analysis", "preferred_paper_id"]
+    },
+    "base_checked_corpus": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/15_BASE_CORPUS_CORRECTED/base_corpus_correction_v4_run01/CHECKED_ONE_WORK_ANALYSIS_CORPUS_BASE_CORRECTED_V4.csv",
+      "bytes": 2650794,
+      "rows": 458,
+      "sha256": "35feaa266ded8279b52c261da9656f588faebaa8d19e9d3cd97da8ab4343f98f",
+      "required_columns": ["paper_id", "final_model_families", "final_simulation_modalities", "final_nts_domains", "final_specialty", "final_study_design"]
+    },
+    "base_openalex": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/15_BASE_CORPUS_CORRECTED/base_corpus_correction_v4_run01/OPENALEX_LOCKED_BASE_FILTERED_V4.csv",
+      "bytes": 2204035,
+      "rows": 458,
+      "sha256": "ae905376e8896da841ff73caef244e280a6057e021f91f64caa4a2d6fd08ad6f",
+      "required_columns": ["paper_id", "match_status", "match_method", "cited_by_count", "oa_status", "authors_json"]
+    },
+    "metadata_correction_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/09A_METADATA_CORRECTED/canonical_metadata_run01/METADATA_CORRECTION_MANIFEST_V2.json",
+      "bytes": 1207,
+      "sha256": "1f9d45622779b8fcd1ea504a5395ffe39d80cf72063d0fc53508282418cc91bb",
+      "expected_json": {
+        "status": "metadata_corrections_applied_analysis_view_ready",
+        "corrected_records": 2,
+        "corrected_fields": 3,
+        "correction_ledger_sha256": "51f55f9c83da7b3e840edccd8f878c7018a2256039a1a377cdf75022673a6c3e",
+        "source_fields_preserved_except_reviewed_corrections": true
+      }
+    },
+    "metadata_correction_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/09A_METADATA_CORRECTED/canonical_metadata_run01/METADATA_CORRECTION_LEDGER_V2.csv",
+      "bytes": 2158,
+      "rows": 3,
+      "sha256": "51f55f9c83da7b3e840edccd8f878c7018a2256039a1a377cdf75022673a6c3e",
+      "required_columns": ["correction_id", "paper_id", "field", "old_value", "new_value", "rationale", "evidence_url_1", "evidence_url_2", "reviewed_by", "reviewed_at_utc", "source_corpus_sha256", "source_row_sha256", "corrected_row_sha256"]
+    },
+    "human_audit_summary": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/12_HUMAN_AUDIT/SAMPLE2_human_audit_FINAL/HUMAN_AUDIT_AGREEMENT_SUMMARY.json",
+      "bytes": 1337,
+      "sha256": "c9e70d8d535a7323a24741e589483df515c719d63d8da4612d4181d853032f57",
+      "expected_json": {
+        "human_vs_model_final_binary_include_noninclude_agreement.successes": 85,
+        "human_vs_model_final_binary_include_noninclude_agreement.total": 100,
+        "human_vs_model_final_binary_include_noninclude_agreement.exact_95pct_lower": 0.7646924998510451,
+        "human_vs_model_final_binary_include_noninclude_agreement.exact_95pct_upper": 0.9135456143583514
+      }
+    },
+    "human_audit_finalization_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/12_HUMAN_AUDIT/SAMPLE2_human_audit_FINAL/HUMAN_AUDIT_FINALIZATION_MANIFEST.json",
+      "bytes": 3597,
+      "sha256": "5b346d1a9fe7ff75fb65d380b61d6e1fa67759a1e0bf2df2ab823950cb3fb71d",
+      "expected_json": {
+        "status": "complete_pending_required_second_human_reviews",
+        "counts.human_responses_validated": 100,
+        "counts.second_human_reviews_completed": 0,
+        "counts.second_human_reviews_required": 15
+      }
+    },
+    "scopus_raw_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/01_RAW_SNAPSHOT/scopus_full_20200101_20260813_run02/run_manifest.json",
+      "bytes": 31188,
+      "sha256": "9df87a77b4b2bea178ae553e9aa47d56e5ccf5b1f0d84d56d1f421f832610997",
+      "expected_json": {
+        "status": "complete"
+      }
+    },
+    "scopus_bridge_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_bridge_run02/SCOPUS_BRIDGE_MANIFEST.json",
+      "bytes": 5974,
+      "sha256": "ef5ba21720aa447ae6a6697f99285425c18ed54cd4ec3489ca26e8a5c57c3059",
+      "expected_json": {
+        "status": "complete",
+        "counts.raw_occurrences": 3004,
+        "counts.outside_window_occurrences": 150,
+        "counts.new_to_existing_primary_not_screened": 1244
+      }
+    },
+    "scopus_review_comparison": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_review_comparison_run01/REVIEW_COMPARISON_V2.csv",
+      "bytes": 874666,
+      "rows": 1244,
+      "sha256": "dc7fcfa2d8384362bf29987806cd5a4fafa90385052951dd6ec91290de2f1d76",
+      "required_columns": ["paper_id", "reviewer_A_decision", "reviewer_B_decision", "comparison_class"]
+    },
+    "scopus_review_comparison_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_review_comparison_run01/SCOPUS_INCREMENT_REVIEW_COMPARISON_MANIFEST.json",
+      "bytes": 19874,
+      "sha256": "ef4d5511586084a760066ed5df23a6482bcfec94ed70de52f69f40ea195f1fe7",
+      "expected_json": {
+        "counts.records": 1244,
+        "counts.queue_counts.total_requires_resolution": 104
+      }
+    },
+    "scopus_finalization_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_screening_finalized_run01/SCOPUS_INCREMENT_FINALIZATION_MANIFEST.json",
+      "bytes": 17899,
+      "sha256": "1b72bcec2215f500bd2c874293249d0c3cc5f40bee06b5bf4fe5882b9651dd28",
+      "expected_json": {
+        "counts.records": 1244,
+        "counts.included_records": 31,
+        "counts.excluded_records": 1213,
+        "counts.official_source_resolution_records": 104
+      }
+    },
+    "scopus_finalization_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_screening_finalized_run01/SCOPUS_INCREMENT_FINALIZATION_HASHES.csv",
+      "bytes": 40755,
+      "rows": 133,
+      "sha256": "593115f20714997e1dfded370745b90b117d2d9c30671637d8abd401664e1d57"
+    },
+    "scopus_final_screening": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_screening_finalized_run01/SCOPUS_INCREMENT_FINAL_DECISIONS.csv",
+      "bytes": 3162679,
+      "rows": 1244,
+      "sha256": "2846da21dbb7d0844dce1963e783f2bfeb37ae4c30cf68176d3b5e6958a8ea18",
+      "required_columns": ["paper_id", "final_decision", "final_primary_code", "decision_basis"]
+    },
+    "scopus_included_records": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_screening_finalized_run01/SCOPUS_INCREMENT_INCLUDED_RECORDS.csv",
+      "bytes": 101406,
+      "rows": 31,
+      "sha256": "ff3250ff2357eb368dfbee4b201d604bc1c2289dc0ee15d4fb789e59645a26a0",
+      "required_columns": ["paper_id", "final_decision", "final_primary_code"]
+    },
+    "scopus_version_review_preparation_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_version_review_package_run01/SCOPUS_INCREMENT_VERSION_REVIEW_PREPARATION_MANIFEST.json",
+      "bytes": 4168,
+      "sha256": "b74a01a2e7ba2bffd5762bf278cea4f02b0b3c4c17842dc8516e30bbd91dad6e",
+      "expected_json": {
+        "status": "review_templates_prepared_not_finalized",
+        "counts.all_family_review_records": 548,
+        "counts.scopus_finalized_includes": 31
+      }
+    },
+    "scopus_version_review_preparation_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_version_review_package_run01/SCOPUS_INCREMENT_VERSION_REVIEW_HASH_MANIFEST.csv",
+      "bytes": 541,
+      "rows": 4,
+      "sha256": "c51f163b971a08bed0645b34ec83a4b3f1d6d0a647c7d0336c9c99f910295f7c"
+    },
+    "scopus_extraction_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_extraction_corrected_run02/SCOPUS_INCREMENT_EXTRACTION_CORRECTED_MANIFEST_V2.json",
+      "bytes": 4682,
+      "sha256": "03494e6c3f1f04f2774d3792c237813bd5fcfbe27d904b2abff445d21bbde0bf",
+      "expected_json": {
+        "status": "frozen_checked_extraction_for_corrected_eligible_scopus_records",
+        "counts.records": 30,
+        "counts.removed_records": 1,
+        "contracts.retained_rows_and_cells_preserved": true
+      }
+    },
+    "scopus_checked_extraction": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_extraction_corrected_run02/SCOPUS_INCREMENT_CHECKED_WORK_LEVEL_EXTRACTION_CORRECTED_V2.csv",
+      "bytes": 125004,
+      "rows": 30,
+      "sha256": "d137d846b5f2627920c0d4bb929fd6b06f2754cb1fd7160d7daf0d56b38b5a8d",
+      "required_columns": ["paper_id", "final_decision", "final_primary_code", "final_model_families", "final_simulation_modalities", "final_nts_domains", "final_specialty", "final_study_design", "source_record_row_sha256"]
+    },
+    "scopus_extraction_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_extraction_corrected_run02/SCOPUS_INCREMENT_EXTRACTION_CORRECTED_HASHES_V2.csv",
+      "bytes": 3090,
+      "rows": 12,
+      "sha256": "280c2dc5eb8dab9f289ca67cdfca7e6d337e162a373185d4898c2d91314b0027"
+    },
+    "scopus_metadata_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_include_metadata_run01/SCOPUS_INCLUDE_METADATA_MANIFEST.json",
+      "bytes": 5982,
+      "sha256": "b327730befc66131509bff5a8468fca342accf028fa7d4c6c63a42e5401e121d",
+      "expected_json": {
+        "status": "complete",
+        "counts.records": 31,
+        "counts.matched": 26,
+        "counts.unmatched": 5
+      }
+    },
+    "scopus_metadata_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_include_metadata_run01/SCOPUS_INCLUDE_METADATA_HASH_LEDGER.csv",
+      "bytes": 5393,
+      "rows": 19,
+      "sha256": "39330ed672e1b8d7f15834283200246aefc256a8a06af07ad53d95cd526b7f61"
+    },
+    "scopus_openalex": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_include_metadata_run01/SCOPUS_INCLUDE_METADATA_OPENALEX.csv",
+      "bytes": 101249,
+      "rows": 31,
+      "sha256": "2dcdf236dbe29cbc7dd290832a1007414cd1609129efaa3b462a9530340b06dc",
+      "required_columns": ["paper_id", "match_status", "match_method", "cited_by_count", "oa_status", "authors_json"]
+    },
+    "amendment_005_superseded": {
+      "state": "locked",
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_AMENDMENT_005_SCOPUS_EXTENSION_AND_FINAL_INTEGRATION_2026-08-16.json",
+      "bytes": 12548,
+      "sha256": "e125ae2b2801e6a9db6336da0e6d45efe76cdd19282aacde08a5f72f5c4de64e",
+      "expected_json": {
+        "amendment_id": "gse_fresh_analysis_v2_amendment_005_scopus_extension_and_final_integration"
+      },
+      "audit_status": "superseded_after_independent_eligibility_correction"
+    },
+    "amendment_006_final_correction_and_integration": {
+      "state": "locked",
+      "path": "ACTIVE_GSE_REVISION_2026-08-13/06_AUDIT/FRESH_ANALYSIS_SPECIFICATION_V2_AMENDMENT_006_FINAL_ELIGIBILITY_CORRECTION_AND_INTEGRATION_2026-08-16.json",
+      "bytes": 12182,
+      "sha256": "376f8a91854e5aec9896ea6c6a84e7101f4c54ca6222d65c4d5cc75568300c5e",
+      "expected_json": {
+        "amendment_id": "gse_fresh_analysis_v2_amendment_006_final_eligibility_correction_and_integration",
+        "status": "frozen_before_successor_analysis_run",
+        "correction.record_id": "sci_42a355e3f11b03dc7d88",
+        "correction.corrected_final_decision": "EXCLUDE",
+        "correction.corrected_primary_code": "E2_NOT_HEALTH_ED",
+        "corrected_publication_version_review.eligible_publication_records": 547,
+        "corrected_publication_version_review.unique_study_families": 485,
+        "corrected_publication_version_review.alternate_versions": 62
+      }
+    },
+    "scopus_corrected_finalization_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_eligibility_correction_run01/SCOPUS_INCREMENT_ELIGIBILITY_CORRECTION_MANIFEST_V2.json",
+      "bytes": 6184,
+      "sha256": "d1489db7d15a5b660d42a89ab612efa4379305d39c215cf96ec7ed78599f56ce",
+      "expected_json": {
+        "status": "frozen_authoritative_scopus_eligibility_corrected",
+        "counts.records": 1244,
+        "counts.included_records": 30,
+        "counts.excluded_records": 1214,
+        "counts.corrected_records": 1
+      }
+    },
+    "scopus_corrected_finalization_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_eligibility_correction_run01/SCOPUS_INCREMENT_ELIGIBILITY_CORRECTION_HASHES_V2.csv",
+      "bytes": 3937,
+      "rows": 18,
+      "sha256": "7026ea9ee829f13311074f6cd50cad3c2fbcefb464952459a6d5d255f6f58e7c"
+    },
+    "scopus_corrected_final_screening": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_eligibility_correction_run01/SCOPUS_INCREMENT_FINAL_DECISIONS_CORRECTED_V2.csv",
+      "bytes": 3161459,
+      "rows": 1244,
+      "sha256": "a29c62942dab2bc97084df62a204a1cc6ca09f255750ca583f41436010a6b8cd",
+      "required_columns": ["paper_id", "final_decision", "final_primary_code", "decision_basis"],
+      "audit_note": "Contains the corrected final decision for every Scopus candidate while preserving pre-resolution reviewer decisions."
+    },
+    "scopus_corrected_included_records": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/14_SCOPUS_INCREMENTAL/scopus_increment_eligibility_correction_run01/SCOPUS_INCREMENT_INCLUDED_RECORDS_CORRECTED_V2.csv",
+      "bytes": 97580,
+      "rows": 30,
+      "sha256": "20bf8efc5ac12d7c66ebbb4e9d930078bdda22a6b97966e52db24929034bdbd0",
+      "required_columns": ["paper_id", "final_decision", "final_primary_code"],
+      "audit_note": "Contains only the corrected Scopus publication-level inclusions."
+    },
+    "scopus_completed_version_decisions": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_version_review_package_run03/review_completed/SCOPUS_INCREMENT_ALL_RECORD_FAMILY_REVIEW_COMPLETED.csv",
+      "bytes": 743993,
+      "rows": 547,
+      "sha256": "5b5eb42da5078fc3dc4ad0508d92f249d44a08182db3fa8b992e87e9c3acbc86",
+      "required_columns": ["record_key", "source_corpus", "source_record_id", "provisional_family_id", "family_size", "preferred_for_analysis", "preferred_record_key", "relationship_to_preferred"]
+    },
+    "scopus_version_decision_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_version_review_package_run03/review_completed/RUN03_VERSION_REVIEW_COMPLETION_MANIFEST.json",
+      "bytes": 5213,
+      "sha256": "5c8176c164b4e6802497cda409caf8640925176c564fe0ed50ee6142e29f6327",
+      "expected_json": {
+        "status": "frozen_completed_version_review",
+        "counts.eligible_publications": 547,
+        "counts.families": 485,
+        "counts.alternate_versions": 62,
+        "counts.scopus_publications": 30
+      }
+    },
+    "scopus_version_decision_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_increment_version_review_package_run03/review_completed/RUN03_VERSION_REVIEW_COMPLETION_HASHES.csv",
+      "bytes": 3371,
+      "rows": 13,
+      "sha256": "d957cd66d8ee900a35a5006cc63d6dcbd722bdd823256adf6f9d5e463339d218"
+    },
+    "combined_package_manifest": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/SCOPUS_FINAL_INTEGRATION_CORRECTED_MANIFEST_V2.json",
+      "bytes": 9081,
+      "sha256": "39dbe763bc3ed2277734a769fd4d7a984205af54836adc52778220f80e55c7e8",
+      "expected_json": {
+        "status": "frozen_corrected_combined_corpus_analysis_not_performed",
+        "contracts.analysis_performed": false,
+        "contracts.corrected_authorities_only": true,
+        "contracts.false_positive_family_removed": true,
+        "derived_counts.combined_screening_rows": 3919,
+        "derived_counts.combined_screening_include": 547,
+        "derived_counts.combined_screening_exclude": 3372,
+        "derived_counts.eligible_publication_records": 547,
+        "derived_counts.unique_studies": 485,
+        "derived_counts.alternate_publication_versions": 62,
+        "removed.paper_id": "sci_42a355e3f11b03dc7d88"
+      }
+    },
+    "combined_package_hash_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/SCOPUS_FINAL_INTEGRATION_CORRECTED_HASHES_V2.csv",
+      "bytes": 1060,
+      "rows": 8,
+      "sha256": "9bfd0c80b610b0f702789cb712ab959c5c54f183af0417250c56c0fbcbd9cf60",
+      "required_columns": ["scope", "path", "bytes", "sha256"]
+    },
+    "combined_package_frozen_marker": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/SCOPUS_FINAL_INTEGRATION_CORRECTED_FROZEN_V2.json",
+      "bytes": 536,
+      "sha256": "93d3270e15ba5f0af3942b8c00269e9139f713b385739e12a8e9e6c793b2ad46",
+      "expected_json": {
+        "status": "frozen",
+        "manifest_sha256": "39dbe763bc3ed2277734a769fd4d7a984205af54836adc52778220f80e55c7e8",
+        "hash_manifest_sha256": "9bfd0c80b610b0f702789cb712ab959c5c54f183af0417250c56c0fbcbd9cf60"
+      }
+    },
+    "combined_eligible_version_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_ELIGIBLE_PUBLICATION_VERSION_LEDGER_CORRECTED_V2.csv",
+      "bytes": 801493,
+      "rows": 547,
+      "sha256": "44f8ae7ecb6205d8d9df75b1b597929bd0c2bd157c627c4b3bd0a0ff3ebd4df7",
+      "required_columns": ["integration_schema_version", "source_completed_family_review_sha256", "provisional_family_id", "family_size", "record_key", "source_record_id", "source_corpus", "preferred_for_analysis", "preferred_record_key", "relationship_to_preferred"]
+    },
+    "combined_study_selection_ledger": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_STUDY_SELECTION_LEDGER_CORRECTED_V2.csv",
+      "bytes": 211860,
+      "rows": 485,
+      "sha256": "25f4769a0d092a3c2ca67956a94a0ec6c8027a1a653e62b0d762e72d802a5212",
+      "required_columns": ["integration_schema_version", "final_version_family_id", "family_size", "preferred_record_key", "preferred_paper_id", "preferred_source_corpus", "preferred_basis", "preferred_selection_rationale", "preferred_selection_evidence", "family_reviewed_by", "family_reviewed_at_utc", "source_family_review_row_sha256"]
+    },
+    "combined_checked_corpus": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_CANONICAL_CHECKED_EXTRACTION_CORRECTED_V2.csv",
+      "bytes": 2865089,
+      "rows": 485,
+      "sha256": "61b69a206a52929ecdb1b04fdcdcc9e6d8ec7b411d31c3dc7560c765f4d316d6",
+      "required_columns": ["paper_id", "final_version_family_id", "preferred_record_key", "doi", "title", "year", "publication_date", "journal", "found_in_sources", "record_type", "abstract", "source_keywords", "final_model_families", "final_simulation_modalities", "final_nts_domains", "final_specialty", "final_study_design"]
+    },
+    "combined_metadata": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_CANONICAL_METADATA_CORRECTED_V2.csv",
+      "bytes": 2409034,
+      "rows": 485,
+      "sha256": "211fbaa4f3e3c296815fb1479ba22caddc3edc03b58825bb4e340621a1df1404",
+      "required_columns": ["paper_id", "final_version_family_id", "preferred_record_key", "doi", "title", "year", "publication_date", "journal", "found_in_sources", "record_type", "authors", "abstract", "source_keywords", "url"]
+    },
+    "combined_openalex": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_CANONICAL_OPENALEX_CORRECTED_V2.csv",
+      "bytes": 2388651,
+      "rows": 485,
+      "sha256": "e2a92e974104d793399595d6e83e38b5ef728db558d3d0f7939330814d4c7d2c",
+      "required_columns": ["paper_id", "match_status", "match_method", "cited_by_count", "oa_status", "authors_json"]
+    },
+    "combined_record_level_screening": {
+      "state": "locked",
+      "path": "GSE_FULL_RERUN_2026-08-13/16_SCOPUS_VERSION_AND_EXTRACTION/scopus_base_v4_final_integration_run02/COMBINED_RECORD_LEVEL_SCREENING_CORRECTED_V2.csv",
+      "bytes": 17143634,
+      "rows": 3919,
+      "sha256": "ce2b33e62368e101a55de691d3a54893f48ec42e4d8e76408bf9b93876a11696",
+      "required_columns": ["paper_id", "screening_source_corpus", "reviewer_A_decision", "reviewer_B_decision", "comparison_class", "final_decision", "final_primary_code"],
+      "audit_note": "Retains both pre-resolution decisions and the corrected final decision for every candidate record."
+    }
+  },
+  "production_release_gates": [
+    "Status is ready_for_production only because every role is locked.",
+    "Selection counts must equal the corrected screening, version, study-selection, and checked-corpus ledgers.",
+    "Record path, bytes, rows where applicable, SHA-256, required columns, and key manifest values for every new locked input.",
+    "Run V5 preflight after all pins are filled; do not bypass a failed pin or arithmetic check.",
+    "Production requires the explicit --confirm-production-run switch and a new, nonexistent output directory."
+  ]
+}

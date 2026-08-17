@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite this release and the associated article."
+title: "Large Language Models in Healthcare Simulation Education: bibliometric analysis reproducibility package"
+type: dataset
+version: 2.0.0
+date-released: 2026-08-17
+url: "https://github.com/MattPears1/bibliometric-llm-healthcare-simulation"
+repository-code: "https://github.com/MattPears1/bibliometric-llm-healthcare-simulation"
+license: CC-BY-4.0
+authors:
+  - family-names: Pears
+    given-names: Matthew
+    affiliation: Pears Research Services Limited
+  - family-names: Wadhwa
+    given-names: Karan
+    affiliation: Department of Urology, Broomfield Hospital
+  - family-names: Payne
+    given-names: Stephen R
+    affiliation: Department of Urology, Manchester University Hospitals NHS Foundation Trust
+  - family-names: Konstantinidis
+    given-names: Stavros T
+    affiliation: School of Health Sciences, University of Nottingham
+  - family-names: Biyani
+    given-names: Chandra Shekhar
+    affiliation: Department of Urology, Leeds Teaching Hospitals NHS Trust
+keywords:
+  - large language models
+  - healthcare simulation
+  - medical education
+  - non-technical skills
+  - bibliometrics
+  - AI-assisted screening

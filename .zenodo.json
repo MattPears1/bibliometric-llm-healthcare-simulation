@@ -1,0 +1,47 @@
+{
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Pears, Matthew",
+      "affiliation": "Pears Research Services Limited, Sheffield, UK"
+    },
+    {
+      "name": "Wadhwa, Karan",
+      "affiliation": "Department of Urology, Broomfield Hospital, Chelmsford, UK"
+    },
+    {
+      "name": "Payne, Stephen R",
+      "affiliation": "Department of Urology, Manchester University Hospitals NHS Foundation Trust, Manchester, UK"
+    },
+    {
+      "name": "Konstantinidis, Stavros T",
+      "affiliation": "School of Health Sciences, University of Nottingham, Nottingham, UK"
+    },
+    {
+      "name": "Biyani, Chandra Shekhar",
+      "affiliation": "Department of Urology, Leeds Teaching Hospitals NHS Trust, Leeds, UK"
+    }
+  ],
+  "description": "Rights-conscious reproducibility package for a six-source bibliometric analysis of large language models in healthcare simulation education. The frozen release contains 18 exact searches, 9,719 retrieval occurrences, 3,919 screened candidates, 547 eligible publication records, 62 alternate publication versions, and 485 canonical studies. Code is also available under the MIT License; original derived data, tables, figures, and documentation are released under CC BY 4.0.",
+  "keywords": [
+    "large language models",
+    "healthcare simulation",
+    "medical education",
+    "non-technical skills",
+    "bibliometrics",
+    "AI-assisted screening"
+  ],
+  "language": "eng",
+  "license": "cc-by-4.0",
+  "publication_date": "2026-08-17",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.64898/2026.06.02.26354722",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "title": "Large Language Models in Healthcare Simulation Education: bibliometric analysis reproducibility package",
+  "upload_type": "software",
+  "version": "2.0.0"
+}
