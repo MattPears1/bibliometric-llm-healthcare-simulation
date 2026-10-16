@@ -1,0 +1,6 @@
+# Optional dependencies for historical analysis and figure scripts.
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+pandas
+Pillow
+networkx

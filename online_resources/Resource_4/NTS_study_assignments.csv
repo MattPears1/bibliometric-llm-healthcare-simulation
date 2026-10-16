@@ -1,0 +1,618 @@
+paper_id,concept_id,title_match,abstract_match,matched_variants
+4781da10664bc6a33ebc,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+4781da10664bc6a33ebc,feedback,False,True,structured feedback
+859f96f4eca259cdb9e8,empathy,True,True,empathetic | empathy
+64947cabbe7282713c10,clinical_reasoning,True,True,clinical reasoning | reasoning skills
+e82a026a5524b0d4f0d3,clinical_reasoning,False,True,clinical reasoning
+e82a026a5524b0d4f0d3,problem_solving,False,True,problem solving | problem-solving
+e82a026a5524b0d4f0d3,debriefing,True,True,debriefing
+eb6afac746ee34d7a37f,empathy,True,True,empathetic | empathy
+116dd099707d378fb9a6,breaking_bad_news,True,True,breaking bad news
+116dd099707d378fb9a6,feedback,False,True,personalized feedback | structured feedback
+116dd099707d378fb9a6,debriefing,False,True,debrief
+9d0e015a74d4a026b092,clinical_reasoning,False,True,reasoning skills
+9d0e015a74d4a026b092,diagnostic_reasoning,False,True,diagnostic reasoning
+47160b043b610b447eca,decision_making,False,True,decision making | decision-making
+47160b043b610b447eca,clinical_reasoning,False,True,clinical reasoning
+47160b043b610b447eca,critical_thinking,False,True,critical thinking | critical-thinking
+01a746b554d461cb998c,feedback,False,True,structured feedback
+2a63460a75ff944e1d44,clinical_reasoning,False,True,clinical reasoning
+2a63460a75ff944e1d44,empathy,False,True,empathy
+2a63460a75ff944e1d44,feedback,False,True,performance feedback
+4c4dc7fcefb1e9f3abdf,debriefing,False,True,debriefing
+98459bc57c099322761c,decision_making,False,True,decision making | decision-making
+98459bc57c099322761c,critical_thinking,True,True,critical thinking | critical-thinking
+98459bc57c099322761c,empathy,False,True,perspective taking
+98459bc57c099322761c,debriefing,False,True,debrief
+e5b4ed028b3c0ea2eeec,clinical_reasoning,False,True,clinical reasoning
+e5b4ed028b3c0ea2eeec,diagnostic_reasoning,False,True,diagnostic reasoning
+sci_b283d7022275d4ea7f72,emotional_intelligence,True,False,emotional intelligence
+6fb769efa53620e383b7,decision_making,False,True,decision making | decision-making
+6fb769efa53620e383b7,diagnostic_reasoning,False,True,diagnostic decision making | diagnostic decision-making
+0b386fbba1d6908a565d,communication_skills,False,True,communication skills
+0b386fbba1d6908a565d,empathy,False,True,empathy
+6e7213516f82875618ff,teamwork,False,True,teamwork
+6e7213516f82875618ff,psychological_safety,False,True,psychological safety
+6e7213516f82875618ff,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+6e7213516f82875618ff,clinical_reasoning,False,True,clinical reasoning
+6e7213516f82875618ff,debriefing,False,True,debriefing
+55c688efa556cdf3a77e,clinical_reasoning,False,True,clinical reasoning
+e4a287ed511b7be9baa5,human_factors,False,True,human factor
+dcce0a8cef5543c4fec4,communication_skills,True,True,communication skills | effective communication
+dcce0a8cef5543c4fec4,empathy,False,True,empathy
+dcce0a8cef5543c4fec4,feedback,False,True,personalised feedback
+088f42aecd2674d3dbe5,teamwork,False,True,teamwork
+088f42aecd2674d3dbe5,decision_making,False,True,decision making | decision-making
+654de90417901825feeb,empathy,False,True,empathy
+654de90417901825feeb,feedback,False,True,formative feedback
+6cf6dbf3648bde45720a,patient_centred_communication,False,True,patient centered communication
+26de74e3debea64ac297,debriefing,False,True,debriefing
+72c30900482428bf1e49,communication_skills,False,True,effective communication
+72c30900482428bf1e49,empathy,False,True,empathy
+72c30900482428bf1e49,feedback,False,True,structured feedback
+633dafafd7b2de3e7ad0,communication_skills,False,True,communication skills
+18f9eaf414ec69e25aad,communication_skills,True,True,communication skills
+18f9eaf414ec69e25aad,feedback,False,True,performance feedback
+180163049fadb98a0ef8,decision_making,True,False,clinical decision making | clinical decision-making | decision making | decision-making
+07d462beafe4d21ba016,clinical_reasoning,False,True,clinical reasoning | reasoning skills
+a2fb845a99fa4f6e080c,teamwork,False,True,teamwork
+a2fb845a99fa4f6e080c,decision_making,False,True,decision making | decision-making
+a2fb845a99fa4f6e080c,critical_thinking,False,True,critical thinking | critical-thinking
+eb8b75c75edacbfa547b,debriefing,False,True,debriefing
+sci_a8f02e0b2a448efff5e6,self_awareness,False,True,self awareness | self-awareness
+31f58d5793ca1ef590ea,communication_skills,False,True,communication skills
+31f58d5793ca1ef590ea,breaking_bad_news,False,True,breaking bad news
+31f58d5793ca1ef590ea,self_awareness,False,True,self awareness | self-awareness
+31f58d5793ca1ef590ea,professionalism,False,True,professionalism
+31f58d5793ca1ef590ea,empathy,False,True,empathy
+31f58d5793ca1ef590ea,feedback,False,True,formative feedback | structured feedback
+67e2860b474712736027,clinical_reasoning,False,True,clinical reasoning
+8ad0258644c0c312a7d8,communication_skills,False,True,communication skills
+8ad0258644c0c312a7d8,feedback,False,True,real time feedback | real-time feedback
+64a85483f87115653128,communication_skills,False,True,communication skills
+fbcfe4a5c41e518e74ba,clinical_reasoning,False,True,clinical reasoning
+fbcfe4a5c41e518e74ba,professional_judgement,False,True,clinical judgment
+425ec6ee2ca714b7434a,communication_skills,False,True,communication skills
+5d6128771afb1cccb251,teamwork,False,True,teamwork
+5d6128771afb1cccb251,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+5d6128771afb1cccb251,empathy,False,True,empathy
+4fdab8147c5288a598e6,clinical_reasoning,False,True,clinical reasoning
+4fdab8147c5288a598e6,feedback,False,True,formative feedback
+ed23e4c8ee00516d2110,interpersonal_skills,False,True,interpersonal skills
+ed23e4c8ee00516d2110,rapport,False,True,rapport
+50e4613efeaaadc861f8,decision_making,False,True,decision making | decision-making
+adc1485c258278b24c4e,empathy,False,True,empathy
+f54e36609097c96e8b6d,professional_judgement,False,True,clinical judgement
+94ed3a0dbe4657397dc4,clinical_reasoning,False,True,clinical reasoning
+94ed3a0dbe4657397dc4,diagnostic_reasoning,True,True,diagnostic reasoning
+d885762caf8919afe125,communication_skills,False,True,clinical communication | communication skills
+d885762caf8919afe125,distraction_management,False,True,distraction
+d885762caf8919afe125,professionalism,False,True,professionalism
+afc8c786ca5b65ba8c74,communication_skills,False,True,communication skills | effective communication
+5b529e4bc562ac2c093e,communication_skills,True,True,clinical communication
+166aa3cc368ebd076b91,nts_umbrella,False,True,nts
+166aa3cc368ebd076b91,leadership,False,True,leadership
+166aa3cc368ebd076b91,situational_awareness,False,True,situational awareness
+f41f37dbb22b9ed8ae7c,decision_making,False,True,decision making | decision-making
+f41f37dbb22b9ed8ae7c,clinical_reasoning,False,True,clinical reasoning
+f41f37dbb22b9ed8ae7c,problem_solving,False,True,problem solving | problem-solving
+f41f37dbb22b9ed8ae7c,self_assessment,False,True,self assessment | self-assessment
+ac7ed05801a4bd006e07,communication_skills,False,True,effective communication
+3aba8ba7976a49acd0ac,clinical_reasoning,False,True,clinical reasoning | reasoning skills
+3aba8ba7976a49acd0ac,diagnostic_reasoning,False,True,diagnostic reasoning
+3aba8ba7976a49acd0ac,empathy,False,True,empathy
+df6dd96b9ea594a121ce,psychological_safety,False,True,psychological safety
+a32c2fb665f05ef6086f,clinical_reasoning,False,True,clinical reasoning
+2610ebe5f560db94c888,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+1158803af3fb0ab9c072,leadership,False,True,leadership
+b191e9f77e079eab9ed3,empathy,False,True,empathy
+1c9542cefba3287a5281,empathy,False,True,empathy
+4c10642623772d392b58,communication_skills,False,True,communication skills
+4c10642623772d392b58,feedback,False,True,real time feedback | real-time feedback
+598901438bbefd691625,decision_making,False,True,decision making | decision-making
+9d1c14070287793c215b,communication_skills,False,True,communication skills
+9d1c14070287793c215b,empathy,False,True,empathy
+34ab5ecef79b768723f6,decision_making,False,True,decision making | decision-making
+sci_454fe3ad37947557e9a6,clinical_reasoning,False,True,clinical reasoning
+sci_f57abde71790ef1bc83d,communication_skills,False,True,effective communication
+sci_f57abde71790ef1bc83d,empathy,False,True,empathy
+906c1e2afc9ab8dc6794,empathy,False,True,empathy
+594d7ce86781a2e8398f,communication_skills,False,True,communication skills
+594d7ce86781a2e8398f,clinical_reasoning,False,True,clinical reasoning
+7d5cb710e5a6901bbaaa,decision_making,False,True,decision making | decision-making
+7d5cb710e5a6901bbaaa,empathy,False,True,empathy
+7d5cb710e5a6901bbaaa,ethics,False,True,ethical decision making | ethical decision-making
+8f2528d2ba0e05485210,communication_skills,False,True,communication skill | communication skills
+af881e87f70fad542887,communication_skills,False,True,effective communication
+af881e87f70fad542887,feedback,False,True,personalized feedback
+0de698b6ef36192c9365,communication_skills,False,True,communication skills
+0de698b6ef36192c9365,empathy,False,True,empathy
+4301913b143d4dcf67c6,debriefing,True,True,debriefing
+4eabef99b9ccb8ef8fd4,patient_safety,True,True,patient safety
+9ba2ceb3ea808e2794a1,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+9ba2ceb3ea808e2794a1,clinical_reasoning,False,True,clinical reasoning
+538dc624d4f06d86f6a2,clinical_reasoning,False,True,clinical reasoning
+3592795dfee0e066000a,communication_skills,False,True,communication skills
+3592795dfee0e066000a,diagnostic_reasoning,False,True,diagnostic reasoning
+df5127c0b752274d452e,feedback,False,True,personalized feedback
+c9defba9bce13454aa5f,feedback,False,True,structured feedback
+de583e684ddd0364a161,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+1563f87491d1ce4d02fb,critical_thinking,False,True,critical thinking | critical-thinking
+0b1e929029c5b43c5beb,structured_communication,False,True,isbar | situation background assessment recommendation
+0b1e929029c5b43c5beb,handover,True,True,handover
+0b1e929029c5b43c5beb,feedback,False,True,personalized feedback
+0b1e929029c5b43c5beb,patient_safety,False,True,patient safety
+7442954006aac8fa63fa,communication_skills,False,True,clinical communication
+7442954006aac8fa63fa,patient_centred_communication,False,True,patient centered communication
+7442954006aac8fa63fa,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+ebc2ea10b1b751d8e58c,breaking_bad_news,False,True,delivering bad news
+ebc2ea10b1b751d8e58c,empathy,False,True,empathy
+ebc2ea10b1b751d8e58c,patient_management,False,True,patient management
+1df5cdc0b4ba5e34b2ba,accountability,False,True,accountability
+76597dc445d9df2ae743,empathy,False,True,empathy
+12a5244797e0de4599d0,communication_skills,False,True,communication skills
+12a5244797e0de4599d0,breaking_bad_news,False,True,delivering bad news
+12a5244797e0de4599d0,collaboration,False,True,interprofessional collaboration
+e4987ba5c8f46735e9ff,communication_skills,False,True,communication skills
+e4987ba5c8f46735e9ff,active_listening,False,True,active listening
+d6b29e9cea0c868cc28e,decision_making,False,True,decision making | decision-making
+d6b29e9cea0c868cc28e,clinical_reasoning,False,True,clinical reasoning
+d6b29e9cea0c868cc28e,feedback,False,True,structured feedback
+cc3c546075dc11e58802,communication_skills,True,False,communication skills
+437f09a0c472e4ba343e,interpersonal_skills,False,True,interpersonal skills
+86d7e55b4cfd49b202f0,communication_skills,False,True,communication skills
+86d7e55b4cfd49b202f0,clinical_reasoning,False,True,clinical reasoning
+86d7e55b4cfd49b202f0,feedback,False,True,personalized feedback | real time feedback | real-time feedback | structured feedback
+64caff9ef7b3adaafe2d,shared_decision_making,False,True,collaborative decision making | collaborative decision-making
+64caff9ef7b3adaafe2d,decision_making,False,True,decision making | decision-making
+6f1527fb10827ca1da01,clinical_reasoning,False,True,clinical reasoning
+6f1527fb10827ca1da01,feedback,False,True,structured feedback
+d3f99e099b9310de57e3,clinical_reasoning,False,True,clinical reasoning
+a03df064164f1b54d1d5,debriefing,False,True,debriefing
+a03df064164f1b54d1d5,reflection,False,True,reflective practice
+894f08a5035b3a1872d5,decision_making,True,True,clinical decision making | clinical decision-making | decision making | decision-making
+894f08a5035b3a1872d5,clinical_reasoning,False,True,clinical reasoning | reasoning skills
+302dee907e926e18ddba,empathy,False,True,empathy
+302dee907e926e18ddba,feedback,True,True,formative feedback | structured feedback
+8fa1ae6b843e2388520d,communication_skills,False,True,communication skills
+19e84bd61f0782eec51c,feedback,False,True,structured feedback
+19e84bd61f0782eec51c,self_assessment,False,True,self assessment | self-assessment
+a4f6e4afd67cbf667f95,information_gathering,False,True,information gathering
+0b1b0febb2293831bcc0,shared_decision_making,False,True,shared decision making | shared decision-making
+0b1b0febb2293831bcc0,decision_making,False,True,decision making | decision-making
+b052274076e5e7cc16db,communication_skills,False,True,communication skills
+3adc77e0b0502fcefcc3,nts_umbrella,False,True,non technical skill | non-technical skill
+3adc77e0b0502fcefcc3,debriefing,True,True,debriefing
+272439595ff3b96c35f3,teamwork,False,True,teamwork
+272439595ff3b96c35f3,team_dynamics,False,True,team dynamics
+272439595ff3b96c35f3,feedback,False,True,structured feedback
+272439595ff3b96c35f3,debriefing,False,True,debriefing
+272439595ff3b96c35f3,reflection,False,True,reflective practice
+eb0a6b505c3ccc9e534d,professional_judgement,False,True,clinical judgment
+sci_b852c26f48dfbf482b84,diagnostic_reasoning,True,True,diagnostic reasoning
+sci_b852c26f48dfbf482b84,cognitive_bias,False,True,cognitive biases
+f5e8d39c518465a0d255,empathy,True,True,empathic
+5a18de075da6eacf874c,nts_umbrella,False,True,nts
+5a18de075da6eacf874c,information_gathering,False,True,information gathering
+5a18de075da6eacf874c,time_management,False,True,time management
+sci_a90d053bc1db526acda9,communication_skills,True,True,communication skills
+sci_a90d053bc1db526acda9,handover,False,True,handover
+sci_a90d053bc1db526acda9,conflict_resolution,False,True,conflict resolution
+4cac4c9f22b3d59d56dd,communication_skills,False,True,communication skills
+bc52d7f8f145e43beefc,closed_loop_communication,True,True,closed loop communication | closed-loop communication
+bc52d7f8f145e43beefc,team_performance,False,True,team performance
+7938acbdb4523b82db58,feedback,False,True,personalized feedback
+3a5aebe14250eec39412,patient_centred_communication,False,True,patient centered communication
+cfa4cceea1f21315935e,patient_safety,False,True,patient safety
+ead3628c23fe3e244e24,feedback,False,True,formative feedback | real time feedback | real-time feedback
+9eb3b25f5e4e48cdcb6a,problem_solving,False,True,problem solving | problem-solving
+9053eb63f4358c343310,communication_skills,False,True,communication skills
+9053eb63f4358c343310,clinical_reasoning,False,True,clinical reasoning
+7b19776512fecc94e643,breaking_bad_news,True,True,breaking bad news
+03345c1deb2aad29820e,communication_skills,False,True,communication skills
+03345c1deb2aad29820e,diagnostic_reasoning,False,True,diagnostic reasoning
+af9edf1f4c2a0c11a5eb,communication_skills,False,True,communication skills
+af9edf1f4c2a0c11a5eb,conflict_resolution,False,True,conflict resolution
+af9edf1f4c2a0c11a5eb,empathy,False,True,empathy
+af9edf1f4c2a0c11a5eb,feedback,False,True,structured feedback
+6d85b580a0562cc121d4,clinical_reasoning,True,True,clinical reasoning | reasoning skills
+6d85b580a0562cc121d4,feedback,False,True,formative feedback | structured feedback
+d977c356ff57ab060fef,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+43f6ad0fa6f4597d56fc,closed_loop_communication,False,True,closed loop communication | closed-loop communication
+43f6ad0fa6f4597d56fc,breaking_bad_news,False,True,breaking bad news
+43f6ad0fa6f4597d56fc,teamwork,False,True,teamwork
+43f6ad0fa6f4597d56fc,decision_making,False,True,decision making | decision-making
+43f6ad0fa6f4597d56fc,feedback,False,True,structured feedback
+5dd47cd1855294dcfafd,clinical_reasoning,False,True,clinical reasoning
+5dd47cd1855294dcfafd,accountability,False,True,accountability
+5dd47cd1855294dcfafd,patient_safety,False,True,patient safety
+8a18fabf9cf9be3f8a36,communication_skills,False,True,communication skills
+sci_a09f51bed9668b4f7e21,resilience,True,True,resilience
+758d651bc8d5020199f1,communication_skills,False,True,effective communication
+758d651bc8d5020199f1,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+758d651bc8d5020199f1,empathy,False,True,empathy
+ee3afe8181b997d521a2,critical_thinking,False,True,critical thinking | critical-thinking
+1a1d7801effe1e2b850a,communication_skills,False,True,communication skills
+1a1d7801effe1e2b850a,empathy,False,True,empathetic
+1a1d7801effe1e2b850a,feedback,False,True,structured feedback
+3a87ecbc1ceea37e2382,communication_skills,True,True,communication skills
+sci_93a452609f10d60e9d33,interpersonal_skills,False,True,social skills
+sci_93a452609f10d60e9d33,empathy,True,True,empathetic | empathy
+sci_93a452609f10d60e9d33,feedback,False,True,performance feedback
+5c99d6be17d81210020f,clinical_reasoning,False,True,clinical reasoning
+7ab76d429b6539b40243,communication_skills,False,True,communication skills
+7ab76d429b6539b40243,difficult_conversations,False,True,difficult conversation
+7ab76d429b6539b40243,shared_decision_making,False,True,shared decision making | shared decision-making
+7ab76d429b6539b40243,decision_making,False,True,decision making | decision-making
+7ab76d429b6539b40243,clinical_reasoning,False,True,clinical reasoning
+7ab76d429b6539b40243,critical_thinking,False,True,critical thinking | critical-thinking
+7ab76d429b6539b40243,distraction_management,False,True,distractions
+7ab76d429b6539b40243,empathy,False,True,empathetic
+7ab76d429b6539b40243,cultural_competence,False,True,cultural competence
+7ab76d429b6539b40243,feedback,False,True,real time feedback | real-time feedback
+7ab76d429b6539b40243,debriefing,False,True,debrief
+9b8b66d55c35b17e843c,communication_skills,False,True,communication skill | communication skills | effective communication
+25591cbc3c2b21cbfbdf,resource_management,False,True,resource allocation | resource management
+c8c9e4c672bea3a6d994,distraction_management,False,True,interruptions
+c8c9e4c672bea3a6d994,professionalism,False,True,professionalism
+c8c9e4c672bea3a6d994,empathy,False,True,empathy
+c8c9e4c672bea3a6d994,emotional_intelligence,False,True,emotional intelligence
+5e70fc602d28beb4158b,debriefing,False,True,debriefing
+539c65e906ee41f3eabf,diagnostic_reasoning,True,True,diagnostic reasoning
+da920e8320da57a1954a,communication_skills,True,True,clinical communication
+ed072d60d05f5e236143,communication_skills,False,True,communication skills
+ed072d60d05f5e236143,clinical_reasoning,False,True,clinical reasoning
+ed072d60d05f5e236143,feedback,False,True,structured feedback
+1c5402a057ba8f451244,communication_skills,False,True,communication skills | effective communication
+86f76ce0ac18d03915b2,communication_skills,False,True,communication skills
+86f76ce0ac18d03915b2,diagnostic_reasoning,False,True,diagnostic reasoning
+86f76ce0ac18d03915b2,empathy,False,True,empathy
+b608f772e32f2dbbff5e,teamwork,False,True,teamwork
+b608f772e32f2dbbff5e,clinical_reasoning,False,True,clinical reasoning
+b924bd45d30abb49831e,patient_safety,False,True,patient safety
+643ef34d4dd326d5b164,clinical_reasoning,False,True,clinical reasoning
+643ef34d4dd326d5b164,professional_judgement,False,True,clinical judgment
+643ef34d4dd326d5b164,ethics,False,True,ethical reasoning
+643ef34d4dd326d5b164,accountability,False,True,accountability
+643ef34d4dd326d5b164,debriefing,False,True,debriefing
+b3e39792f96130f4a0b4,communication_skills,False,True,communication skills | effective communication
+b3e39792f96130f4a0b4,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+b3e39792f96130f4a0b4,feedback,False,True,personalized feedback
+5aa2066f4c78fde5a50b,nts_umbrella,False,True,nts
+5aa2066f4c78fde5a50b,teamwork,False,True,teamwork
+5aa2066f4c78fde5a50b,leadership,False,True,leadership
+5aa2066f4c78fde5a50b,decision_making,False,True,decision making | decision-making
+5aa2066f4c78fde5a50b,debriefing,False,True,debriefing
+81337a44aeb46520e3ec,collaboration,False,True,interdisciplinary collaboration
+81337a44aeb46520e3ec,debriefing,False,True,debriefing
+1c073acedd6171c3394d,communication_skills,False,True,effective communication
+f74b171e97e291bab8d3,communication_skills,False,True,communication skills | effective communication
+50ac103890932b40242c,clinical_reasoning,False,True,clinical reasoning
+50ac103890932b40242c,diagnostic_reasoning,False,True,diagnostic reasoning
+50ac103890932b40242c,self_assessment,False,True,self assessment | self-assessment
+d0ead936020ec24f78a7,communication_skills,False,True,communication skills
+d0ead936020ec24f78a7,psychological_safety,False,True,psychological safety
+d0ead936020ec24f78a7,diagnostic_reasoning,False,True,diagnostic reasoning
+b216d2e3bbb753147fd2,clinical_reasoning,False,True,clinical reasoning
+b216d2e3bbb753147fd2,risk_assessment,False,True,risk assessment
+b216d2e3bbb753147fd2,debriefing,False,True,debrief | debriefing
+0aea8997b3d07a3c7455,feedback,False,True,formative feedback
+aedb9561df16d70a7ef8,clinical_reasoning,True,True,clinical reasoning
+aedb9561df16d70a7ef8,patient_safety,False,True,patient safety
+fb4436cacb550c46d347,shared_decision_making,False,True,shared decision making | shared decision-making
+fb4436cacb550c46d347,decision_making,False,True,decision making | decision-making
+fb4436cacb550c46d347,clinical_reasoning,False,True,clinical reasoning
+sci_d54eaf2ee85c6160a060,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+sci_d54eaf2ee85c6160a060,feedback,False,True,real time feedback | real-time feedback
+8db4130844dc8d367d1f,communication_skills,False,True,communication skills
+8db4130844dc8d367d1f,teamwork,False,True,teamwork
+8db4130844dc8d367d1f,clinical_reasoning,False,True,clinical reasoning
+32c1dcd0212f833ee125,clinical_reasoning,True,False,clinical reasoning
+061a5c17950367156401,feedback,False,True,personalized feedback
+38da855b4155bb083590,communication_skills,False,True,communication skills
+38da855b4155bb083590,clinical_reasoning,False,True,clinical reasoning
+38da855b4155bb083590,critical_thinking,False,True,critical thinking | critical-thinking
+328dc44eb7208308940c,collaboration,False,True,interdisciplinary collaboration
+35ffd2cef7df5e4ea7fc,communication_skills,False,True,communication skills
+35ffd2cef7df5e4ea7fc,clinical_reasoning,False,True,clinical reasoning
+35ffd2cef7df5e4ea7fc,empathy,False,True,empathy
+b3a8d73bf08119c4ce68,communication_skills,True,True,communication skills
+b3a8d73bf08119c4ce68,clinical_reasoning,False,True,clinical reasoning | reasoning skills
+aa05a5932f8ebb716574,clinical_reasoning,False,True,clinical reasoning
+db80308782a219cbea0e,nts_umbrella,False,True,nts
+db80308782a219cbea0e,interpersonal_skills,False,True,social skills
+db80308782a219cbea0e,empathy,False,True,empathy
+614d439112e6f1ccea50,resilience,False,True,resilience
+614d439112e6f1ccea50,empathy,False,True,empathy
+614d439112e6f1ccea50,emotional_intelligence,False,True,emotional intelligence
+614d439112e6f1ccea50,feedback,False,True,personalized feedback
+434224fa76b1280311a5,ethics,False,True,ethical reasoning
+434224fa76b1280311a5,feedback,False,True,personalised feedback
+1557e783fc8af1e8fdd6,communication_skills,False,True,clinical communication
+1557e783fc8af1e8fdd6,feedback,False,True,real time feedback | real-time feedback
+ff3b7f48f6f586cf90b7,communication_skills,False,True,communication skills
+ff3b7f48f6f586cf90b7,clinical_reasoning,True,True,clinical reasoning | reasoning skills
+359e1289e1f098bb36e2,decision_making,False,True,decision making | decision-making
+359e1289e1f098bb36e2,patient_engagement,False,True,patient engagement
+a9588de788e2402350be,communication_skills,True,True,communication skills
+c13d5a010789f6f44c11,decision_making,False,True,decision making | decision-making
+c13d5a010789f6f44c11,clinical_reasoning,False,True,clinical reasoning
+c13d5a010789f6f44c11,empathy,False,True,empathy
+2877ad2c6a928639280a,feedback,False,True,performance feedback | personalized feedback
+bed98da775e40e17c44e,cognitive_bias,False,True,cognitive bias
+0038624c09ec9fe46395,patient_centred_communication,False,True,person-centred communication
+be9dea9f8b093b59c0c4,risk_assessment,True,True,risk assessment
+6d3fca2519e927f795b8,professional_judgement,False,True,clinical judgment
+9b778c91d64124298579,distraction_management,False,True,distraction
+9b778c91d64124298579,professionalism,False,True,professionalism
+d02cfb250e397dd52db5,clinical_reasoning,False,True,clinical reasoning
+81087c9bc5a7366ff084,communication_skills,False,True,communication skills
+81087c9bc5a7366ff084,emotional_intelligence,False,True,emotional intelligence
+3a2d4841832fea8715fe,communication_skills,True,True,clinical communication | communication skills
+7b627eb0e17b77a07c57,communication_skills,False,True,communication skill
+c6788113fb3c0b6f7bcf,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+c6788113fb3c0b6f7bcf,patient_safety,False,True,patient safety
+78868accc1f86fb42dce,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+327767a02786d8ff7a19,communication_skills,False,True,clinical communication | communication skills
+327767a02786d8ff7a19,breaking_bad_news,False,True,breaking bad news
+3bb7eee2436c25920c9e,cultural_competence,False,True,cultural competence
+3bb7eee2436c25920c9e,debriefing,False,True,debriefing
+44090e715310ee158f37,communication_skills,False,True,communication skills
+6a18d985481870e99d72,problem_solving,False,True,problem solving | problem-solving
+6a18d985481870e99d72,prioritisation,False,True,prioritizing
+6a18d985481870e99d72,empathy,False,True,empathy
+1131dfab50144331e92a,diagnostic_reasoning,False,True,diagnostic reasoning
+9287cf74b213e44a489d,psychological_safety,False,True,psychological safety
+9287cf74b213e44a489d,debriefing,True,True,debrief | debriefing
+9287cf74b213e44a489d,reflection,False,True,guided reflection
+432422a165ddc6a24c2f,communication_skills,False,True,effective communication
+432422a165ddc6a24c2f,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+432422a165ddc6a24c2f,clinical_reasoning,False,True,reasoning skills
+432422a165ddc6a24c2f,information_gathering,False,True,information gathering
+432422a165ddc6a24c2f,feedback,False,True,real time feedback | real-time feedback
+59ac00c951a84da39213,shared_decision_making,False,True,shared decision making | shared decision-making
+59ac00c951a84da39213,decision_making,False,True,decision making | decision-making
+94bb63aeb68eddb59442,resource_management,False,True,resource allocation
+592d3957693502aad933,communication_skills,False,True,communication skills
+592d3957693502aad933,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+592d3957693502aad933,clinical_reasoning,False,True,clinical reasoning
+43800694173ba371af4f,decision_making,False,True,decision making | decision-making
+43800694173ba371af4f,clinical_reasoning,False,True,clinical reasoning
+43800694173ba371af4f,patient_safety,False,True,patient safety
+cb97375c66ea36d11d94,decision_making,False,True,decision making | decision-making
+c98aa2499bea62fd3f2a,empathy,False,True,empathy
+14a6c8b99daf76e8179d,clinical_reasoning,True,True,clinical reasoning
+5b356113a239c62ba5ac,communication_skills,False,True,communication skills
+0a56637c161743569cf5,decision_making,True,True,clinical decision making | clinical decision-making | decision making | decision-making
+0a56637c161743569cf5,clinical_reasoning,False,True,clinical reasoning
+0a56637c161743569cf5,feedback,True,True,structured feedback
+f2454b259920b1b1d032,rapport,False,True,rapport
+f2454b259920b1b1d032,diagnostic_reasoning,False,True,diagnostic reasoning
+f2454b259920b1b1d032,professional_judgement,False,True,clinical judgment
+48e2ce8734d9d1acb602,communication_skills,False,True,effective communication
+48e2ce8734d9d1acb602,clinical_reasoning,False,True,clinical reasoning
+48e2ce8734d9d1acb602,feedback,False,True,formative feedback | structured feedback
+766fde2e997ea8140bd0,debriefing,False,True,debriefing
+a44cf2193e8756673fa7,breaking_bad_news,False,True,difficult news
+a44cf2193e8756673fa7,rapport,False,True,therapeutic relationship
+a44cf2193e8756673fa7,empathy,False,True,empathy
+a44cf2193e8756673fa7,compassion,False,True,compassion
+70cb1e0a134b7f41b447,human_factors,False,True,human factors
+70cb1e0a134b7f41b447,resilience,False,True,resilience
+58a5647e55ff3ae5746e,vigilance,True,True,patient monitoring
+548ca816901c7761f0bf,professional_judgement,False,True,clinical judgment
+548ca816901c7761f0bf,professionalism,False,True,professionalism
+0c75f057197182777687,clinical_reasoning,False,True,clinical reasoning
+87dd3b9b5e7ef2d3f457,communication_skills,True,True,clinical communication | communication skills | effective communication
+87dd3b9b5e7ef2d3f457,decision_making,False,True,decision making | decision-making
+87dd3b9b5e7ef2d3f457,empathy,False,True,empathy
+87dd3b9b5e7ef2d3f457,feedback,False,True,real time feedback | real-time feedback
+4ff984fed8d71f9ad381,clinical_reasoning,False,True,clinical reasoning
+4ff984fed8d71f9ad381,professionalism,False,True,professionalism
+ed80b78f8297d945224d,clinical_reasoning,False,True,clinical reasoning | reasoning skills
+ed80b78f8297d945224d,feedback,False,True,structured feedback
+48a55d4cf5cff922481f,communication_skills,False,True,communication skills | effective communication
+48a55d4cf5cff922481f,empathy,False,True,empathetic
+48a55d4cf5cff922481f,emotional_intelligence,True,True,emotional intelligence
+b4ed643f7430dbf0ccb9,decision_making,False,True,decision making | decision-making
+b4ed643f7430dbf0ccb9,critical_thinking,False,True,critical thinking | critical-thinking
+b4ed643f7430dbf0ccb9,problem_solving,False,True,problem solving | problem-solving
+7bda59402c9478eda64c,feedback,False,True,real time feedback | real-time feedback
+ec6081495209898a9c42,decision_making,True,True,decision making | decision-making
+5e9d52b66e4686a38781,reflection,False,True,self reflection | self-reflection
+740cc1ae550411dacecc,professional_judgement,False,True,clinical judgment
+740cc1ae550411dacecc,ethics,False,True,ethical reasoning
+6d60da2f964efcc60587,clinical_reasoning,True,True,clinical reasoning
+6d60da2f964efcc60587,information_gathering,False,True,information gathering
+6d60da2f964efcc60587,feedback,False,True,real time feedback | real-time feedback
+db6b016a13edb570269a,clinical_reasoning,True,True,clinical reasoning
+096c409373966ea99821,clinical_reasoning,False,True,clinical reasoning
+096c409373966ea99821,critical_thinking,False,True,critical thinking | critical-thinking
+f917e0b66cef158b9df0,communication_skills,False,True,communication skills
+f917e0b66cef158b9df0,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+f917e0b66cef158b9df0,clinical_reasoning,False,True,clinical reasoning | reasoning skills
+f917e0b66cef158b9df0,empathy,False,True,empathy
+f917e0b66cef158b9df0,debriefing,False,True,debrief
+f917e0b66cef158b9df0,patient_safety,False,True,patient safety
+78b358c1b1f53fdbc100,decision_making,False,True,decision making | decision-making
+78b358c1b1f53fdbc100,clinical_reasoning,False,True,clinical reasoning
+78b358c1b1f53fdbc100,critical_thinking,False,True,critical thinking | critical-thinking
+78b358c1b1f53fdbc100,problem_solving,False,True,problem solving | problem-solving
+eeb5a3afa4e8b1c2635c,prioritisation,False,True,prioritizing
+9eabda9ff317373c18d3,leadership,False,True,leadership
+69f44a30a1f5c09b5e41,critical_thinking,False,True,critical thinking | critical-thinking
+d46506f34cc784478c88,interpersonal_skills,False,True,interpersonal skills
+ab784e3f29bfc7622997,clinical_reasoning,False,True,clinical reasoning
+73cb9769cd2180a04bb0,communication_skills,False,True,clinical communication | communication skill
+73cb9769cd2180a04bb0,diagnostic_reasoning,False,True,diagnostic reasoning
+7791c8951d81b4aa0b71,clinical_reasoning,False,True,clinical reasoning
+7791c8951d81b4aa0b71,feedback,False,True,formative feedback
+sci_479872e4f60f538cbd03,empathy,False,True,empathy
+sci_479872e4f60f538cbd03,feedback,False,True,real time feedback | real-time feedback
+0394426a6c4e7afe938e,communication_skills,False,True,communication skills
+0394426a6c4e7afe938e,clinical_reasoning,False,True,clinical reasoning
+4252b0b43599d37a154a,communication_skills,False,True,communication skills
+4252b0b43599d37a154a,empathy,False,True,empathy
+4252b0b43599d37a154a,feedback,False,True,personalized feedback
+fc535dce265384650ae6,collaboration,False,True,interdisciplinary collaboration
+fc535dce265384650ae6,feedback,False,True,personalized feedback
+039798e4f1498c17cf82,conflict_resolution,False,True,conflict management
+039798e4f1498c17cf82,leadership,True,True,leadership | leadership skill | leadership skills
+5da1c6c1e35204ff7f9d,decision_making,True,True,clinical decision making | clinical decision-making | decision making | decision-making
+5da1c6c1e35204ff7f9d,risk_assessment,False,True,risk assessment
+b75fad8b8777d2f878b6,clinical_reasoning,False,True,clinical reasoning
+b75fad8b8777d2f878b6,diagnostic_reasoning,True,True,diagnostic reasoning
+b75fad8b8777d2f878b6,prioritisation,False,True,prioritising
+b75fad8b8777d2f878b6,anticipation,False,True,anticipation
+caf55d1c5f0358791a96,decision_making,False,True,decision making | decision-making
+caf55d1c5f0358791a96,distraction_management,False,True,interruptions
+eb664530dc232a9e1750,clinical_reasoning,True,True,clinical reasoning
+a4d746b41f7f88ceb127,communication_skills,False,True,communication skills
+91738aa3fb8146efb96d,human_factors,False,True,human factors
+91738aa3fb8146efb96d,clinical_reasoning,False,True,clinical reasoning
+8616afb3ca85007ec9d7,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+8616afb3ca85007ec9d7,patient_safety,False,True,patient safety
+1b087547ad0e2e8a3fa3,communication_skills,False,True,communication skills
+06baad752a52246f7f43,communication_skills,False,True,communication skills
+fd1a9c7f0b28a609f8af,communication_skills,False,True,clinical communication
+f4631b37b9a1fd57d914,clinical_reasoning,False,True,clinical reasoning
+f4631b37b9a1fd57d914,patient_management,False,True,patient management
+2366390c9f679e2c90b7,team_dynamics,False,True,team dynamics
+2366390c9f679e2c90b7,debriefing,True,True,debriefing
+843a6b1f2c79c1bd4273,critical_thinking,False,True,critical thinking | critical-thinking
+843a6b1f2c79c1bd4273,debriefing,True,False,debriefing
+862592293f46ff109fb6,communication_skills,False,True,clinical communication
+862592293f46ff109fb6,critical_thinking,False,True,critical thinking | critical-thinking
+eb6ba637fab26b824344,communication_skills,False,True,communication skills
+eb6ba637fab26b824344,decision_making,False,True,decision making | decision-making
+eb6ba637fab26b824344,clinical_reasoning,False,True,clinical reasoning
+eb6ba637fab26b824344,ethics,False,True,ethical decision making | ethical decision-making
+eb6ba637fab26b824344,feedback,False,True,personalized feedback
+9717d5f24495686aabe2,communication_skills,False,True,communication skills | effective communication
+9717d5f24495686aabe2,shared_decision_making,True,True,shared decision making | shared decision-making
+9717d5f24495686aabe2,decision_making,True,True,decision making | decision-making
+9717d5f24495686aabe2,patient_engagement,False,True,patient engagement
+2972cffe675ec25e930c,clinical_reasoning,False,True,clinical reasoning
+107a276748b6c98a2e50,communication_skills,False,True,clinical communication
+33fa7a94d105663796d8,feedback,False,True,structured feedback
+ba402925b430558ae1e0,communication_skills,True,True,communication skills
+ba402925b430558ae1e0,interpersonal_skills,False,True,social skills
+e359eafa6af6abbb467d,communication_skills,False,True,communication skills
+e359eafa6af6abbb467d,feedback,False,True,structured feedback
+e359eafa6af6abbb467d,debriefing,False,True,debriefing
+ffe994fbb4a27b100f16,clinical_reasoning,True,True,clinical reasoning
+ffe994fbb4a27b100f16,professional_judgement,False,True,professional judgement
+da4715a1835405ea02b7,clinical_reasoning,True,True,clinical reasoning
+sci_333316fb42bc0b910010,communication_skills,False,True,clinical communication
+sci_333316fb42bc0b910010,clinical_reasoning,False,True,clinical reasoning
+sci_333316fb42bc0b910010,empathy,False,True,empathetic
+d90096afc3b383fbecb7,communication_skills,False,True,communication skills | effective communication
+d90096afc3b383fbecb7,psychological_safety,False,True,psychological safety
+d90096afc3b383fbecb7,risk_assessment,False,True,risk assessment
+d90096afc3b383fbecb7,resource_management,False,True,resource allocation
+d90096afc3b383fbecb7,debriefing,False,True,debriefing
+54972cda535948a803e8,prioritisation,False,True,prioritising
+4f06f0d72a1de087b5c5,communication_skills,True,False,clinical communication
+49bb4b3f2e5c7a1a3f92,critical_thinking,False,True,critical thinking | critical-thinking
+49bb4b3f2e5c7a1a3f92,professional_judgement,False,True,clinical judgment
+df606ccebb857fa9a592,leadership,True,True,leadership
+df606ccebb857fa9a592,team_leadership,True,True,team leadership
+217a1796806e392c3e77,communication_skills,False,True,communication skills
+217a1796806e392c3e77,decision_making,False,True,decision making | decision-making
+217a1796806e392c3e77,diagnostic_reasoning,False,True,diagnostic reasoning
+217a1796806e392c3e77,empathy,False,True,empathetic
+7f735724143207af94c1,teamwork,False,True,teamwork
+7f735724143207af94c1,debriefing,False,True,debriefing
+f4d7fdee2c3cc083329d,communication_skills,False,True,communication skills
+00dc13a955ae4496d4ca,communication_skills,False,True,communication skills | effective communication
+00dc13a955ae4496d4ca,rapport,False,True,rapport
+00dc13a955ae4496d4ca,reflection,False,True,self reflection | self-reflection
+bd2cdf16f21f3814f67d,communication_skills,False,True,communication skills
+bd2cdf16f21f3814f67d,professional_judgement,False,True,clinical judgment
+d11ce96adb05741aef6d,teamwork,False,True,teamwork
+d11ce96adb05741aef6d,debriefing,False,True,debriefing
+d11ce96adb05741aef6d,reflection,False,True,reflective practice
+03dcc8a1b078476d19e0,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+00b1591b551023fc549f,clinical_reasoning,False,True,clinical reasoning
+4823a4ac11c66c68a7d4,clinical_reasoning,False,True,clinical reasoning
+4823a4ac11c66c68a7d4,feedback,False,True,structured feedback
+63c69a200d415bc42d9b,rapport,False,True,rapport
+63c69a200d415bc42d9b,feedback,False,True,formative feedback | structured feedback
+b94b9bcb1d96d93db9c0,feedback,False,True,structured feedback
+7a5ffafc98c031b3684e,debriefing,False,True,debriefing
+afa9fe102dc8ed9bfaff,critical_thinking,False,True,critical thinking | critical-thinking
+bda47b5b58b47ca77285,decision_making,False,True,decision making | decision-making
+bda47b5b58b47ca77285,ethics,False,True,ethical decision making | ethical decision-making
+76a6c8049ee4223224f6,communication_skills,False,True,communication skills
+76a6c8049ee4223224f6,feedback,False,True,personalized feedback
+98c23d01b9fb23bd43c4,communication_skills,False,True,communication skills
+98c23d01b9fb23bd43c4,empathy,False,True,empathy
+1d69e819d76b702e955f,empathy,False,True,empathetic
+1d69e819d76b702e955f,reflection,False,True,self reflection | self-reflection
+668b98624eeda1089d99,communication_skills,False,True,communication skills
+668b98624eeda1089d99,clinical_reasoning,False,True,clinical reasoning
+668b98624eeda1089d99,professionalism,False,True,professional behavior
+24ffbec5a9dbce04e0fd,shared_decision_making,False,True,shared decision making | shared decision-making
+24ffbec5a9dbce04e0fd,decision_making,False,True,decision making | decision-making
+24ffbec5a9dbce04e0fd,feedback,False,True,structured feedback
+24ffbec5a9dbce04e0fd,debriefing,False,True,debriefing
+a3991fd1e09daca82f29,communication_skills,False,True,communication skills
+a3991fd1e09daca82f29,reflection,False,True,reflective practice
+1b913a0ed3ab13c6f644,teamwork,False,True,teamwork
+1b913a0ed3ab13c6f644,leadership,False,True,leadership
+1b913a0ed3ab13c6f644,decision_making,False,True,decision making | decision-making
+1b913a0ed3ab13c6f644,clinical_reasoning,False,True,clinical reasoning
+1b913a0ed3ab13c6f644,critical_thinking,False,True,critical thinking | critical-thinking
+1b913a0ed3ab13c6f644,problem_solving,False,True,problem solving | problem-solving
+1b913a0ed3ab13c6f644,emotional_regulation,False,True,emotional regulation
+1b913a0ed3ab13c6f644,empathy,False,True,empathy
+1b913a0ed3ab13c6f644,reflection,False,True,reflective practice
+4f796e0ce90dce8d4da8,communication_skills,True,True,communication skills | effective communication
+4f796e0ce90dce8d4da8,risk_assessment,False,True,risk assessment
+0835d7fde9c090ca963c,communication_skills,False,True,clinical communication | communication skills
+0835d7fde9c090ca963c,critical_thinking,False,True,critical thinking | critical-thinking
+0835d7fde9c090ca963c,empathy,False,True,empathetic
+0835d7fde9c090ca963c,debriefing,False,True,debriefing
+0835d7fde9c090ca963c,reflection,False,True,reflective practice | self reflection | self-reflection
+49a3c3f5df637d33e854,clinical_reasoning,True,False,clinical reasoning | reasoning skills
+37bb0c4c182653ebb8f9,communication_skills,True,True,communication skills
+37bb0c4c182653ebb8f9,breaking_bad_news,False,True,breaking bad news
+37bb0c4c182653ebb8f9,shared_decision_making,False,True,shared decision making | shared decision-making
+37bb0c4c182653ebb8f9,decision_making,False,True,decision making | decision-making
+37bb0c4c182653ebb8f9,empathy,True,True,empathetic | empathic
+c2a9bbee811cd29891e3,patient_management,True,False,patient management
+d06c6ad96bb08eb739dc,risk_assessment,True,True,risk assessment
+b6f4bfb66f82ba008b32,clinical_reasoning,False,True,clinical reasoning
+6457c6be7c6ba150ede6,communication_skills,False,True,communication skills
+6457c6be7c6ba150ede6,clinical_reasoning,False,True,clinical reasoning | reasoning skills
+6457c6be7c6ba150ede6,patient_engagement,False,True,patient engagement
+60f8f44c77f909f61dc3,self_assessment,False,True,self assessment | self-assessment
+8094cb5448e9c4e2f371,interpersonal_skills,False,True,interpersonal skills
+8094cb5448e9c4e2f371,rapport,False,True,rapport
+8094cb5448e9c4e2f371,risk_assessment,False,True,risk assessment
+8094cb5448e9c4e2f371,empathy,False,True,empathic | empathy
+8094cb5448e9c4e2f371,feedback,False,True,formative feedback
+8094cb5448e9c4e2f371,self_assessment,True,True,self assessment | self-assessment
+0a25081e59bfa2406a89,breaking_bad_news,False,True,breaking bad news
+0a25081e59bfa2406a89,empathy,False,True,empathy
+0a25081e59bfa2406a89,feedback,False,True,real time feedback | real-time feedback
+e9d6ceded269a04cde99,teamwork,False,True,teamwork
+e9d6ceded269a04cde99,decision_making,False,True,decision making | decision-making
+a2883a095e505041a802,decision_making,False,True,decision making | decision-making
+a2883a095e505041a802,clinical_reasoning,False,True,clinical reasoning
+24c93ac0955292251f20,feedback,False,True,performance feedback
+7acd89712f3fc0bb4cb7,decision_making,False,True,clinical decision making | clinical decision-making | decision making | decision-making
+14e96fc7b4c3181fd39b,communication_skills,True,True,communication skills | effective communication
+14e96fc7b4c3181fd39b,breaking_bad_news,False,True,breaking bad news
+14e96fc7b4c3181fd39b,psychological_safety,False,True,psychological safety
+14e96fc7b4c3181fd39b,feedback,False,True,structured feedback
+e4caff2128dfb4f4ac0c,communication_skills,True,True,communication skill
+f30eee8f6354bfa06744,decision_making,False,True,decision making | decision-making
+f30eee8f6354bfa06744,debriefing,True,True,debriefing
+f30eee8f6354bfa06744,reflection,False,True,reflective practice
+f5c57c1a6cc5d054fcac,communication_skills,True,True,clinical communication
+f5c57c1a6cc5d054fcac,feedback,False,True,structured feedback
+44d09fb5dabfde2e9e31,communication_skills,False,True,clinical communication
+44d09fb5dabfde2e9e31,rapport,False,True,rapport
+44d09fb5dabfde2e9e31,clinical_reasoning,False,True,clinical reasoning
+243562012607f7033171,feedback,False,True,personalized feedback

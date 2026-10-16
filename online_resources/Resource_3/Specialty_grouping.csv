@@ -1,0 +1,129 @@
+raw_label,plain_label,display_group,classification_rule
+medicine,Medicine,general or multi-professional,fixed general or multi-professional label
+nursing,Nursing,other clinical specialty or profession,remaining checked category
+general_medical_education,General medical education,general or multi-professional,fixed general or multi-professional label
+health_professions,Health professions,general or multi-professional,fixed general or multi-professional label
+pharmacy,Pharmacy,other clinical specialty or profession,remaining checked category
+emergency_medicine,Emergency medicine,other clinical specialty or profession,remaining checked category
+psychiatry,Psychiatry,other clinical specialty or profession,remaining checked category
+dentistry,Dentistry,other clinical specialty or profession,remaining checked category
+mental_health,Mental health,other clinical specialty or profession,remaining checked category
+surgery,Surgery,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+primary_care,Primary care,other clinical specialty or profession,remaining checked category
+health_professions_education,Health professions education,general or multi-professional,fixed general or multi-professional label
+critical_care,Critical care,other clinical specialty or profession,remaining checked category
+paediatrics,Paediatrics,other clinical specialty or profession,remaining checked category
+interprofessional,Interprofessional,general or multi-professional,fixed general or multi-professional label
+palliative_care,Palliative care,other clinical specialty or profession,remaining checked category
+public_health,Public health,other clinical specialty or profession,remaining checked category
+endodontics,Endodontics,other clinical specialty or profession,remaining checked category
+gastroenterology,Gastroenterology,other clinical specialty or profession,remaining checked category
+nephrology,Nephrology,other clinical specialty or profession,remaining checked category
+oncology,Oncology,other clinical specialty or profession,remaining checked category
+ophthalmology,Ophthalmology,other clinical specialty or profession,remaining checked category
+rheumatology,Rheumatology,other clinical specialty or profession,remaining checked category
+addiction_medicine,Addiction medicine,other clinical specialty or profession,remaining checked category
+anaesthesiology,Anaesthesiology,other clinical specialty or profession,remaining checked category
+anesthesiology,Anesthesiology,other clinical specialty or profession,remaining checked category
+cardiology,Cardiology,other clinical specialty or profession,remaining checked category
+counselling_psychotherapy,Counselling psychotherapy,other clinical specialty or profession,remaining checked category
+dermatology,Dermatology,other clinical specialty or profession,remaining checked category
+internal_medicine,Internal medicine,other clinical specialty or profession,remaining checked category
+medical_imaging_education,Medical imaging education,other clinical specialty or profession,remaining checked category
+neurosurgery,Neurosurgery,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+physiotherapy,Physiotherapy,other clinical specialty or profession,remaining checked category
+psychology,Psychology,other clinical specialty or profession,remaining checked category
+psychotherapy,Psychotherapy,other clinical specialty or profession,remaining checked category
+anatomy_education,Anatomy education,other clinical specialty or profession,remaining checked category
+disaster_medicine,Disaster medicine,other clinical specialty or profession,remaining checked category
+general_surgery,General surgery,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+healthcare_professionals,Healthcare professionals,general or multi-professional,fixed general or multi-professional label
+midwifery,Midwifery,other clinical specialty or profession,remaining checked category
+neonatology,Neonatology,other clinical specialty or profession,remaining checked category
+otolaryngology,Otolaryngology,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+paramedicine_ems,Paramedicine ems,other clinical specialty or profession,remaining checked category
+radiology,Radiology,other clinical specialty or profession,remaining checked category
+respiratory_medicine,Respiratory medicine,other clinical specialty or profession,remaining checked category
+urology,Urology,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+anaesthesia,Anaesthesia,other clinical specialty or profession,remaining checked category
+audiology,Audiology,other clinical specialty or profession,remaining checked category
+dementia_care,Dementia care,other clinical specialty or profession,remaining checked category
+endocrinology,Endocrinology,other clinical specialty or profession,remaining checked category
+general_practice,General practice,other clinical specialty or profession,remaining checked category
+geriatrics,Geriatrics,other clinical specialty or profession,remaining checked category
+neurology,Neurology,other clinical specialty or profession,remaining checked category
+nurse_practitioner,Nurse practitioner,other clinical specialty or profession,remaining checked category
+nutrition_and_dietetics,Nutrition and dietetics,other clinical specialty or profession,remaining checked category
+obstetrics,Obstetrics,other clinical specialty or profession,remaining checked category
+occupational_therapy,Occupational therapy,other clinical specialty or profession,remaining checked category
+orthopaedic_surgery,Orthopaedic surgery,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+paramedicine,Paramedicine,other clinical specialty or profession,remaining checked category
+patient_safety,Patient safety,other clinical specialty or profession,remaining checked category
+physiology,Physiology,other clinical specialty or profession,remaining checked category
+plastic_surgery,Plastic surgery,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+smoking_cessation,Smoking cessation,other clinical specialty or profession,remaining checked category
+social_work,Social work,other clinical specialty or profession,remaining checked category
+suicide_prevention,Suicide prevention,other clinical specialty or profession,remaining checked category
+traditional_korean_medicine,Traditional korean medicine,other clinical specialty or profession,remaining checked category
+adolescent_health,Adolescent health,other clinical specialty or profession,remaining checked category
+aesthetic_medicine,Aesthetic medicine,other clinical specialty or profession,remaining checked category
+athletic_training,Athletic training,other clinical specialty or profession,remaining checked category
+bariatric_surgery,Bariatric surgery,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+behavioural_health,Behavioural health,other clinical specialty or profession,remaining checked category
+breast_imaging,Breast imaging,other clinical specialty or profession,remaining checked category
+clinical_medicine,Clinical medicine,other clinical specialty or profession,remaining checked category
+clinical_psychology,Clinical psychology,other clinical specialty or profession,remaining checked category
+clinical_social_work,Clinical social work,other clinical specialty or profession,remaining checked category
+counselling_psychology,Counselling psychology,other clinical specialty or profession,remaining checked category
+crisis_response,Crisis response,other clinical specialty or profession,remaining checked category
+diabetes,Diabetes,other clinical specialty or profession,remaining checked category
+diabetes_care,Diabetes care,other clinical specialty or profession,remaining checked category
+dietetics,Dietetics,other clinical specialty or profession,remaining checked category
+emergency_care,Emergency care,other clinical specialty or profession,remaining checked category
+general_internal_medicine,General internal medicine,other clinical specialty or profession,remaining checked category
+haematology_oncology,Haematology oncology,other clinical specialty or profession,remaining checked category
+healthcare_education,Healthcare education,general or multi-professional,fixed general or multi-professional label
+healthcare_management,Healthcare management,other clinical specialty or profession,remaining checked category
+healthcare_quality,Healthcare quality,other clinical specialty or profession,remaining checked category
+healthcare_simulationists,Healthcare simulationists,other clinical specialty or profession,remaining checked category
+history_of_medicine,History of medicine,other clinical specialty or profession,remaining checked category
+immunology,Immunology,other clinical specialty or profession,remaining checked category
+infectious_disease,Infectious disease,other clinical specialty or profession,remaining checked category
+interventional_radiology,Interventional radiology,other clinical specialty or profession,remaining checked category
+kampo_medicine,Kampo medicine,other clinical specialty or profession,remaining checked category
+korean_medicine,Korean medicine,other clinical specialty or profession,remaining checked category
+massage_therapy,Massage therapy,other clinical specialty or profession,remaining checked category
+medical_education_faculty_development,Medical education faculty development,general or multi-professional,fixed general or multi-professional label
+medical_english_language_education,Medical english language education,other clinical specialty or profession,remaining checked category
+medical_humanities,Medical humanities,other clinical specialty or profession,remaining checked category
+medical_technology,Medical technology,other clinical specialty or profession,remaining checked category
+medication_safety,Medication safety,other clinical specialty or profession,remaining checked category
+neonatal_nursing,Neonatal nursing,other clinical specialty or profession,remaining checked category
+nursing_education,Nursing education,other clinical specialty or profession,remaining checked category
+obstetrics_gynaecology,Obstetrics gynaecology,other clinical specialty or profession,remaining checked category
+operative_dentistry,Operative dentistry,other clinical specialty or profession,remaining checked category
+optometry,Optometry,other clinical specialty or profession,remaining checked category
+oral_medicine_and_pathology,Oral medicine and pathology,other clinical specialty or profession,remaining checked category
+orofacial_pain,Orofacial pain,other clinical specialty or profession,remaining checked category
+orthodontics,Orthodontics,other clinical specialty or profession,remaining checked category
+pain_management,Pain management,other clinical specialty or profession,remaining checked category
+pharmacokinetics,Pharmacokinetics,other clinical specialty or profession,remaining checked category
+physical_therapy,Physical therapy,other clinical specialty or profession,remaining checked category
+psychiatric_mental_health_nursing,Psychiatric mental health nursing,other clinical specialty or profession,remaining checked category
+psychodermatology,Psychodermatology,other clinical specialty or profession,remaining checked category
+radiation_oncology,Radiation oncology,other clinical specialty or profession,remaining checked category
+rehabilitation,Rehabilitation,other clinical specialty or profession,remaining checked category
+rehabilitation_medicine,Rehabilitation medicine,other clinical specialty or profession,remaining checked category
+remote_patient_monitoring,Remote patient monitoring,other clinical specialty or profession,remaining checked category
+sarcoma_care,Sarcoma care,other clinical specialty or profession,remaining checked category
+school_health,School health,other clinical specialty or profession,remaining checked category
+sexual_reproductive_health,Sexual reproductive health,other clinical specialty or profession,remaining checked category
+simulation_education,Simulation education,general or multi-professional,fixed general or multi-professional label
+spine_surgery,Spine surgery,surgical specialty,fixed surgical label or explicit surgery/surgical wording
+stroke_rehabilitation,Stroke rehabilitation,other clinical specialty or profession,remaining checked category
+traditional_asian_medicine,Traditional asian medicine,other clinical specialty or profession,remaining checked category
+traditional_chinese_medicine,Traditional chinese medicine,other clinical specialty or profession,remaining checked category
+transfusion_medicine,Transfusion medicine,other clinical specialty or profession,remaining checked category
+transitional_care,Transitional care,other clinical specialty or profession,remaining checked category
+undergraduate_medical_education,Undergraduate medical education,general or multi-professional,fixed general or multi-professional label
+veterinary_medicine,Veterinary medicine,other clinical specialty or profession,remaining checked category

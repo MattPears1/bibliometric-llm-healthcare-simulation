@@ -1,9 +1,0 @@
-ELIGIBILITY SAMPLE 2
-
-The five strata each contain 20 records. The sample has 80 records with existing production decisions and 20 outside the candidate frame. It was sampled with seed 20260919. Five records overlap Eligibility Sample 1; the two 100-record samples comprise 195 unique identifiers. Do not pool their agreement estimates.
-
-The lead author reports hiding the AI columns while recording initial answers. The subsequent comparison and recheck were separate stages. Preserve initial uncertainties and blanks; the two blanks were subsequently confirmed as exclusions, and further post-comparison decisions are separately labelled.
-
-Two supplementary GPT-6 Astra reviews, with maximum reasoning and task-specific written instructions, assessed the same 100 records. They are not the original GPT-5.6 Sol production decisions. The retained run record says the supplementary model reviews were prepared before the human review was finished. Do not describe these as models corroborating an already completed human-first pass.
-
-Final row-level author rationales were not entered for most rechecked decisions. An empty rationale is not supplied by an agent as though the author wrote it. V040 has a separately documented author explanation: this manuscript's earlier preprint.

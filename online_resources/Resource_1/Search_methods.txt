@@ -1,0 +1,20 @@
+ONLINE RESOURCE 1 - SEARCH METHODS
+
+18 exact searches across six sources. The eligibility window is 1 January 2020 to 13 August 2026. Five sources were searched on 14 August; Scopus on 16 August. Retrieval occurrences precede deduplication and are not unique studies. No new live search was conducted for this release.
+
+SOURCE TOTALS
+OpenAlex: 2910 occurrences; searched 2026-08-14
+PubMed: 722 occurrences; searched 2026-08-14
+Europe PMC: 578 occurrences; searched 2026-08-14
+Semantic Scholar: 2037 occurrences; searched 2026-08-14
+DOAJ: 468 occurrences; searched 2026-08-14
+Scopus: 3004 occurrences; searched 2026-08-16
+Total: 9,719 retrieval occurrences.
+
+CANDIDATE RULE
+A deduplicated record entered the candidate frame when its complete saved title, abstract, or source keywords contained evidence for all four prespecified concepts: (1) a language model or generative-language system; (2) healthcare; (3) education or training; and (4) simulation. Prespecified names, spelling variants, and related phrases were used. The rule defined the candidate frame and did not determine final eligibility.
+
+FILE FIELDS
+source and query_id identify each query; execution_date records when it ran; eligible_from/eligible_through define the publication window; fields_and_settings and query_text preserve the source-specific search; retrieval_occurrences is the query-level return count; status records the saved execution status.
+
+Attribution: Pears M, Wadhwa K, Payne SR, Konstantinidis STH, Biyani CS. Large language models in healthcare simulation education. DOI: 10.1007/s44186-026-00592-6. Resource version 3.0.1. Original derived material: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Third-party bibliographic facts and links retain their source rights; no raw abstracts or full texts are supplied.

@@ -1,0 +1,47 @@
+ONLINE RESOURCE 6 - PILOT AND LEAD-AUTHOR CHECKS
+
+This resource contains five separate exercises, one CSV each. They are checks of studies and review decisions, not records about research participants. There was one human lead-author reviewer. Later decisions remain separate from the frozen 483-study analysis; no reclassification of the published dataset is implied.
+
+1. Pilot: 100 AI-agent workflow-test records, sampled with seed 20260813-HV1. Initial decisions were 30 INCLUDE, 67 EXCLUDE and 3 UNCERTAIN. It tests workflow, not human-model agreement. The original H-prefixed Pilot template IDs are not the later human sample IDs: use paper_id for linking. The 23 overlapping human-sample records are identified in eligibility_sample1_overlap_id. The original protocol amendment and recovered-source hashes remain in the technical material.
+
+2. Eligibility sample 1: the August 100-record stratified human check, with its original rationales merged into the decision/comparison file. Its initial comparison was with the then-current five-source pipeline, before Scopus integration: 85/100 matches (85.0%; exact 95% CI 76.47% to 91.35%). A planned second human check was not completed. Historical human_final_* fields are preserved as recorded; they are not the later September post-comparison answers.
+
+3. Eligibility sample 2: the September 100-record check: 80 within the candidate frame and 20 outside it. Initial recorded agreement among firm within-frame answers was 65/77, with one blank and two uncertain answers. After separate clarification of the blank it was 65/78, still with two uncertain answers. After comparison/recheck it was 71/80, with nine differences. These are different stages, not interchangeable accuracy estimates. The 20 outside-frame records are not part of those denominators; V074 remained INCLUDE in the latest check. The five overlaps with Sample 1 are identified in the CSV; together the two human samples contain 195 unique identifiers, not 200 independent studies.
+
+4. Disagreement recheck: 15 selected disagreements with the original and latest author decisions side by side. This is a selected subset, not a new random validation sample. Most final author rationales were not recorded; V040 has the explicit explanation that it was this manuscript's earlier preprint. Missing explanations are not replaced by model-written rationales.
+
+5. NTS classification check: 44 studies with nine author-checked NTS labels and source/evidence notes. The 38 corpus studies also have frozen_* comparison columns (342 study-domain pairs). For the six other checked records, frozen_* cells are blank because there is no matched corpus comparison. Counts are 305 agreements, 22 differences and 15 unclear; 305/327 determinate comparisons agree (93.3%). Agreement includes non-reporting in both sources; it is not positive-skill detection accuracy. The 44 records were the union of frozen or later author inclusions within Sample 2, not an independent random sample.
+
+REVIEW PROCESS AND FIELD DEFINITIONS
+Sample 2 used seed 20260919 and five strata of 20. The lead author reports hiding AI columns for the initial answers; comparison/rechecking was later and was not blinded. Two supplementary GPT-6 Astra reviews at maximum reasoning were prepared before the human review was finished. They are separate from the original GPT-5.6 Sol production streams; supplementary_Astra_* rationales are model-authored.
+
+Pilot P IDs, Sample 1 H IDs and Sample 2 V IDs identify records within exercises, not people. Use paper_id to join records; it is not necessarily a DOI. Bibliographic titles and URLs provide source context, not a new live availability check. sample_group, sample_component and stratum retain sampling groups; their results must not be pooled as population accuracy estimates.
+
+INCLUDE and EXCLUDE are stage-specific eligibility decisions. UNCERTAIN is not automatic exclusion. BLANK_PENDING_CONFIRMATION is a missing initial answer. after_blank_clarification keeps subsequent confirmation separate. post_comparison/latest fields are later answers, not a second blinded pass. then_current_pipeline/historical_model fields refer to the original five-source comparison; frozen_production fields refer to the retained current comparison. production_A/B_initial_* are pre-resolution production answers. Primary codes are defined in Resource 2. Empty final rationale fields remain missing evidence.
+
+For NTS, Y means supported in the examined material; NR means not reported there; U means insufficient information. NR does not prove absence from the full article. Unprefixed domain columns are the lead author's checks of AI-prepared evidence summaries/labels; frozen_* columns are production labels. For the 38 matched studies, U is UNCLEAR; otherwise equal labels AGREE and unequal labels DIFFER. Blank frozen_* cells for the other six records mean no matched corpus comparison, not NR. material_examined, source_locator and evidence_notes preserve source/version limitations and uncertainty. These were not independent blinded first-pass extractions. The original other-classifications sheet remains blank and is not presented as completed human validation.
+
+SAMPLE 1 STRATUM ESTIMATES
+The following compact CSV block preserves the recorded stratum results and exact 95% intervals. Zero observed errors does not imply zero population errors or complete search sensitivity. The planned second-human confirmation/adjudication fields remain historical pending fields.
+sample_group,sample_component,records_reviewed,resolved_binary_records,human_include,human_exclude,human_uncertain,apparent_model_status_errors,apparent_error_proportion,exact_95pct_lower,exact_95pct_upper,confirmed_model_status_errors,pending_second_human_or_adjudication,interpretation
+A_DIFFICULT,ALL,40,40,14,26,0,7,0.175,0.07338272935208517,0.3277901333615859,0,7,Deliberately difficult sample; do not generalize this error proportion to ordinary records.
+A_DIFFICULT,DISAGREE,15,15,1,14,0,1,0.06666666666666667,0.0016864302413526766,0.3194845665783034,0,1,Deliberately difficult sample; do not generalize this error proportion to ordinary records.
+A_DIFFICULT,MISSING,10,10,7,3,0,1,0.1,0.0025285785444618125,0.4450161170281953,0,1,Deliberately difficult sample; do not generalize this error proportion to ordinary records.
+A_DIFFICULT,UNCERTAIN,15,15,6,9,0,5,0.3333333333333333,0.1182411033668807,0.6161962674588459,0,5,Deliberately difficult sample; do not generalize this error proportion to ordinary records.
+B_AGREED_INCLUDE,ALL,20,20,14,6,0,6,0.3,0.1189315904057276,0.5427891822762891,0,6,"Check of model-agreed inclusions; the interval is stratum-specific, not overall sensitivity."
+B_AGREED_INCLUDE,AGREED_INCLUDE,20,20,14,6,0,6,0.3,0.1189315904057276,0.5427891822762891,0,6,"Check of model-agreed inclusions; the interval is stratum-specific, not overall sensitivity."
+C_AGREED_EXCLUDE,ALL,20,20,0,20,0,0,0.0,0.0,0.1684334709830853,0,0,"Check of model-agreed exclusions; the interval is stratum-specific, not overall specificity."
+C_AGREED_EXCLUDE,MIXED_EXCLUDE,10,10,0,10,0,0,0.0,0.0,0.3084971078187607,0,0,"Check of model-agreed exclusions; the interval is stratum-specific, not overall specificity."
+C_AGREED_EXCLUDE,SAME_EXCLUDE,10,10,0,10,0,0,0.0,0.0,0.3084971078187607,0,0,"Check of model-agreed exclusions; the interval is stratum-specific, not overall specificity."
+D_BOUNDARY_NEGATIVE,ALL,20,20,2,18,0,2,0.1,0.012348527170294832,0.3169827140190823,0,2,Search-boundary tripwire; it does not estimate recall for the whole outside-frame universe.
+D_BOUNDARY_NEGATIVE,BOUNDARY_NO_ED,6,6,1,5,0,1,0.16666666666666666,0.004210744514489495,0.6412345789976748,0,1,Search-boundary tripwire; it does not estimate recall for the whole outside-frame universe.
+D_BOUNDARY_NEGATIVE,BOUNDARY_NO_HEALTH,6,6,1,5,0,1,0.16666666666666666,0.004210744514489495,0.6412345789976748,0,1,Search-boundary tripwire; it does not estimate recall for the whole outside-frame universe.
+D_BOUNDARY_NEGATIVE,BOUNDARY_NO_SIM,8,8,0,8,0,0,0.0,0.0,0.3694166475528192,0,0,Search-boundary tripwire; it does not estimate recall for the whole outside-frame universe.
+
+ADDITIONAL SAMPLE 1 AGREEMENT ESTIMATES
+human_vs_reviewer_A_three_way_raw_agreement_candidate_records: 38/80; exact 95% interval 0.36213358167715237 to 0.5897721586232294.
+human_vs_reviewer_B_three_way_raw_agreement_candidate_records: 61/80; exact 95% interval 0.6542230288597322 to 0.8505462481433592.
+The 85/100 initial pipeline match applies to both recorded three-way and binary INCLUDE/non-INCLUDE comparisons. These are human-model audit agreement measures, not human inter-rater reliability and not sensitivity or specificity. Exact 95% binomial intervals are Clopper-Pearson intervals.
+Zero observed errors never proves zero errors or complete search sensitivity. For 0 errors among 20 records, the two-sided exact 95% upper limit is 0.168433.
+
+Attribution: Pears M, Wadhwa K, Payne SR, Konstantinidis STH, Biyani CS. Large language models in healthcare simulation education. DOI: 10.1007/s44186-026-00592-6. Resource version 3.0.1. Original derived material: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Third-party bibliographic facts and links retain their source rights; no raw abstracts or full texts are supplied.

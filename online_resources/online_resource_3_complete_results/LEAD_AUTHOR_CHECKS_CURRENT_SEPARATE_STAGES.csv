@@ -1,6 +1,0 @@
-﻿check,agreements,denominator,percent,interpretation
-"Eligibility Sample 1, initial",85,100,85,Initial sample-specific agreement with then-current pipeline; OR6 section 2
-"Eligibility Sample 1, rechecked 15, within frame",11,13,84.61538461538461,"Post-comparison author recheck, not initial accuracy; OR6 section 4"
-"Eligibility Sample 2, initial definite within frame",65,77,84.4155844155844,Two uncertain and one blank within-frame answer outside this denominator; OR6 section 3
-"Eligibility Sample 2, post-comparison within frame",71,80,88.75,Nine differences remain against frozen production; OR6 section 3
-"NTS, determinate study-domain judgements",305,327,93.27217125382263,38 corpus studies x nine domains; 15 unclear judgements excluded; OR6 section 5

@@ -1,9 +1,0 @@
-HOW TO READ THE NTS CHECK
-
-Y = the material examined supports that NTS area. NR = it was not reported in the material examined. U = the available information was insufficient to decide. NR does not claim that the full paper definitively contains no such skill; U is not silently changed to NR or exclusion.
-
-Each of 44 records has nine judgements (396 in total). Only 38 are in the frozen 483-study corpus, giving 342 matched comparisons. Fifteen were unclear. Of the 327 determinate comparisons, 305 agreed and 22 differed. Both positive and negative agreements contribute to 93.3%; it is not 93.3% positive-skill detection accuracy.
-
-These are the lead author's checks of AI-prepared evidence summaries and labels, as described in Methods 2.7 and the response to the Editor. They are not independent blinded first-pass extraction. The source workbook's original instructional labels are retained privately, not treated as evidence of a different review design.
-
-The other-classifications sheet (simulation, study design, specialty, model identity and associated evidence fields) remains blank. Do not present it as completed human validation. The six records outside the current analysed corpus are not automatically added, and these NTS findings have not replaced frozen production labels.

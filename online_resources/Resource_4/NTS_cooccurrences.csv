@@ -1,0 +1,172 @@
+row_concept_id,row_concept_label,column_concept_id,column_concept_label,cooccurring_studies,cosine_normalised_strength,diagonal_frequency
+communication_skills,Communication skills,communication_skills,Communication skills,98,1.0,True
+clinical_reasoning,Clinical reasoning,communication_skills,Communication skills,20,0.22447834,False
+clinical_reasoning,Clinical reasoning,clinical_reasoning,Clinical reasoning,81,1.0,True
+feedback,Feedback,communication_skills,Communication skills,23,0.29041886,False
+feedback,Feedback,clinical_reasoning,Clinical reasoning,16,0.22222222,False
+feedback,Feedback,feedback,Feedback,64,1.0,True
+decision_making,Decision-making,communication_skills,Communication skills,12,0.15649216,False
+decision_making,Decision-making,clinical_reasoning,Clinical reasoning,18,0.25819889,False
+decision_making,Decision-making,feedback,Feedback,11,0.17751174,False
+decision_making,Decision-making,decision_making,Decision-making,60,1.0,True
+empathy,Empathy,communication_skills,Communication skills,22,0.31118923,False
+empathy,Empathy,clinical_reasoning,Clinical reasoning,8,0.12446934,False
+empathy,Empathy,feedback,Feedback,16,0.28005602,False
+empathy,Empathy,decision_making,Decision-making,11,0.19885292,False
+empathy,Empathy,empathy,Empathy,51,1.0,True
+debriefing,Debriefing,communication_skills,Communication skills,5,0.09071438,False
+debriefing,Debriefing,clinical_reasoning,Clinical reasoning,6,0.11973687,False
+debriefing,Debriefing,feedback,Feedback,5,0.11225331,False
+debriefing,Debriefing,decision_making,Decision-making,7,0.16230861,False
+debriefing,Debriefing,empathy,Empathy,4,0.10059909,False
+debriefing,Debriefing,debriefing,Debriefing,31,1.0,True
+critical_thinking,Critical thinking,communication_skills,Communication skills,4,0.09799919,False
+critical_thinking,Critical thinking,clinical_reasoning,Clinical reasoning,6,0.16169042,False
+critical_thinking,Critical thinking,feedback,Feedback,1,0.03031695,False
+critical_thinking,Critical thinking,decision_making,Decision-making,7,0.2191785,False
+critical_thinking,Critical thinking,empathy,Empathy,4,0.13584712,False
+critical_thinking,Critical thinking,debriefing,Debriefing,4,0.17424274,False
+critical_thinking,Critical thinking,critical_thinking,Critical thinking,17,1.0,True
+diagnostic_reasoning,Diagnostic reasoning,communication_skills,Communication skills,6,0.14699879,False
+diagnostic_reasoning,Diagnostic reasoning,clinical_reasoning,Clinical reasoning,6,0.16169042,False
+diagnostic_reasoning,Diagnostic reasoning,feedback,Feedback,0,0.0,False
+diagnostic_reasoning,Diagnostic reasoning,decision_making,Decision-making,2,0.06262243,False
+diagnostic_reasoning,Diagnostic reasoning,empathy,Empathy,3,0.10188534,False
+diagnostic_reasoning,Diagnostic reasoning,debriefing,Debriefing,0,0.0,False
+diagnostic_reasoning,Diagnostic reasoning,critical_thinking,Critical thinking,0,0.0,False
+diagnostic_reasoning,Diagnostic reasoning,diagnostic_reasoning,Diagnostic reasoning,17,1.0,True
+teamwork,Teamwork,communication_skills,Communication skills,1,0.02801659,False
+teamwork,Teamwork,clinical_reasoning,Clinical reasoning,4,0.12326671,False
+teamwork,Teamwork,feedback,Feedback,2,0.06933752,False
+teamwork,Teamwork,decision_making,Decision-making,8,0.28644595,False
+teamwork,Teamwork,empathy,Empathy,2,0.07767356,False
+teamwork,Teamwork,debriefing,Debriefing,5,0.24906774,False
+teamwork,Teamwork,critical_thinking,Critical thinking,2,0.13453456,False
+teamwork,Teamwork,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+teamwork,Teamwork,teamwork,Teamwork,13,1.0,True
+breaking_bad_news,Breaking bad news,communication_skills,Communication skills,5,0.15228623,False
+breaking_bad_news,Breaking bad news,clinical_reasoning,Clinical reasoning,0,0.0,False
+breaking_bad_news,Breaking bad news,feedback,Feedback,5,0.18844459,False
+breaking_bad_news,Breaking bad news,decision_making,Decision-making,2,0.07784989,False
+breaking_bad_news,Breaking bad news,empathy,Empathy,5,0.21110017,False
+breaking_bad_news,Breaking bad news,debriefing,Debriefing,1,0.05415304,False
+breaking_bad_news,Breaking bad news,critical_thinking,Critical thinking,0,0.0,False
+breaking_bad_news,Breaking bad news,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+breaking_bad_news,Breaking bad news,teamwork,Teamwork,1,0.0836242,False
+breaking_bad_news,Breaking bad news,breaking_bad_news,Breaking bad news,11,1.0,True
+professional_judgement,Professional judgement,communication_skills,Communication skills,1,0.03045725,False
+professional_judgement,Professional judgement,clinical_reasoning,Clinical reasoning,3,0.10050378,False
+professional_judgement,Professional judgement,feedback,Feedback,0,0.0,False
+professional_judgement,Professional judgement,decision_making,Decision-making,0,0.0,False
+professional_judgement,Professional judgement,empathy,Empathy,0,0.0,False
+professional_judgement,Professional judgement,debriefing,Debriefing,1,0.05415304,False
+professional_judgement,Professional judgement,critical_thinking,Critical thinking,1,0.07312724,False
+professional_judgement,Professional judgement,diagnostic_reasoning,Diagnostic reasoning,1,0.07312724,False
+professional_judgement,Professional judgement,teamwork,Teamwork,0,0.0,False
+professional_judgement,Professional judgement,breaking_bad_news,Breaking bad news,0,0.0,False
+professional_judgement,Professional judgement,professional_judgement,Professional judgement,11,1.0,True
+reflection,Reflection / reflective practice,communication_skills,Communication skills,3,0.09137174,False
+reflection,Reflection / reflective practice,clinical_reasoning,Clinical reasoning,1,0.03350126,False
+reflection,Reflection / reflective practice,feedback,Feedback,1,0.03768892,False
+reflection,Reflection / reflective practice,decision_making,Decision-making,2,0.07784989,False
+reflection,Reflection / reflective practice,empathy,Empathy,3,0.1266601,False
+reflection,Reflection / reflective practice,debriefing,Debriefing,6,0.32491822,False
+reflection,Reflection / reflective practice,critical_thinking,Critical thinking,2,0.14625448,False
+reflection,Reflection / reflective practice,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+reflection,Reflection / reflective practice,teamwork,Teamwork,3,0.2508726,False
+reflection,Reflection / reflective practice,breaking_bad_news,Breaking bad news,0,0.0,False
+reflection,Reflection / reflective practice,professional_judgement,Professional judgement,0,0.0,False
+reflection,Reflection / reflective practice,reflection,Reflection / reflective practice,11,1.0,True
+shared_decision_making,Shared decision-making,communication_skills,Communication skills,3,0.10714286,False
+shared_decision_making,Shared decision-making,clinical_reasoning,Clinical reasoning,2,0.07856742,False
+shared_decision_making,Shared decision-making,feedback,Feedback,2,0.08838835,False
+shared_decision_making,Shared decision-making,decision_making,Decision-making,8,0.36514837,False
+shared_decision_making,Shared decision-making,empathy,Empathy,2,0.09901475,False
+shared_decision_making,Shared decision-making,debriefing,Debriefing,2,0.12700013,False
+shared_decision_making,Shared decision-making,critical_thinking,Critical thinking,1,0.08574929,False
+shared_decision_making,Shared decision-making,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+shared_decision_making,Shared decision-making,teamwork,Teamwork,0,0.0,False
+shared_decision_making,Shared decision-making,breaking_bad_news,Breaking bad news,1,0.10660036,False
+shared_decision_making,Shared decision-making,professional_judgement,Professional judgement,0,0.0,False
+shared_decision_making,Shared decision-making,reflection,Reflection / reflective practice,0,0.0,False
+shared_decision_making,Shared decision-making,shared_decision_making,Shared decision-making,8,1.0,True
+interpersonal_skills,Interpersonal skills,communication_skills,Communication skills,1,0.03818018,False
+interpersonal_skills,Interpersonal skills,clinical_reasoning,Clinical reasoning,0,0.0,False
+interpersonal_skills,Interpersonal skills,feedback,Feedback,2,0.09449112,False
+interpersonal_skills,Interpersonal skills,decision_making,Decision-making,0,0.0,False
+interpersonal_skills,Interpersonal skills,empathy,Empathy,3,0.15877684,False
+interpersonal_skills,Interpersonal skills,debriefing,Debriefing,0,0.0,False
+interpersonal_skills,Interpersonal skills,critical_thinking,Critical thinking,0,0.0,False
+interpersonal_skills,Interpersonal skills,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+interpersonal_skills,Interpersonal skills,teamwork,Teamwork,0,0.0,False
+interpersonal_skills,Interpersonal skills,breaking_bad_news,Breaking bad news,0,0.0,False
+interpersonal_skills,Interpersonal skills,professional_judgement,Professional judgement,0,0.0,False
+interpersonal_skills,Interpersonal skills,reflection,Reflection / reflective practice,0,0.0,False
+interpersonal_skills,Interpersonal skills,shared_decision_making,Shared decision-making,0,0.0,False
+interpersonal_skills,Interpersonal skills,interpersonal_skills,Interpersonal skills,7,1.0,True
+rapport,Rapport and trust,communication_skills,Communication skills,2,0.07636035,False
+rapport,Rapport and trust,clinical_reasoning,Clinical reasoning,1,0.04199605,False
+rapport,Rapport and trust,feedback,Feedback,2,0.09449112,False
+rapport,Rapport and trust,decision_making,Decision-making,0,0.0,False
+rapport,Rapport and trust,empathy,Empathy,2,0.10585122,False
+rapport,Rapport and trust,debriefing,Debriefing,0,0.0,False
+rapport,Rapport and trust,critical_thinking,Critical thinking,0,0.0,False
+rapport,Rapport and trust,diagnostic_reasoning,Diagnostic reasoning,1,0.09166985,False
+rapport,Rapport and trust,teamwork,Teamwork,0,0.0,False
+rapport,Rapport and trust,breaking_bad_news,Breaking bad news,1,0.11396058,False
+rapport,Rapport and trust,professional_judgement,Professional judgement,1,0.11396058,False
+rapport,Rapport and trust,reflection,Reflection / reflective practice,1,0.11396058,False
+rapport,Rapport and trust,shared_decision_making,Shared decision-making,0,0.0,False
+rapport,Rapport and trust,interpersonal_skills,Interpersonal skills,2,0.28571429,False
+rapport,Rapport and trust,rapport,Rapport and trust,7,1.0,True
+problem_solving,Problem solving,communication_skills,Communication skills,0,0.0,False
+problem_solving,Problem solving,clinical_reasoning,Clinical reasoning,4,0.16798421,False
+problem_solving,Problem solving,feedback,Feedback,0,0.0,False
+problem_solving,Problem solving,decision_making,Decision-making,4,0.19518001,False
+problem_solving,Problem solving,empathy,Empathy,2,0.10585122,False
+problem_solving,Problem solving,debriefing,Debriefing,1,0.06788442,False
+problem_solving,Problem solving,critical_thinking,Critical thinking,3,0.27500955,False
+problem_solving,Problem solving,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+problem_solving,Problem solving,teamwork,Teamwork,1,0.10482848,False
+problem_solving,Problem solving,breaking_bad_news,Breaking bad news,0,0.0,False
+problem_solving,Problem solving,professional_judgement,Professional judgement,0,0.0,False
+problem_solving,Problem solving,reflection,Reflection / reflective practice,1,0.11396058,False
+problem_solving,Problem solving,shared_decision_making,Shared decision-making,0,0.0,False
+problem_solving,Problem solving,interpersonal_skills,Interpersonal skills,0,0.0,False
+problem_solving,Problem solving,rapport,Rapport and trust,0,0.0,False
+problem_solving,Problem solving,problem_solving,Problem solving,7,1.0,True
+risk_assessment,Risk assessment,communication_skills,Communication skills,2,0.07636035,False
+risk_assessment,Risk assessment,clinical_reasoning,Clinical reasoning,1,0.04199605,False
+risk_assessment,Risk assessment,feedback,Feedback,1,0.04724556,False
+risk_assessment,Risk assessment,decision_making,Decision-making,1,0.048795,False
+risk_assessment,Risk assessment,empathy,Empathy,1,0.05292561,False
+risk_assessment,Risk assessment,debriefing,Debriefing,2,0.13576885,False
+risk_assessment,Risk assessment,critical_thinking,Critical thinking,0,0.0,False
+risk_assessment,Risk assessment,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+risk_assessment,Risk assessment,teamwork,Teamwork,0,0.0,False
+risk_assessment,Risk assessment,breaking_bad_news,Breaking bad news,0,0.0,False
+risk_assessment,Risk assessment,professional_judgement,Professional judgement,0,0.0,False
+risk_assessment,Risk assessment,reflection,Reflection / reflective practice,0,0.0,False
+risk_assessment,Risk assessment,shared_decision_making,Shared decision-making,0,0.0,False
+risk_assessment,Risk assessment,interpersonal_skills,Interpersonal skills,1,0.14285714,False
+risk_assessment,Risk assessment,rapport,Rapport and trust,1,0.14285714,False
+risk_assessment,Risk assessment,problem_solving,Problem solving,0,0.0,False
+risk_assessment,Risk assessment,risk_assessment,Risk assessment,7,1.0,True
+leadership,Leadership,communication_skills,Communication skills,0,0.0,False
+leadership,Leadership,clinical_reasoning,Clinical reasoning,1,0.04199605,False
+leadership,Leadership,feedback,Feedback,0,0.0,False
+leadership,Leadership,decision_making,Decision-making,2,0.09759001,False
+leadership,Leadership,empathy,Empathy,1,0.05292561,False
+leadership,Leadership,debriefing,Debriefing,1,0.06788442,False
+leadership,Leadership,critical_thinking,Critical thinking,1,0.09166985,False
+leadership,Leadership,diagnostic_reasoning,Diagnostic reasoning,0,0.0,False
+leadership,Leadership,teamwork,Teamwork,2,0.20965697,False
+leadership,Leadership,breaking_bad_news,Breaking bad news,0,0.0,False
+leadership,Leadership,professional_judgement,Professional judgement,0,0.0,False
+leadership,Leadership,reflection,Reflection / reflective practice,1,0.11396058,False
+leadership,Leadership,shared_decision_making,Shared decision-making,0,0.0,False
+leadership,Leadership,interpersonal_skills,Interpersonal skills,0,0.0,False
+leadership,Leadership,rapport,Rapport and trust,0,0.0,False
+leadership,Leadership,problem_solving,Problem solving,1,0.14285714,False
+leadership,Leadership,risk_assessment,Risk assessment,0,0.0,False
+leadership,Leadership,leadership,Leadership,7,1.0,True

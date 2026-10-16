@@ -1,43 +1,26 @@
 # Large language models in healthcare simulation education
 
-Publication resources for **Large language models in healthcare simulation education: a bibliometric analysis of simulation approaches and non-technical skills**, Global Surgical Education – Journal of the Association for Surgical Education.
+Supplementary material for the 483-study bibliometric analysis of simulation approaches and non-technical skills, Global Surgical Education. [Article DOI](https://doi.org/10.1007/s44186-026-00592-6).
 
-**Version 3.0.0 · 16 October 2026 · frozen 483-study analysis.**
+**Version 3.0.1 · 16 October 2026.** The frozen study set and classifications are unchanged. This release simplifies the downloads and separates technical material from the six reader resources.
 
-| Selection stage | Count |
-| --- | ---: |
-| Exact searches across six sources | 18 |
-| Retrieval occurrences | 9,719 |
-| Candidate records reviewed | 3,919 |
-| Eligible publication records | 547 |
-| Alternate publication versions | 64 |
-| Unique studies | **483** |
+| Online Resource | What it contains | Essential files |
+| --- | --- | ---: |
+| [1. Searches](online_resources/Resource_1/) | 18 exact queries; search dates, source totals and candidate rule | 2 |
+| [2. Selection and publication versions](online_resources/Resource_2/) | Decisions for 3,919 candidates; 547 publication records; selection summary and eligibility criteria | 4 |
+| [3. Complete results](online_resources/Resource_3/) | Descriptive results, author identities/productivity, corrected model reporting, sensitivity results and specialty grouping | 6 |
+| [4. Phrases and NTS](online_resources/Resource_4/) | Phrase and NTS dictionaries/counts, study-level indicators/assignments and co-occurrences | 7 |
+| [5. Study dataset](online_resources/Resource_5/) | One row for each of the 483 studies, including corrected model evidence, plus a data dictionary | 2 |
+| [6. Pilot and author checks](online_resources/Resource_6/) | Pilot, both eligibility samples, 15-case recheck and NTS check; methods and limitations | 6 |
 
-The eligibility window is 1 January 2020–13 August 2026. Five sources were searched on 14 August and Scopus on 16 August 2026. The 2026 count is partial and is not annualised.
+[Download the six small ZIPs](https://github.com/MattPears1/bibliometric-llm-healthcare-simulation/releases/tag/v3.0.1). Each contains only the files in its resource folder. There are no nested archives, repeated figure files, source code, checksum inventories or separate README/licence files inside the ZIPs. Each resource's methods/dictionary text includes the necessary interpretation and short attribution/licence notice.
 
-## The six Online Resources
+[Technical material](technical/) holds the code, protocols, output schema, batch/review manifests, provenance and seven figures once. These historical scripts require controlled source inputs for a full rerun; they do not make the reduced dataset a complete raw-data pipeline. GitHub's automatically generated “Source code” downloads contain the whole repository, including this technical material. Readers who want the supplements should use the six named Online Resource ZIPs.
 
-| Resource | Contents |
-| --- | --- |
-| [1. Searches](online_resources/online_resource_1_search_strategy/) | All 18 exact searches, dates, source totals and candidate rule |
-| [2. Selection and publication versions](online_resources/online_resource_2_selection_and_versions/) | All 3,919 screening decisions and 547 eligible publication records |
-| [3. Complete results](online_resources/online_resource_3_complete_results/) | Descriptive and sensitivity results, with the corrected model-family audit |
-| [4. Phrases and NTS](online_resources/online_resource_4_phrases/) | Dictionaries, per-study indicators, networks and fine-grained NTS concepts |
-| [5. Study dataset and code](online_resources/online_resource_5_reduced_dataset/) | One row per study, current model identities, dictionary, provenance and analysis code |
-| [6. Pilot and lead-author checks](online_resources/online_resource_6_validation/) | Recovered Pilot; both eligibility samples; disagreement recheck; NTS classification check |
+Selection: 9,719 retrieval occurrences across six sources → 3,919 candidates → 547 eligible publication records → 483 studies after grouping 64 alternate versions. The eligibility window ends on 13 August 2026; 2026 is a partial year.
 
-[Download the six resource ZIP files](https://github.com/MattPears1/bibliometric-llm-healthcare-simulation/releases/tag/v3.0.0). [All seven article figures](results/figures/) and their captions are also included.
+The 100-record Pilot was an AI workflow test, not human validation. The human checks had one lead-author reviewer. Initial, clarified and post-comparison decisions remain separate; later checks have not overwritten the frozen results. Unclear NTS judgements and missing final author rationales remain explicit in Resource 6.
 
-The Pilot contains 100 agent-generated workflow-test decisions. Its 23-record overlap with the August human sample has been verified from the original identifiers. It is not human validation. The two human eligibility samples share five records; these are a different pair of exercises.
+The current resources contain published researchers' names and bibliographic links; they do not contain named participant records or email addresses. Raw API responses, full abstracts, source-keyword text, downloaded full texts and private workbooks are excluded. Earlier repository history is unchanged.
 
-There was one lead author performing human checks. Initial answers, later comparison-assisted answers and unresolved differences remain separate. The later checks do not replace the frozen 483-study classifications. See [validation limitations](online_resources/online_resource_6_validation/README.md).
-
-## Verify and reuse
-
-Run **python -B code/verify_public_release.py .** from the repository root. This offline command checks every released file hash and key scientific counts and joins. Run **python -B -m unittest discover -s code -p test_verify_public_release.py** for its regression tests.
-
-The original derived material is under [CC BY 4.0](LICENSE-DATA.md); software is under the [MIT License](LICENSE). Raw provider responses, abstracts, source-keyword text, downloaded full texts and private workbooks are excluded. The public files support inspection and verification; a complete raw-data rerun requires the controlled source inputs. [Reproducibility guide](docs/REPRODUCIBILITY.md).
-
-The earlier 485-study release remains in Git history and the v2.0.0 tag for provenance. It is superseded for the current article. Use the current corrected model-family fields rather than historical extraction wording.
-
-Article identifier supplied in the publisher proof: [10.1007/s44186-026-00592-6](https://doi.org/10.1007/s44186-026-00592-6). Citation details are in [CITATION.cff](CITATION.cff).
+Original derived material: [CC BY 4.0](LICENSE-DATA.md). Software: [MIT](LICENSE). Cite using [CITATION.cff](CITATION.cff). Earlier 485-study releases are superseded for this article.

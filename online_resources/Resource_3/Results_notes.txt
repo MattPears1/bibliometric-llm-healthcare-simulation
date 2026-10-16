@@ -1,0 +1,15 @@
+ONLINE RESOURCE 3 - COMPLETE RESULTS
+
+Descriptive_results.csv groups the complete annual, citation, coverage, geography, open-access, publication-source, retrieval-source, simulation, specialty, study-design and NTS-domain results. Filter by section and measure. Author_productivity.csv combines the author identity ledger with study counts. Model_reporting.csv contains the corrected model-family counts and separate identity-coverage categories. Specialty_grouping.csv defines the grouping used for the specialty figure. Sensitivity_results.csv preserves each named sensitivity cohort and denominator; it is not another main analysis.
+
+The main corpus is 483 studies. The 2026 period ends on 13 August and is not annualised. Counts are not necessarily additive: multiple-response categories can overlap. Country whole and fractional counts answer different questions; use the stated unit and denominator. Authorship covers 475 studies, 2,382 identities and 2,624 author-study links. Name-only identities are explicitly flagged; they are not verified unique individuals. The author percentage denominator is the 475 studies with usable authorship.
+
+Model identity and model-family reporting are different: 317 studies name at least one model family; 166 do not. An unspecified model label can coexist with a named family, so its count is not the same as the no-named-family count. Current corrected model labels take precedence over historical extraction prose.
+
+Sensitivity cohorts remain separate: exact identifier metadata (470 studies), exclusion of standalone preprints/repository-only records (464 studies), and retained-abstract restrictions where stated. Corrected model-family sensitivity is supplied for the 470-study cohort; there was no separate corrected-model re-audit of the 464-study cohort. A repeated author or category across cohorts is a different result, not a duplicate row.
+
+Column meanings: section/measure identify the analysis; category is the reported label; count or value is the statistic; percent uses denominator and denominator_definition; value_text holds textual values or identifiers; unit and response_type describe counting; work_ids lists the contributing study IDs where available; note preserves qualifications. Empty fields are not zero. Phrase-specific sensitivity rows also preserve title_count, abstract_count and keyword_count. Source-specific retained text is not redistributed.
+
+The seven article figures are available once in technical/figures. Manuscript-table subsets have been omitted from this download because the full results are supplied here. Selection/reviewer summaries are in Resource 2 and human checks in Resource 6.
+
+Attribution: Pears M, Wadhwa K, Payne SR, Konstantinidis STH, Biyani CS. Large language models in healthcare simulation education. DOI: 10.1007/s44186-026-00592-6. Resource version 3.0.1. Original derived material: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Third-party bibliographic facts and links retain their source rights; no raw abstracts or full texts are supplied.

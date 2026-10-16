@@ -1,0 +1,562 @@
+phrase_1,phrase_2,phrase_1_studies,phrase_2_studies,cooccurring_studies,cosine_strength,in_figure_3
+large language model,generative artificial intelligence,257,222,65,0.272126169035,0
+large language model,retrieval-augmented generation,257,19,14,0.200347844142,0
+large language model,chatbot or conversational agent,257,77,44,0.312781279748,0
+large language model,virtual patient,257,163,102,0.498356133731,0
+large language model,simulated patient,257,77,49,0.348324606992,0
+large language model,standardized patient,257,90,63,0.414240667655,0
+large language model,scenario-based simulation,257,2,2,0.0882162182782,0
+large language model,objective structured clinical examination,257,57,29,0.239603969333,0
+large language model,role-play,257,52,31,0.268159668671,0
+large language model,mannequin simulation,257,0,0,,0
+large language model,task trainer,257,2,0,0,0
+large language model,virtual reality,257,68,32,0.242063305941,0
+large language model,augmented or extended reality,257,17,11,0.166418522835,0
+large language model,serious game,257,4,3,0.0935674292328,0
+large language model,debriefing,257,35,14,0.147613967051,0
+large language model,automated feedback,257,26,18,0.220200991151,0
+large language model,medical or health-professions education,257,220,120,0.504665183358,0
+large language model,surgical education,257,12,9,0.162063541365,0
+large language model,nursing education,257,64,15,0.116959286541,0
+large language model,dental education,257,17,9,0.136160609592,0
+large language model,interprofessional education,257,6,1,0.0254658286849,0
+large language model,communication skills,257,104,57,0.348651569323,0
+large language model,clinical reasoning,257,95,55,0.351993241795,0
+large language model,decision-making,257,64,33,0.25731043039,0
+large language model,teamwork,257,13,6,0.103803742711,0
+large language model,leadership,257,7,5,0.117883880269,0
+large language model,situational awareness,257,1,1,0.0623782861552,0
+large language model,task management,257,0,0,,0
+large language model,stress management,257,0,0,,0
+large language model,professionalism,257,7,4,0.0943071042154,0
+large language model,crisis resource management,257,0,0,,0
+large language model,empathy,257,44,24,0.225693131173,0
+large language model,assessment or scoring,257,165,93,0.451621298167,0
+generative artificial intelligence,retrieval-augmented generation,222,19,4,0.0615895035794,0
+generative artificial intelligence,chatbot or conversational agent,222,77,36,0.275347191408,0
+generative artificial intelligence,virtual patient,222,163,75,0.394267495364,0
+generative artificial intelligence,simulated patient,222,77,26,0.198861860461,0
+generative artificial intelligence,standardized patient,222,90,35,0.247611209987,0
+generative artificial intelligence,scenario-based simulation,222,2,0,0,0
+generative artificial intelligence,objective structured clinical examination,222,57,24,0.213352298825,0
+generative artificial intelligence,role-play,222,52,26,0.241988757091,0
+generative artificial intelligence,mannequin simulation,222,0,0,,0
+generative artificial intelligence,task trainer,222,2,2,0.0949157995752,0
+generative artificial intelligence,virtual reality,222,68,31,0.25230784269,0
+generative artificial intelligence,augmented or extended reality,222,17,7,0.113945477344,0
+generative artificial intelligence,serious game,222,4,1,0.0335578027607,0
+generative artificial intelligence,debriefing,222,35,19,0.215547550347,0
+generative artificial intelligence,automated feedback,222,26,12,0.157949437948,0
+generative artificial intelligence,medical or health-professions education,222,220,102,0.461543186519,0
+generative artificial intelligence,surgical education,222,12,5,0.0968730322865,0
+generative artificial intelligence,nursing education,222,64,40,0.335578027607,0
+generative artificial intelligence,dental education,222,17,10,0.162779253348,0
+generative artificial intelligence,interprofessional education,222,6,3,0.0821994936527,0
+generative artificial intelligence,communication skills,222,104,56,0.368548688545,0
+generative artificial intelligence,clinical reasoning,222,95,51,0.351181707595,0
+generative artificial intelligence,decision-making,222,64,27,0.226515168635,0
+generative artificial intelligence,teamwork,222,13,4,0.074458079105,0
+generative artificial intelligence,leadership,222,7,0,0,0
+generative artificial intelligence,situational awareness,222,1,0,0,0
+generative artificial intelligence,task management,222,0,0,,0
+generative artificial intelligence,stress management,222,0,0,,0
+generative artificial intelligence,professionalism,222,7,3,0.0761019434148,0
+generative artificial intelligence,crisis resource management,222,0,0,,0
+generative artificial intelligence,empathy,222,44,22,0.222597281092,0
+generative artificial intelligence,assessment or scoring,222,165,81,0.423220367085,0
+retrieval-augmented generation,chatbot or conversational agent,19,77,2,0.0522886985616,0
+retrieval-augmented generation,virtual patient,19,163,9,0.161723043851,0
+retrieval-augmented generation,simulated patient,19,77,3,0.0784330478424,0
+retrieval-augmented generation,standardized patient,19,90,2,0.0483650833407,0
+retrieval-augmented generation,scenario-based simulation,19,2,0,0,0
+retrieval-augmented generation,objective structured clinical examination,19,57,1,0.0303868562731,0
+retrieval-augmented generation,role-play,19,52,1,0.0318142381488,0
+retrieval-augmented generation,mannequin simulation,19,0,0,,0
+retrieval-augmented generation,task trainer,19,2,0,0,0
+retrieval-augmented generation,virtual reality,19,68,3,0.0834622326112,0
+retrieval-augmented generation,augmented or extended reality,19,17,0,0,0
+retrieval-augmented generation,serious game,19,4,0,0,0
+retrieval-augmented generation,debriefing,19,35,1,0.0387783367165,0
+retrieval-augmented generation,automated feedback,19,26,1,0.0449921270666,0
+retrieval-augmented generation,medical or health-professions education,19,220,7,0.108270439356,0
+retrieval-augmented generation,surgical education,19,12,2,0.132453235707,0
+retrieval-augmented generation,nursing education,19,64,2,0.0573539334676,0
+retrieval-augmented generation,dental education,19,17,0,0,0
+retrieval-augmented generation,interprofessional education,19,6,0,0,0
+retrieval-augmented generation,communication skills,19,104,4,0.0899842541332,0
+retrieval-augmented generation,clinical reasoning,19,95,5,0.117687788289,0
+retrieval-augmented generation,decision-making,19,64,3,0.0860309002015,0
+retrieval-augmented generation,teamwork,19,13,0,0,0
+retrieval-augmented generation,leadership,19,7,0,0,0
+retrieval-augmented generation,situational awareness,19,1,0,0,0
+retrieval-augmented generation,task management,19,0,0,,0
+retrieval-augmented generation,stress management,19,0,0,,0
+retrieval-augmented generation,professionalism,19,7,0,0,0
+retrieval-augmented generation,crisis resource management,19,0,0,,0
+retrieval-augmented generation,empathy,19,44,1,0.0345857231933,0
+retrieval-augmented generation,assessment or scoring,19,165,4,0.0714399626369,0
+chatbot or conversational agent,virtual patient,77,163,23,0.205299868517,1
+chatbot or conversational agent,simulated patient,77,77,25,0.324675324675,1
+chatbot or conversational agent,standardized patient,77,90,12,0.144149994031,1
+chatbot or conversational agent,scenario-based simulation,77,2,0,0,0
+chatbot or conversational agent,objective structured clinical examination,77,57,6,0.0905666825703,1
+chatbot or conversational agent,role-play,77,52,18,0.284462793558,0
+chatbot or conversational agent,mannequin simulation,77,0,0,,0
+chatbot or conversational agent,task trainer,77,2,0,0,0
+chatbot or conversational agent,virtual reality,77,68,10,0.138197498206,1
+chatbot or conversational agent,augmented or extended reality,77,17,6,0.165836997847,0
+chatbot or conversational agent,serious game,77,4,0,0,0
+chatbot or conversational agent,debriefing,77,35,3,0.0577885596397,0
+chatbot or conversational agent,automated feedback,77,26,8,0.178796062507,0
+chatbot or conversational agent,medical or health-professions education,77,220,35,0.268912717414,1
+chatbot or conversational agent,surgical education,77,12,2,0.065795169496,0
+chatbot or conversational agent,nursing education,77,64,10,0.142450720575,1
+chatbot or conversational agent,dental education,77,17,6,0.165836997847,0
+chatbot or conversational agent,interprofessional education,77,6,1,0.0465242105199,0
+chatbot or conversational agent,communication skills,77,104,25,0.279368847667,1
+chatbot or conversational agent,clinical reasoning,77,95,9,0.105228975995,1
+chatbot or conversational agent,decision-making,77,64,8,0.11396057646,1
+chatbot or conversational agent,teamwork,77,13,2,0.0632139541241,0
+chatbot or conversational agent,leadership,77,7,0,0,0
+chatbot or conversational agent,situational awareness,77,1,0,0,0
+chatbot or conversational agent,task management,77,0,0,,0
+chatbot or conversational agent,stress management,77,0,0,,0
+chatbot or conversational agent,professionalism,77,7,1,0.0430730492254,0
+chatbot or conversational agent,crisis resource management,77,0,0,,0
+chatbot or conversational agent,empathy,77,44,6,0.103081219912,0
+chatbot or conversational agent,assessment or scoring,77,165,23,0.204051833435,1
+virtual patient,simulated patient,163,77,31,0.276708518436,1
+virtual patient,standardized patient,163,90,39,0.321995313002,1
+virtual patient,scenario-based simulation,163,2,0,0,0
+virtual patient,objective structured clinical examination,163,57,15,0.155618071503,1
+virtual patient,role-play,163,52,20,0.217237362652,0
+virtual patient,mannequin simulation,163,0,0,,0
+virtual patient,task trainer,163,2,1,0.0553848775622,0
+virtual patient,virtual reality,163,68,32,0.303949700487,1
+virtual patient,augmented or extended reality,163,17,4,0.0759874251216,0
+virtual patient,serious game,163,4,1,0.0391630224994,0
+virtual patient,debriefing,163,35,7,0.0926766262615,0
+virtual patient,automated feedback,163,26,12,0.18433201471,0
+virtual patient,medical or health-professions education,163,220,95,0.501670383272,1
+virtual patient,surgical education,163,12,1,0.0226107815823,0
+virtual patient,nursing education,163,64,17,0.166442845622,1
+virtual patient,dental education,163,17,12,0.227962275365,0
+virtual patient,interprofessional education,163,6,1,0.0319764739696,0
+virtual patient,communication skills,163,104,48,0.36866402942,1
+virtual patient,clinical reasoning,163,95,44,0.353587636922,1
+virtual patient,decision-making,163,64,20,0.195815112497,1
+virtual patient,teamwork,163,13,4,0.0868949450608,0
+virtual patient,leadership,163,7,2,0.0592089246417,0
+virtual patient,situational awareness,163,1,1,0.0783260449988,0
+virtual patient,task management,163,0,0,,0
+virtual patient,stress management,163,0,0,,0
+virtual patient,professionalism,163,7,2,0.0592089246417,0
+virtual patient,crisis resource management,163,0,0,,0
+virtual patient,empathy,163,44,18,0.212545720287,0
+virtual patient,assessment or scoring,163,165,59,0.359762785658,1
+simulated patient,standardized patient,77,90,18,0.216224991047,1
+simulated patient,scenario-based simulation,77,2,0,0,0
+simulated patient,objective structured clinical examination,77,57,14,0.211322259331,1
+simulated patient,role-play,77,52,14,0.221248839434,0
+simulated patient,mannequin simulation,77,0,0,,0
+simulated patient,task trainer,77,2,0,0,0
+simulated patient,virtual reality,77,68,6,0.0829184989234,1
+simulated patient,augmented or extended reality,77,17,1,0.0276394996411,0
+simulated patient,serious game,77,4,0,0,0
+simulated patient,debriefing,77,35,1,0.0192628532132,0
+simulated patient,automated feedback,77,26,12,0.268194093761,0
+simulated patient,medical or health-professions education,77,220,45,0.345744922389,1
+simulated patient,surgical education,77,12,0,0,0
+simulated patient,nursing education,77,64,4,0.0569802882298,1
+simulated patient,dental education,77,17,2,0.0552789992823,0
+simulated patient,interprofessional education,77,6,1,0.0465242105199,0
+simulated patient,communication skills,77,104,29,0.324067863294,1
+simulated patient,clinical reasoning,77,95,19,0.222150060434,1
+simulated patient,decision-making,77,64,8,0.11396057646,1
+simulated patient,teamwork,77,13,1,0.0316069770621,0
+simulated patient,leadership,77,7,0,0,0
+simulated patient,situational awareness,77,1,0,0,0
+simulated patient,task management,77,0,0,,0
+simulated patient,stress management,77,0,0,,0
+simulated patient,professionalism,77,7,2,0.0861460984508,0
+simulated patient,crisis resource management,77,0,0,,0
+simulated patient,empathy,77,44,10,0.171802033186,0
+simulated patient,assessment or scoring,77,165,25,0.221795471125,1
+standardized patient,scenario-based simulation,90,2,1,0.07453559925,0
+standardized patient,objective structured clinical examination,90,57,19,0.265274141918,1
+standardized patient,role-play,90,52,12,0.175411603861,0
+standardized patient,mannequin simulation,90,0,0,,0
+standardized patient,task trainer,90,2,1,0.07453559925,0
+standardized patient,virtual reality,90,68,7,0.0894792486989,1
+standardized patient,augmented or extended reality,90,17,1,0.0255654996282,0
+standardized patient,serious game,90,4,0,0,0
+standardized patient,debriefing,90,35,6,0.106904496765,0
+standardized patient,automated feedback,90,26,8,0.165379646119,0
+standardized patient,medical or health-professions education,90,220,47,0.334014455624,1
+standardized patient,surgical education,90,12,1,0.0304290309725,0
+standardized patient,nursing education,90,64,7,0.0922330984216,1
+standardized patient,dental education,90,17,3,0.0766964988847,0
+standardized patient,interprofessional education,90,6,1,0.0430331482912,0
+standardized patient,communication skills,90,104,31,0.320423064355,1
+standardized patient,clinical reasoning,90,95,20,0.216295228174,1
+standardized patient,decision-making,90,64,10,0.131761569174,1
+standardized patient,teamwork,90,13,2,0.0584705346205,0
+standardized patient,leadership,90,7,1,0.0398409536445,0
+standardized patient,situational awareness,90,1,0,0,0
+standardized patient,task management,90,0,0,,0
+standardized patient,stress management,90,0,0,,0
+standardized patient,professionalism,90,7,1,0.0398409536445,0
+standardized patient,crisis resource management,90,0,0,,0
+standardized patient,empathy,90,44,14,0.222474604157,0
+standardized patient,assessment or scoring,90,165,39,0.320037876546,1
+scenario-based simulation,objective structured clinical examination,2,57,0,0,0
+scenario-based simulation,role-play,2,52,0,0,0
+scenario-based simulation,mannequin simulation,2,0,0,,0
+scenario-based simulation,task trainer,2,2,0,0,0
+scenario-based simulation,virtual reality,2,68,0,0,0
+scenario-based simulation,augmented or extended reality,2,17,0,0,0
+scenario-based simulation,serious game,2,4,0,0,0
+scenario-based simulation,debriefing,2,35,0,0,0
+scenario-based simulation,automated feedback,2,26,0,0,0
+scenario-based simulation,medical or health-professions education,2,220,2,0.0953462589246,0
+scenario-based simulation,surgical education,2,12,1,0.204124145232,0
+scenario-based simulation,nursing education,2,64,0,0,0
+scenario-based simulation,dental education,2,17,0,0,0
+scenario-based simulation,interprofessional education,2,6,0,0,0
+scenario-based simulation,communication skills,2,104,0,0,0
+scenario-based simulation,clinical reasoning,2,95,0,0,0
+scenario-based simulation,decision-making,2,64,1,0.0883883476483,0
+scenario-based simulation,teamwork,2,13,0,0,0
+scenario-based simulation,leadership,2,7,0,0,0
+scenario-based simulation,situational awareness,2,1,0,0,0
+scenario-based simulation,task management,2,0,0,,0
+scenario-based simulation,stress management,2,0,0,,0
+scenario-based simulation,professionalism,2,7,0,0,0
+scenario-based simulation,crisis resource management,2,0,0,,0
+scenario-based simulation,empathy,2,44,0,0,0
+scenario-based simulation,assessment or scoring,2,165,0,0,0
+objective structured clinical examination,role-play,57,52,5,0.0918397947963,0
+objective structured clinical examination,mannequin simulation,57,0,0,,0
+objective structured clinical examination,task trainer,57,2,0,0,0
+objective structured clinical examination,virtual reality,57,68,4,0.0642492566203,1
+objective structured clinical examination,augmented or extended reality,57,17,1,0.0321246283102,0
+objective structured clinical examination,serious game,57,4,0,0,0
+objective structured clinical examination,debriefing,57,35,2,0.044777366284,0
+objective structured clinical examination,automated feedback,57,26,7,0.181833516713,0
+objective structured clinical examination,medical or health-professions education,57,220,38,0.339339822525,1
+objective structured clinical examination,surgical education,57,12,0,0,0
+objective structured clinical examination,nursing education,57,64,3,0.0496699633899,1
+objective structured clinical examination,dental education,57,17,2,0.0642492566203,0
+objective structured clinical examination,interprofessional education,57,6,0,0,0
+objective structured clinical examination,communication skills,57,104,14,0.181833516713,1
+objective structured clinical examination,clinical reasoning,57,95,17,0.231020059247,1
+objective structured clinical examination,decision-making,57,64,2,0.0331133089266,1
+objective structured clinical examination,teamwork,57,13,0,0,0
+objective structured clinical examination,leadership,57,7,0,0,0
+objective structured clinical examination,situational awareness,57,1,0,0,0
+objective structured clinical examination,task management,57,0,0,,0
+objective structured clinical examination,stress management,57,0,0,,0
+objective structured clinical examination,professionalism,57,7,2,0.100125234864,0
+objective structured clinical examination,crisis resource management,57,0,0,,0
+objective structured clinical examination,empathy,57,44,5,0.0998403829789,0
+objective structured clinical examination,assessment or scoring,57,165,38,0.391835875764,1
+role-play,mannequin simulation,52,0,0,,0
+role-play,task trainer,52,2,0,0,0
+role-play,virtual reality,52,68,3,0.0504504595497,0
+role-play,augmented or extended reality,52,17,2,0.0672672793996,0
+role-play,serious game,52,4,0,0,0
+role-play,debriefing,52,35,3,0.0703210846408,0
+role-play,automated feedback,52,26,4,0.108785658644,0
+role-play,medical or health-professions education,52,220,26,0.243086217402,0
+role-play,surgical education,52,12,0,0,0
+role-play,nursing education,52,64,6,0.104006286792,0
+role-play,dental education,52,17,5,0.168168198499,0
+role-play,interprofessional education,52,6,1,0.0566138517072,0
+role-play,communication skills,52,104,18,0.244767731949,0
+role-play,clinical reasoning,52,95,4,0.0569110393224,0
+role-play,decision-making,52,64,4,0.0693375245282,0
+role-play,teamwork,52,13,0,0,0
+role-play,leadership,52,7,1,0.0524142418361,0
+role-play,situational awareness,52,1,0,0,0
+role-play,task management,52,0,0,,0
+role-play,stress management,52,0,0,,0
+role-play,professionalism,52,7,2,0.104828483672,0
+role-play,crisis resource management,52,0,0,,0
+role-play,empathy,52,44,7,0.146342351751,0
+role-play,assessment or scoring,52,165,16,0.172733406835,0
+mannequin simulation,task trainer,0,2,0,,0
+mannequin simulation,virtual reality,0,68,0,,0
+mannequin simulation,augmented or extended reality,0,17,0,,0
+mannequin simulation,serious game,0,4,0,,0
+mannequin simulation,debriefing,0,35,0,,0
+mannequin simulation,automated feedback,0,26,0,,0
+mannequin simulation,medical or health-professions education,0,220,0,,0
+mannequin simulation,surgical education,0,12,0,,0
+mannequin simulation,nursing education,0,64,0,,0
+mannequin simulation,dental education,0,17,0,,0
+mannequin simulation,interprofessional education,0,6,0,,0
+mannequin simulation,communication skills,0,104,0,,0
+mannequin simulation,clinical reasoning,0,95,0,,0
+mannequin simulation,decision-making,0,64,0,,0
+mannequin simulation,teamwork,0,13,0,,0
+mannequin simulation,leadership,0,7,0,,0
+mannequin simulation,situational awareness,0,1,0,,0
+mannequin simulation,task management,0,0,0,,0
+mannequin simulation,stress management,0,0,0,,0
+mannequin simulation,professionalism,0,7,0,,0
+mannequin simulation,crisis resource management,0,0,0,,0
+mannequin simulation,empathy,0,44,0,,0
+mannequin simulation,assessment or scoring,0,165,0,,0
+task trainer,virtual reality,2,68,1,0.0857492925713,0
+task trainer,augmented or extended reality,2,17,0,0,0
+task trainer,serious game,2,4,0,0,0
+task trainer,debriefing,2,35,1,0.119522860933,0
+task trainer,automated feedback,2,26,0,0,0
+task trainer,medical or health-professions education,2,220,0,0,0
+task trainer,surgical education,2,12,0,0,0
+task trainer,nursing education,2,64,1,0.0883883476483,0
+task trainer,dental education,2,17,0,0,0
+task trainer,interprofessional education,2,6,0,0,0
+task trainer,communication skills,2,104,1,0.0693375245282,0
+task trainer,clinical reasoning,2,95,1,0.072547625011,0
+task trainer,decision-making,2,64,1,0.0883883476483,0
+task trainer,teamwork,2,13,0,0,0
+task trainer,leadership,2,7,0,0,0
+task trainer,situational awareness,2,1,0,0,0
+task trainer,task management,2,0,0,,0
+task trainer,stress management,2,0,0,,0
+task trainer,professionalism,2,7,0,0,0
+task trainer,crisis resource management,2,0,0,,0
+task trainer,empathy,2,44,0,0,0
+task trainer,assessment or scoring,2,165,1,0.0550481882563,0
+virtual reality,augmented or extended reality,68,17,10,0.294117647059,0
+virtual reality,serious game,68,4,1,0.0606339062591,0
+virtual reality,debriefing,68,35,6,0.122988009254,0
+virtual reality,automated feedback,68,26,2,0.0475651494154,0
+virtual reality,medical or health-professions education,68,220,21,0.171693359294,1
+virtual reality,surgical education,68,12,1,0.0350070021007,0
+virtual reality,nursing education,68,64,14,0.212218671907,1
+virtual reality,dental education,68,17,5,0.147058823529,0
+virtual reality,interprofessional education,68,6,1,0.0495073771488,0
+virtual reality,communication skills,68,104,14,0.166478022954,1
+virtual reality,clinical reasoning,68,95,9,0.111976335404,1
+virtual reality,decision-making,68,64,8,0.121267812518,1
+virtual reality,teamwork,68,13,2,0.0672672793996,0
+virtual reality,leadership,68,7,2,0.0916698497028,0
+virtual reality,situational awareness,68,1,1,0.121267812518,0
+virtual reality,task management,68,0,0,,0
+virtual reality,stress management,68,0,0,,0
+virtual reality,professionalism,68,7,0,0,0
+virtual reality,crisis resource management,68,0,0,,0
+virtual reality,empathy,68,44,6,0.109690863619,0
+virtual reality,assessment or scoring,68,165,23,0.217135787214,1
+augmented or extended reality,serious game,17,4,1,0.121267812518,0
+augmented or extended reality,debriefing,17,35,2,0.0819920061691,0
+augmented or extended reality,automated feedback,17,26,0,0,0
+augmented or extended reality,medical or health-professions education,17,220,5,0.081758742521,0
+augmented or extended reality,surgical education,17,12,1,0.0700140042014,0
+augmented or extended reality,nursing education,17,64,1,0.0303169531295,0
+augmented or extended reality,dental education,17,17,0,0,0
+augmented or extended reality,interprofessional education,17,6,0,0,0
+augmented or extended reality,communication skills,17,104,4,0.0951302988309,0
+augmented or extended reality,clinical reasoning,17,95,2,0.0497672601793,0
+augmented or extended reality,decision-making,17,64,4,0.121267812518,0
+augmented or extended reality,teamwork,17,13,1,0.0672672793996,0
+augmented or extended reality,leadership,17,7,0,0,0
+augmented or extended reality,situational awareness,17,1,0,0,0
+augmented or extended reality,task management,17,0,0,,0
+augmented or extended reality,stress management,17,0,0,,0
+augmented or extended reality,professionalism,17,7,0,0,0
+augmented or extended reality,crisis resource management,17,0,0,,0
+augmented or extended reality,empathy,17,44,0,0,0
+augmented or extended reality,assessment or scoring,17,165,6,0.113288236807,0
+serious game,debriefing,4,35,1,0.0845154254729,0
+serious game,automated feedback,4,26,0,0,0
+serious game,medical or health-professions education,4,220,0,0,0
+serious game,surgical education,4,12,0,0,0
+serious game,nursing education,4,64,1,0.0625,0
+serious game,dental education,4,17,0,0,0
+serious game,interprofessional education,4,6,0,0,0
+serious game,communication skills,4,104,0,0,0
+serious game,clinical reasoning,4,95,0,0,0
+serious game,decision-making,4,64,1,0.0625,0
+serious game,teamwork,4,13,0,0,0
+serious game,leadership,4,7,0,0,0
+serious game,situational awareness,4,1,0,0,0
+serious game,task management,4,0,0,,0
+serious game,stress management,4,0,0,,0
+serious game,professionalism,4,7,0,0,0
+serious game,crisis resource management,4,0,0,,0
+serious game,empathy,4,44,1,0.0753778361444,0
+serious game,assessment or scoring,4,165,3,0.116774841624,0
+debriefing,automated feedback,35,26,3,0.0994490316198,0
+debriefing,medical or health-professions education,35,220,9,0.102564518814,0
+debriefing,surgical education,35,12,1,0.0487950036474,0
+debriefing,nursing education,35,64,7,0.147901994577,0
+debriefing,dental education,35,17,1,0.0409960030845,0
+debriefing,interprofessional education,35,6,3,0.207019667803,0
+debriefing,communication skills,35,104,7,0.116023870223,0
+debriefing,clinical reasoning,35,95,7,0.121395395733,0
+debriefing,decision-making,35,64,8,0.169030850946,0
+debriefing,teamwork,35,13,5,0.234403615469,0
+debriefing,leadership,35,7,1,0.0638876565,0
+debriefing,situational awareness,35,1,0,0,0
+debriefing,task management,35,0,0,,0
+debriefing,stress management,35,0,0,,0
+debriefing,professionalism,35,7,0,0,0
+debriefing,crisis resource management,35,0,0,,0
+debriefing,empathy,35,44,2,0.0509647191438,0
+debriefing,assessment or scoring,35,165,17,0.223703576286,0
+automated feedback,medical or health-professions education,26,220,15,0.198332207005,0
+automated feedback,surgical education,26,12,0,0,0
+automated feedback,nursing education,26,64,1,0.0245145168923,0
+automated feedback,dental education,26,17,0,0,0
+automated feedback,interprofessional education,26,6,0,0,0
+automated feedback,communication skills,26,104,12,0.230769230769,0
+automated feedback,clinical reasoning,26,95,8,0.160968727317,0
+automated feedback,decision-making,26,64,4,0.0980580675691,0
+automated feedback,teamwork,26,13,0,0,0
+automated feedback,leadership,26,7,0,0,0
+automated feedback,situational awareness,26,1,0,0,0
+automated feedback,task management,26,0,0,,0
+automated feedback,stress management,26,0,0,,0
+automated feedback,professionalism,26,7,2,0.148249863332,0
+automated feedback,crisis resource management,26,0,0,,0
+automated feedback,empathy,26,44,5,0.147828098997,0
+automated feedback,assessment or scoring,26,165,12,0.183211444966,0
+medical or health-professions education,surgical education,220,12,3,0.0583874208121,0
+medical or health-professions education,nursing education,220,64,14,0.117984975931,1
+medical or health-professions education,dental education,220,17,10,0.163517485042,0
+medical or health-professions education,interprofessional education,220,6,1,0.0275240941282,0
+medical or health-professions education,communication skills,220,104,59,0.390053340444,1
+medical or health-professions education,clinical reasoning,220,95,53,0.366608665849,1
+medical or health-professions education,decision-making,220,64,31,0.261252446705,1
+medical or health-professions education,teamwork,220,13,5,0.0934946990008,0
+medical or health-professions education,leadership,220,7,5,0.127411797859,0
+medical or health-professions education,situational awareness,220,1,0,0,0
+medical or health-professions education,task management,220,0,0,,0
+medical or health-professions education,stress management,220,0,0,,0
+medical or health-professions education,professionalism,220,7,5,0.127411797859,0
+medical or health-professions education,crisis resource management,220,0,0,,0
+medical or health-professions education,empathy,220,44,20,0.203278907045,0
+medical or health-professions education,assessment or scoring,220,165,82,0.430388382487,1
+surgical education,nursing education,12,64,0,0,0
+surgical education,dental education,12,17,0,0,0
+surgical education,interprofessional education,12,6,0,0,0
+surgical education,communication skills,12,104,0,0,0
+surgical education,clinical reasoning,12,95,1,0.029617443888,0
+surgical education,decision-making,12,64,2,0.0721687836487,0
+surgical education,teamwork,12,13,0,0,0
+surgical education,leadership,12,7,0,0,0
+surgical education,situational awareness,12,1,0,0,0
+surgical education,task management,12,0,0,,0
+surgical education,stress management,12,0,0,,0
+surgical education,professionalism,12,7,0,0,0
+surgical education,crisis resource management,12,0,0,,0
+surgical education,empathy,12,44,0,0,0
+surgical education,assessment or scoring,12,165,6,0.134839972493,0
+nursing education,dental education,64,17,1,0.0303169531295,0
+nursing education,interprofessional education,64,6,1,0.051031036308,0
+nursing education,communication skills,64,104,13,0.1593443598,1
+nursing education,clinical reasoning,64,95,11,0.141072023412,1
+nursing education,decision-making,64,64,10,0.15625,1
+nursing education,teamwork,64,13,1,0.0346687622641,0
+nursing education,leadership,64,7,1,0.0472455591262,0
+nursing education,situational awareness,64,1,0,0,0
+nursing education,task management,64,0,0,,0
+nursing education,stress management,64,0,0,,0
+nursing education,professionalism,64,7,0,0,0
+nursing education,crisis resource management,64,0,0,,0
+nursing education,empathy,64,44,7,0.131911213253,0
+nursing education,assessment or scoring,64,165,22,0.214087209644,1
+dental education,interprofessional education,17,6,0,0,0
+dental education,communication skills,17,104,5,0.118912873539,0
+dental education,clinical reasoning,17,95,4,0.0995345203587,0
+dental education,decision-making,17,64,4,0.121267812518,0
+dental education,teamwork,17,13,0,0,0
+dental education,leadership,17,7,0,0,0
+dental education,situational awareness,17,1,0,0,0
+dental education,task management,17,0,0,,0
+dental education,stress management,17,0,0,,0
+dental education,professionalism,17,7,0,0,0
+dental education,crisis resource management,17,0,0,,0
+dental education,empathy,17,44,1,0.0365636212064,0
+dental education,assessment or scoring,17,165,4,0.0755254912049,0
+interprofessional education,communication skills,6,104,1,0.0400320384513,0
+interprofessional education,clinical reasoning,6,95,2,0.0837707816583,0
+interprofessional education,decision-making,6,64,2,0.102062072616,0
+interprofessional education,teamwork,6,13,2,0.226455406829,0
+interprofessional education,leadership,6,7,0,0,0
+interprofessional education,situational awareness,6,1,0,0,0
+interprofessional education,task management,6,0,0,,0
+interprofessional education,stress management,6,0,0,,0
+interprofessional education,professionalism,6,7,0,0,0
+interprofessional education,crisis resource management,6,0,0,,0
+interprofessional education,empathy,6,44,0,0,0
+interprofessional education,assessment or scoring,6,165,3,0.0953462589246,0
+communication skills,clinical reasoning,104,95,26,0.26157418189,1
+communication skills,decision-making,104,64,14,0.171601618246,1
+communication skills,teamwork,104,13,3,0.0815892439831,0
+communication skills,leadership,104,7,2,0.0741249316661,0
+communication skills,situational awareness,104,1,0,0,0
+communication skills,task management,104,0,0,,0
+communication skills,stress management,104,0,0,,0
+communication skills,professionalism,104,7,3,0.111187397499,0
+communication skills,crisis resource management,104,0,0,,0
+communication skills,empathy,104,44,16,0.236524958396,0
+communication skills,assessment or scoring,104,165,34,0.259549547035,1
+clinical reasoning,decision-making,95,64,19,0.24366985862,1
+clinical reasoning,teamwork,95,13,4,0.113822078645,0
+clinical reasoning,leadership,95,7,1,0.0387783367165,0
+clinical reasoning,situational awareness,95,1,0,0,0
+clinical reasoning,task management,95,0,0,,0
+clinical reasoning,stress management,95,0,0,,0
+clinical reasoning,professionalism,95,7,2,0.0775566734329,0
+clinical reasoning,crisis resource management,95,0,0,,0
+clinical reasoning,empathy,95,44,8,0.123737644978,0
+clinical reasoning,assessment or scoring,95,165,42,0.335463686809,1
+decision-making,teamwork,64,13,8,0.277350098113,0
+decision-making,leadership,64,7,2,0.0944911182523,0
+decision-making,situational awareness,64,1,0,0,0
+decision-making,task management,64,0,0,,0
+decision-making,stress management,64,0,0,,0
+decision-making,professionalism,64,7,0,0,0
+decision-making,crisis resource management,64,0,0,,0
+decision-making,empathy,64,44,9,0.169600131325,0
+decision-making,assessment or scoring,64,165,20,0.19462473604,1
+teamwork,leadership,13,7,2,0.209656967344,0
+teamwork,situational awareness,13,1,0,0,0
+teamwork,task management,13,0,0,,0
+teamwork,stress management,13,0,0,,0
+teamwork,professionalism,13,7,0,0,0
+teamwork,crisis resource management,13,0,0,,0
+teamwork,empathy,13,44,2,0.0836242010007,0
+teamwork,assessment or scoring,13,165,3,0.0647750275631,0
+leadership,situational awareness,7,1,1,0.377964473009,0
+leadership,task management,7,0,0,,0
+leadership,stress management,7,0,0,,0
+leadership,professionalism,7,7,0,0,0
+leadership,crisis resource management,7,0,0,,0
+leadership,empathy,7,44,1,0.0569802882298,0
+leadership,assessment or scoring,7,165,3,0.0882734829505,0
+situational awareness,task management,1,0,0,,0
+situational awareness,stress management,1,0,0,,0
+situational awareness,professionalism,1,7,0,0,0
+situational awareness,crisis resource management,1,0,0,,0
+situational awareness,empathy,1,44,0,0,0
+situational awareness,assessment or scoring,1,165,1,0.0778498944162,0
+task management,stress management,0,0,0,,0
+task management,professionalism,0,7,0,,0
+task management,crisis resource management,0,0,0,,0
+task management,empathy,0,44,0,,0
+task management,assessment or scoring,0,165,0,,0
+stress management,professionalism,0,7,0,,0
+stress management,crisis resource management,0,0,0,,0
+stress management,empathy,0,44,0,,0
+stress management,assessment or scoring,0,165,0,,0
+professionalism,crisis resource management,7,0,0,,0
+professionalism,empathy,7,44,2,0.11396057646,0
+professionalism,assessment or scoring,7,165,3,0.0882734829505,0
+crisis resource management,empathy,0,44,0,,0
+crisis resource management,assessment or scoring,0,165,0,,0
+empathy,assessment or scoring,44,165,14,0.164308384385,0
