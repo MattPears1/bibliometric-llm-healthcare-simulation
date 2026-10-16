@@ -1,0 +1,11 @@
+{
+  "analysis_hash_ledger_sha256": "12d9923ef1c68c3fbc511f0ab0fa22da49f5256119a279cf8d8fea099372f6aa",
+  "analysis_manifest_sha256": "b6e17568bcfdf30af1598fc244a4e1431c340534ebb4958296273e8b71de9752",
+  "analysis_summary_sha256": "e1733a3d993dc4b2936aa3d8a3a88834ea56a3ef0c05ecf5649a443500d8346b",
+  "combined_checked_corpus_sha256": "b69864abd38a17d1e936349b7f284081fdaeb4ac0c79b0c69e843cb236a6a86c",
+  "combined_openalex_sha256": "3cbbc71533713503d34fe978a527dcaf85b556d36b5ad8fd0e8d95b6f4fbab7d",
+  "combined_version_ledger_sha256": "b79af6e7596595325a58f68e760035cd955b3bf8d342946518c768fcd1550f51",
+  "contract_sha256": "d2064ec583e71c76eb5993b670ddd83307f2634e6112d366553ef77d25a9c3cc",
+  "schema_version": "gse-combined-analysis-engine-v5.0",
+  "status": "gse_six_source_combined_analysis_v5_completed_hash_frozen"
+}

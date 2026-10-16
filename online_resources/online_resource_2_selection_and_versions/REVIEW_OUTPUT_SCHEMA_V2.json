@@ -1,0 +1,150 @@
+{
+  "codebook": {
+    "bytes": 15040,
+    "expected_sha256": "ab74c88c27d7efbf34f0b3cb680cea62b03eaec4ef11bdd630925ee8639ab9bc",
+    "filename": "SCREENING_CODEBOOK_FULL_RERUN_V2_2026-08-13.md",
+    "path": "controlled_source/SCREENING_CODEBOOK_FULL_RERUN_V2_2026-08-13.md",
+    "sha256": "ab74c88c27d7efbf34f0b3cb680cea62b03eaec4ef11bdd630925ee8639ab9bc",
+    "status": "locked_for_de_novo_full_rerun",
+    "version": "2.0"
+  },
+  "controlled_values": {
+    "confidence": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "criterion_gate": [
+      "yes",
+      "no",
+      "unclear"
+    ],
+    "decision": [
+      "INCLUDE",
+      "EXCLUDE",
+      "UNCERTAIN"
+    ],
+    "nts_domains": [
+      "communication",
+      "teamwork",
+      "leadership",
+      "decision_making",
+      "situational_awareness",
+      "task_management",
+      "stress_management",
+      "professionalism",
+      "other"
+    ],
+    "primary_code": [
+      "INCLUDE",
+      "E1_NOT_LLM",
+      "E2_NOT_HEALTH_ED",
+      "E3_NOT_SIMULATION",
+      "E4_CLINICAL_ONLY",
+      "E5_INELIGIBLE_TYPE",
+      "E6_OUT_OF_RANGE",
+      "E7_NOT_ASSESSABLE_IN_ENGLISH",
+      "E9_OTHER",
+      "U1_NEED_FULL_TEXT",
+      "U2_NEED_MODEL_DETAIL",
+      "U3_NEED_DOCUMENT_TYPE",
+      "U4_NEED_VERSION_CHECK",
+      "U5_NEED_LANGUAGE_CHECK",
+      "U6_NEED_DATE_CHECK"
+    ],
+    "simulation_modalities": [
+      "virtual_patient",
+      "standardized_patient",
+      "scenario",
+      "osce",
+      "roleplay",
+      "mannequin",
+      "task_trainer",
+      "vr_ar_xr",
+      "serious_game",
+      "debriefing",
+      "other"
+    ],
+    "study_design": [
+      "randomized_trial",
+      "nonrandomized_comparative",
+      "pre_post",
+      "observational",
+      "survey",
+      "qualitative",
+      "mixed_methods",
+      "development_evaluation",
+      "evidence_review",
+      "methods_framework",
+      "other",
+      "unclear"
+    ]
+  },
+  "evidence_source": {
+    "complete_abstract": true,
+    "complete_source_keywords": true,
+    "complete_title": true,
+    "input_fields": [
+      "paper_id",
+      "doi",
+      "title",
+      "year",
+      "publication_date",
+      "date_window_status",
+      "language_status",
+      "journal",
+      "found_in_sources",
+      "record_type",
+      "authors",
+      "abstract",
+      "source_keywords",
+      "url",
+      "all_urls",
+      "abstract_missing"
+    ],
+    "trigger_and_prior_decisions_hidden": true
+  },
+  "fields": {
+    "confidence": "high, medium, or low.",
+    "date_eligible": "yes, no, or unclear for 2020-01-01 through 2026-08-13 inclusive.",
+    "decision": "INCLUDE, EXCLUDE, or UNCERTAIN.",
+    "eligible_document_type": "yes, no, or unclear for a substantive scholarly contribution.",
+    "evidence": "One or two ordinary-language sentences tied to the retained record; required and not a long quotation.",
+    "health_professions_education": "yes, no, or unclear for a health-professions learner purpose.",
+    "language_assessable": "yes, no, or unclear for enough English evidence to judge eligibility.",
+    "llm_explicit": "yes, no, or unclear for an explicit large/generative language model.",
+    "model_families": "Semicolon-separated model families actually used, evaluated, or centrally examined.",
+    "nts_domains": "Semicolon-separated supported V2 NTS values; blank if unsupported.",
+    "paper_id": "Copy the neutral record ID exactly.",
+    "possible_version_of": "Other neutral record ID when a version relationship is suspected; otherwise blank. Never use this as an exclusion decision.",
+    "primary_code": "INCLUDE, one active exclusion code, or one uncertainty code.",
+    "simulation_central": "yes, no, or unclear for simulation being central.",
+    "simulation_modalities": "Semicolon-separated supported V2 modality values; blank if excluded or unsupported.",
+    "specialty": "Named specialty only when explicit; otherwise blank.",
+    "study_design": "One V2 study-design value."
+  },
+  "output_fields_in_exact_order": [
+    "paper_id",
+    "decision",
+    "primary_code",
+    "confidence",
+    "date_eligible",
+    "language_assessable",
+    "llm_explicit",
+    "health_professions_education",
+    "simulation_central",
+    "eligible_document_type",
+    "evidence",
+    "simulation_modalities",
+    "nts_domains",
+    "specialty",
+    "model_families",
+    "study_design",
+    "possible_version_of"
+  ],
+  "retired_primary_codes": [
+    "E8_DUPLICATE_VERSION"
+  ],
+  "schema_version": "full-rerun-independent-review-v2.0",
+  "version_handling": "Judge record eligibility first. possible_version_of is only a flag; publication versions are linked after record-level eligibility."
+}

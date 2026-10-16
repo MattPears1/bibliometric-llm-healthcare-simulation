@@ -1,0 +1,40 @@
+{
+  "records": 3919,
+  "excluded_free_text_columns": [
+    "reviewer_A_evidence",
+    "reviewer_B_evidence",
+    "adjudication_rationale",
+    "adjudication_evidence_locator_1",
+    "adjudication_evidence_locator_2",
+    "resolution_reviewer_A_evidence",
+    "resolution_reviewer_B_evidence",
+    "resolution_check_finding",
+    "resolution_resolution_evidence"
+  ],
+  "targeted_redactions": [
+    {
+      "paper_id": "2744b500a105343448c8",
+      "field": "title",
+      "reason": "Remove contact address / provider text from public bibliographic export"
+    },
+    {
+      "paper_id": "526a475b42e8361e4614",
+      "field": "authors",
+      "reason": "Remove contact address / provider text from public bibliographic export"
+    }
+  ],
+  "source_sha256": "c75b9405c2146cdc7668bbe7a47716b082d9d1e1ff31ea663c2f5eadb30c935c",
+  "interpretation": "All record-level decisions, reason codes, criteria, resolution flags and available source URLs remain. Reproduced source quotations and incidental contact details are excluded. Screening-stage classifications are historical; current study-level model identities are in Resource 5.",
+  "title_normalisations": [
+    {
+      "paper_id": "42b44c2b5016ce498658",
+      "public_title": "C-CASE 2023: Promoting Excellence in Surgical Education",
+      "reason": "Provider concatenated conference-session titles after the collection title; public export retains the collection title only."
+    },
+    {
+      "paper_id": "cf67970d3b88fb792975",
+      "public_title": "C-CASE 2024: Surgical Education Through Innovation",
+      "reason": "Provider concatenated conference-session titles after the collection title; public export retains the collection title only."
+    }
+  ]
+}

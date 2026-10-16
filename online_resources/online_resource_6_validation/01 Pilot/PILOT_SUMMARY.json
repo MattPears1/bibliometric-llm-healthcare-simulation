@@ -1,0 +1,32 @@
+{
+  "sample_size": 100,
+  "seed": "20260813-HV1",
+  "generated_at_utc": "2026-08-15T15:03:30+00:00",
+  "sample_group_counts": {
+    "A_DIFFICULT": 40,
+    "B_AGREED_INCLUDE": 20,
+    "C_AGREED_EXCLUDE": 20,
+    "D_BOUNDARY_NEGATIVE": 20
+  },
+  "sample_component_counts": {
+    "AGREED_INCLUDE": 20,
+    "BOUNDARY_NO_ED": 6,
+    "BOUNDARY_NO_HEALTH": 6,
+    "BOUNDARY_NO_SIM": 8,
+    "DISAGREE": 15,
+    "MISSING": 10,
+    "MIXED_EXCLUDE": 10,
+    "SAME_EXCLUDE": 10,
+    "UNCERTAIN": 15
+  },
+  "agent_initial_decision_counts": {
+    "EXCLUDE": 67,
+    "INCLUDE": 30,
+    "UNCERTAIN": 3
+  },
+  "overlap_with_eligibility_sample1": 23,
+  "used_as_human_validation": false,
+  "independent_accuracy_estimate": false,
+  "production_changed": false,
+  "interpretation": "Agent-generated end-to-end workflow test. Original template column names human_* do not establish human participation. No human agreement statistic is inferred from this Pilot."
+}

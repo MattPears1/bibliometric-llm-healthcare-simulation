@@ -1,0 +1,26 @@
+﻿column,description,source_field
+study_family_id,Stable publication-version family identifier for the unique study.,final_version_family_id
+preferred_record_key,Preferred publication record selected for analysis.,preferred_record_key
+paper_id,Internal stable record identifier for the preferred report.,paper_id
+doi,Digital Object Identifier when available.,doi
+title,Publication title.,title
+year,Publication year used in the analysis.,year
+publication_date,Publication date used in the analysis when available.,publication_date
+journal,Publication source as stored for the preferred report.,journal
+found_in_sources,Discovery services in which the report was found.,found_in_sources
+record_type,Stored publication/document type.,record_type
+authors,Publication author string.,authors
+url,Preferred source locator.,url
+simulation_methods,Non-exclusive checked simulation-method labels.,final_simulation_modalities
+nts_domains,Non-exclusive explicit non-technical-skill domains.,final_nts_domains
+specialty_profession_labels,Non-exclusive checked specialty/profession labels.,final_specialty
+model_families_current,Non-exclusive model families after the model-name audit.,corrected_model_families
+model_identity_status,Whether a named family was established from available evidence.,model_identity_status
+model_audit_description,Model names or descriptive evidence retained by the model-name audit.,model_audit_names_or_description
+study_design,Single principal study-design category.,final_study_design
+extraction_rationale,"Brief reason supporting the checked simulation, non-technical-skills, specialty and study-design classification; historical model wording may predate the separate model-name audit.",extraction_rationale
+evidence_url_1,Primary source locator used for classification when available.,evidence_url_1
+evidence_url_2,Secondary source locator used for classification when available.,evidence_url_2
+source_checked_by,Recorded checker identity/role.,source_checked_by
+source_checked_at_utc,Recorded UTC check timestamp.,source_checked_at_utc
+source_check_attestation,Recorded source-check status.,source_check_attestation

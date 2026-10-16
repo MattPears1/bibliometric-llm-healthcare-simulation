@@ -1,0 +1,13 @@
+{
+  "n": 15,
+  "current_frame": 13,
+  "matches": 11,
+  "differences": [
+    "H011",
+    "H064"
+  ],
+  "outside_decisions": {
+    "H032": "INCLUDE",
+    "H083": "EXCLUDE"
+  }
+}

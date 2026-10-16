@@ -1,0 +1,23 @@
+﻿model_family,display_label,studies,percent_of_470,analysis_set_n,note
+unspecified_generative_model,Unspecified-family label present (non-exclusive),163,34.68,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+GPT-4,GPT-4,90,19.15,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+ChatGPT_unspecified,ChatGPT (version not stated),87,18.51,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+GPT-4o,GPT-4o,76,16.17,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+GPT-3.5,GPT-3.5,61,12.98,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+other_named,Other named model/system,45,9.57,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Claude,Claude,33,7.02,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Gemini,Gemini,30,6.38,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Llama,Llama,20,4.26,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+DeepSeek,DeepSeek,16,3.40,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Qwen,Qwen,13,2.77,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+GPT-5,GPT-5,12,2.55,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Mistral,Mistral,10,2.13,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Copilot,Copilot,6,1.28,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Grok,Grok,4,0.85,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+OpenAI_o_series,OpenAI_o_series,4,0.85,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+GPT-4.1,GPT-4.1,3,0.64,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Bard,Bard,2,0.43,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Gemma,Gemma,2,0.43,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Phi,Phi,1,0.21,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Doubao,Doubao,1,0.21,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset
+Med-PaLM,Med-PaLM,1,0.21,470,non-exclusive corrected model-name audit counts within the exact-identifier metadata sensitivity subset

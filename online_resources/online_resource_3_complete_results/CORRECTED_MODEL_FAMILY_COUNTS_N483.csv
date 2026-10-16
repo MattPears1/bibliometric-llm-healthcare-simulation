@@ -1,0 +1,23 @@
+﻿model_family,display_label,publications,percent_of_analysis_set,non_review_publications,evidence_review_publications,analysis_set_n,multiple_response_note
+unspecified_generative_model,Family not established from available evidence,170,35.20,140,30,483,families are non-exclusive; one publication may contribute to several rows
+GPT-4,GPT-4,90,18.63,70,20,483,families are non-exclusive; one publication may contribute to several rows
+ChatGPT_unspecified,ChatGPT (version unspecified),89,18.43,58,31,483,families are non-exclusive; one publication may contribute to several rows
+GPT-4o,GPT-4o,77,15.94,67,10,483,families are non-exclusive; one publication may contribute to several rows
+GPT-3.5,GPT-3.5,61,12.63,50,11,483,families are non-exclusive; one publication may contribute to several rows
+other_named,Other named model/system,47,9.73,33,14,483,families are non-exclusive; one publication may contribute to several rows
+Claude,Claude,34,7.04,28,6,483,families are non-exclusive; one publication may contribute to several rows
+Gemini,Gemini,32,6.63,24,8,483,families are non-exclusive; one publication may contribute to several rows
+Llama,Llama,20,4.14,17,3,483,families are non-exclusive; one publication may contribute to several rows
+DeepSeek,DeepSeek,17,3.52,15,2,483,families are non-exclusive; one publication may contribute to several rows
+Qwen,Qwen,15,3.11,13,2,483,families are non-exclusive; one publication may contribute to several rows
+GPT-5,GPT-5,14,2.90,14,0,483,families are non-exclusive; one publication may contribute to several rows
+Mistral,Mistral,10,2.07,9,1,483,families are non-exclusive; one publication may contribute to several rows
+Copilot,Copilot,6,1.24,6,0,483,families are non-exclusive; one publication may contribute to several rows
+Grok,Grok,4,0.83,4,0,483,families are non-exclusive; one publication may contribute to several rows
+OpenAI_o_series,OpenAI o-series,4,0.83,2,2,483,families are non-exclusive; one publication may contribute to several rows
+GPT-4.1,GPT-4.1,3,0.62,3,0,483,families are non-exclusive; one publication may contribute to several rows
+Bard,Bard,2,0.41,2,0,483,families are non-exclusive; one publication may contribute to several rows
+Doubao,Doubao,2,0.41,2,0,483,families are non-exclusive; one publication may contribute to several rows
+Gemma,Gemma,2,0.41,2,0,483,families are non-exclusive; one publication may contribute to several rows
+Med-PaLM,Med-PaLM,1,0.21,0,1,483,families are non-exclusive; one publication may contribute to several rows
+Phi,Phi,1,0.21,1,0,483,families are non-exclusive; one publication may contribute to several rows

@@ -1,38 +1,11 @@
 # Data and code availability
 
-## Publicly released material
+The six Online Resources, reviewed 483-study dataset, search strategies, derived tables, seven article figures, validation records and analysis code are available at https://github.com/MattPears1/bibliometric-llm-healthcare-simulation, release v3.0.0.
 
-This repository publishes the material needed to inspect the reported selection flow and derived results without redistributing restricted source records:
+Version 3.0.0 contains 3,919 candidate records, 547 eligible publication records and 483 unique studies after accounting for 64 alternate publication versions. It includes the corrected model-name audit and the recovered 100-record Pilot.
 
-- all 18 exact source-specific search strings and retrieval counts;
-- the complete aggregate selection flow and model-stream comparison tables;
-- a 547-row reduced publication-version ledger and 485-row family summary;
-- a 485-row checked one-study dataset and 23-field data dictionary;
-- complete descriptive and sensitivity tables as matched CSV/JSON pairs;
-- all main and supplementary figures in publication and vector formats;
-- the exact phrase dictionary, per-study phrase indicators, and co-occurrence data;
-- the analysis claim-to-source register;
-- collection, integration, analysis, validation, and regression-test code; and
-- a release-wide SHA-256 checksum ledger.
+Original classifications, derived tables, figures and documentation are shared under CC BY 4.0; software is shared under MIT. Bibliographic facts and source links remain subject to their originating rights and terms. Raw provider responses, complete abstracts, source-keyword text, full texts and private review workbooks are not redistributed. Incidental contact addresses and provider text misfiled as a title have been omitted from two screening-ledger fields; the omission log identifies the records.
 
-## Material not redistributed
+The integrity checker uses the Python standard library. Historical analysis code is included as provenance and requires controlled inputs for a complete production rerun. Historical scripts and manifests may refer to earlier analytical stages. Their model-family outputs do not supersede the separately corrected fields in Resource 5.
 
-The release deliberately excludes:
-
-- raw Scopus or other provider response payloads;
-- abstracts, full text, and restricted provider metadata;
-- the complete record-level screening corpus;
-- API keys, access tokens, or other credentials; and
-- internal execution or model-session logs.
-
-These exclusions protect third-party rights and prevent credentials or internal operational material from becoming part of the research deposit. Where provider terms permit, additional verification material can be supplied confidentially to journal editors.
-
-## Public audit versus full production rerun
-
-The released reduced dataset is sufficient to audit the checked classifications and many study-level descriptive counts. The released result tables, claim register, and checksums permit exact verification of every published output file.
-
-Re-executing the complete fail-closed V5 production engine from the beginning additionally requires the authorized hash-bound source corpus identified by the input contract. Those provider-derived inputs are not public redistributable data. The engine rejects missing or altered inputs rather than silently substituting them.
-
-## Version authority
-
-Use GitHub release `v2.0.0` or its corresponding Zenodo archive. The tag `v1.0-submission` is historical and does not contain the final six-source results.
+The repository reports later human-check disagreements and uncertainty separately. Those checks do not silently alter the frozen corpus or constitute independent reference-standard validation.

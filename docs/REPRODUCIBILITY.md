@@ -1,52 +1,28 @@
-# Reproducibility guide
+# Reproducibility
 
-## 1. Verify the downloaded release
+## Public checks
 
-From the repository root, run:
+Use Python 3.10 or later:
 
-```bash
-python code/verify_public_release.py .
-```
+    python -B code/verify_public_release.py .
+    python -B -m unittest discover -s code -p test_verify_public_release.py
 
-The command recomputes every SHA-256 digest listed in `SHA256SUMS.csv`, checks ledger coverage, and verifies the frozen study cardinalities.
+No credentials, network access or external Python packages are needed for these checks. The checker verifies file coverage, SHA-256 values, record counts, preferred-version joins, annual totals, current model-family totals, model-review disagreement counts, the two distinct sample overlaps and NTS comparison counts.
 
-## 2. Inspect the reader-facing analysis
+Each Online Resource also contains its own CONTENTS_SHA256.csv. The six ZIP archives contain their complete resource directory and the data licence. Resource 5 additionally includes the repository code and reproducibility guide. For the repository-wide checker, use the full repository download; an individual resource ZIP alone is not the complete repository.
 
-- The 18 exact searches are in `online_resources/online_resource_1_search_strategy/`.
-- Selection, model-review comparison, and publication-version files are in `online_resources/online_resource_2_selection_and_versions/`.
-- Complete descriptive and sensitivity outputs are in `online_resources/online_resource_3_complete_results/`.
-- Phrase definitions, indicators, co-occurrence data, and the conditional network are in `online_resources/online_resource_4_phrases/`.
-- The checked 485-study dataset and dictionary are in `online_resources/online_resource_5_reduced_dataset/`.
+## Production provenance
 
-Each principal table is stored as both CSV and JSON. PNG figures are supplied at approximately 600 dpi and have EPS companions.
+The frozen integration manifest has SHA-256 b64b01ae57aaca386cfdb07b08e322f515e75e3dc2b5ed0cff1701cae9028bea. The n483 analysis hash ledger has SHA-256 12d9923ef1c68c3fbc511f0ab0fa22da49f5256119a279cf8d8fea099372f6aa. These originals remain unchanged.
 
-## 3. Software environment
+The V5 engine and its dependency fresh_analysis_engine_v2.py are supplied in code/. The later n483 reconciliation utility and model-audit/figure source scripts are retained as dated provenance. A full production rerun requires the hash-bound controlled inputs, including source text that cannot be included in a public release. No fresh search, external model call or production rerun was performed to prepare v3.0.0.
 
-The public integrity validator uses only the Python standard library and supports Python 3.10 or later. The production analysis engine additionally requires the packages in `requirements.txt`:
+Historical scripts may contain earlier denominators, thresholds, stage names or figure numbering. They describe their original stages; they are not the authority for current labels. Public-path substitutions are recorded in audit/SOURCE_LINEAGE.csv. A path-redacted manifest preserves its original input hashes but is not a runnable input contract.
 
-```bash
-python -m pip install -r requirements.txt
-```
+## Current analytical authority
 
-## 4. Collection and integration code
+Use Resource 5 CHECKED_STUDY_DATASET_N483.csv, especially model_families_current, model_identity_status and model_audit_description. Resource 3 contains the corrected model-family totals and the corrected 470-study exact-identifier sensitivity. The pre-audit model-family claims for the 464-study preprint/repository sensitivity have been removed because that cohort did not receive a separate model-name re-audit.
 
-- `code/collect_metadata_snapshot.py` contains the completed non-Scopus collection workflow.
-- `code/collect_scopus_snapshot.py` contains the Scopus collector. It expects an API key in an environment variable and never embeds credentials in source code.
-- `code/SCOPUS_INTEGRATION_CODE/` contains the corrected integration and regression tests.
-- `code/V5_ANALYSIS_CODE/combined_analysis_engine_v5.py` is the final analysis engine.
-- The V5 engine's local dependency modules are supplied in `code/`.
+The claim-to-source register retains original production artifact labels and row hashes. These labels are provenance identifiers, not a list of files distributed in this repository. The register includes controlled-source claims and is not a claim that all source inputs are public.
 
-Do not run collection scripts merely to validate this release: live service results can change. The frozen outputs and hashes are the publication authority.
-
-## 5. Full fail-closed production rerun
-
-The V5 engine was designed to consume an authorized input package whose paths, row counts, schemas, byte counts, and SHA-256 digests match the input contract. A full rerun requires reconstructing that rights-permitted input layout and updating only the path resolution while retaining all locked hashes and semantic gates. The engine must stop if any input differs.
-
-Because raw provider data are not redistributed, a public clone alone is intentionally insufficient to repeat network acquisition byte-for-byte. It is sufficient to validate the released files and audit the published analysis outputs.
-
-## 6. Fixed analytical cautions
-
-- The 2026 count covers 1 January through 13 August and is not annualized.
-- Model families, simulation modalities, NTS domains, and specialties are multiple-response fields where noted.
-- Model-stream agreement measures consistency, not accuracy against an independent human reference standard.
-- Bibliometric patterns are descriptive and do not establish educational effectiveness.
+The 2026 period ends on 13 August. Multiple-response fields can sum to more than 483. Agreement between model streams measures consistency. Later lead-author checks preserve initial and post-comparison stages and are reported separately from the frozen analysis.

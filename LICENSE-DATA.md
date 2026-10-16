@@ -16,4 +16,4 @@ This licence applies only to material for which the study authors hold the relev
 
 Suggested attribution:
 
-> Pears M, Wadhwa K, Payne SR, Konstantinidis ST, Biyani CS. Large Language Models in Healthcare Simulation Education: bibliometric analysis reproducibility package. Version 2.0.0, 2026.
+> Pears M, Wadhwa K, Payne SR, Konstantinidis STH, Biyani CS. Large Language Models in Healthcare Simulation Education: bibliometric analysis reproducibility package. Version 3.0.0, 2026.

@@ -1,0 +1,277 @@
+{
+  "stages": {
+    "initial_recorded": {
+      "current_frame_n": 80,
+      "current_frame_human_counts": {
+        "BLANK_PENDING_CONFIRMATION": 1,
+        "INCLUDE": 38,
+        "EXCLUDE": 39,
+        "UNCERTAIN": 2
+      },
+      "firm_denominator": 77,
+      "matches": 65,
+      "differences": [
+        "V009",
+        "V017",
+        "V022",
+        "V028",
+        "V040",
+        "V041",
+        "V045",
+        "V066",
+        "V077",
+        "V080",
+        "V081",
+        "V090"
+      ],
+      "outside_n": 20,
+      "outside_human_counts": {
+        "BLANK_PENDING_CONFIRMATION": 1,
+        "EXCLUDE": 17,
+        "INCLUDE": 2
+      },
+      "outside_includes": [
+        "V056",
+        "V074"
+      ],
+      "by_stratum": {
+        "CURRENT_FINAL_EXCLUDE": {
+          "n": 20,
+          "human_counts": {
+            "EXCLUDE": 14,
+            "UNCERTAIN": 1,
+            "INCLUDE": 5
+          },
+          "comparable_n": 19,
+          "matches": 14
+        },
+        "CURRENT_FINAL_INCLUDE": {
+          "n": 20,
+          "human_counts": {
+            "BLANK_PENDING_CONFIRMATION": 1,
+            "INCLUDE": 18,
+            "EXCLUDE": 1
+          },
+          "comparable_n": 19,
+          "matches": 18
+        },
+        "CURRENT_FLAGGED_OR_BOUNDARY": {
+          "n": 20,
+          "human_counts": {
+            "INCLUDE": 4,
+            "EXCLUDE": 15,
+            "UNCERTAIN": 1
+          },
+          "comparable_n": 19,
+          "matches": 14
+        },
+        "MODEL_AGREED_CURRENT_DECISION": {
+          "n": 20,
+          "human_counts": {
+            "INCLUDE": 11,
+            "EXCLUDE": 9
+          },
+          "comparable_n": 20,
+          "matches": 19
+        },
+        "OUTSIDE_CANDIDATE_FRAME": {
+          "n": 20,
+          "human_counts": {
+            "BLANK_PENDING_CONFIRMATION": 1,
+            "EXCLUDE": 17,
+            "INCLUDE": 2
+          },
+          "comparable_n": 0,
+          "matches": 0
+        }
+      }
+    },
+    "after_blank_clarification": {
+      "current_frame_n": 80,
+      "current_frame_human_counts": {
+        "EXCLUDE": 40,
+        "INCLUDE": 38,
+        "UNCERTAIN": 2
+      },
+      "firm_denominator": 78,
+      "matches": 65,
+      "differences": [
+        "V001",
+        "V009",
+        "V017",
+        "V022",
+        "V028",
+        "V040",
+        "V041",
+        "V045",
+        "V066",
+        "V077",
+        "V080",
+        "V081",
+        "V090"
+      ],
+      "outside_n": 20,
+      "outside_human_counts": {
+        "EXCLUDE": 18,
+        "INCLUDE": 2
+      },
+      "outside_includes": [
+        "V056",
+        "V074"
+      ],
+      "by_stratum": {
+        "CURRENT_FINAL_EXCLUDE": {
+          "n": 20,
+          "human_counts": {
+            "EXCLUDE": 14,
+            "UNCERTAIN": 1,
+            "INCLUDE": 5
+          },
+          "comparable_n": 19,
+          "matches": 14
+        },
+        "CURRENT_FINAL_INCLUDE": {
+          "n": 20,
+          "human_counts": {
+            "EXCLUDE": 2,
+            "INCLUDE": 18
+          },
+          "comparable_n": 20,
+          "matches": 18
+        },
+        "CURRENT_FLAGGED_OR_BOUNDARY": {
+          "n": 20,
+          "human_counts": {
+            "INCLUDE": 4,
+            "EXCLUDE": 15,
+            "UNCERTAIN": 1
+          },
+          "comparable_n": 19,
+          "matches": 14
+        },
+        "MODEL_AGREED_CURRENT_DECISION": {
+          "n": 20,
+          "human_counts": {
+            "INCLUDE": 11,
+            "EXCLUDE": 9
+          },
+          "comparable_n": 20,
+          "matches": 19
+        },
+        "OUTSIDE_CANDIDATE_FRAME": {
+          "n": 20,
+          "human_counts": {
+            "EXCLUDE": 18,
+            "INCLUDE": 2
+          },
+          "comparable_n": 0,
+          "matches": 0
+        }
+      }
+    },
+    "latest_post_comparison": {
+      "current_frame_n": 80,
+      "current_frame_human_counts": {
+        "INCLUDE": 39,
+        "EXCLUDE": 41
+      },
+      "firm_denominator": 80,
+      "matches": 71,
+      "differences": [
+        "V009",
+        "V017",
+        "V028",
+        "V041",
+        "V045",
+        "V066",
+        "V077",
+        "V081",
+        "V090"
+      ],
+      "outside_n": 20,
+      "outside_human_counts": {
+        "EXCLUDE": 19,
+        "INCLUDE": 1
+      },
+      "outside_includes": [
+        "V074"
+      ],
+      "by_stratum": {
+        "CURRENT_FINAL_EXCLUDE": {
+          "n": 20,
+          "human_counts": {
+            "EXCLUDE": 16,
+            "INCLUDE": 4
+          },
+          "comparable_n": 20,
+          "matches": 16
+        },
+        "CURRENT_FINAL_INCLUDE": {
+          "n": 20,
+          "human_counts": {
+            "INCLUDE": 19,
+            "EXCLUDE": 1
+          },
+          "comparable_n": 20,
+          "matches": 19
+        },
+        "CURRENT_FLAGGED_OR_BOUNDARY": {
+          "n": 20,
+          "human_counts": {
+            "INCLUDE": 6,
+            "EXCLUDE": 14
+          },
+          "comparable_n": 20,
+          "matches": 16
+        },
+        "MODEL_AGREED_CURRENT_DECISION": {
+          "n": 20,
+          "human_counts": {
+            "INCLUDE": 10,
+            "EXCLUDE": 10
+          },
+          "comparable_n": 20,
+          "matches": 20
+        },
+        "OUTSIDE_CANDIDATE_FRAME": {
+          "n": 20,
+          "human_counts": {
+            "EXCLUDE": 19,
+            "INCLUDE": 1
+          },
+          "comparable_n": 0,
+          "matches": 0
+        }
+      }
+    }
+  },
+  "overlap": {
+    "september_vs_august": [
+      {
+        "september": "V004",
+        "august": "H088"
+      },
+      {
+        "september": "V032",
+        "august": "H005"
+      },
+      {
+        "september": "V041",
+        "august": "H004"
+      },
+      {
+        "september": "V081",
+        "august": "H051"
+      },
+      {
+        "september": "V084",
+        "august": "H078"
+      }
+    ],
+    "unique_identifiers_in_two_100_record_samples": 195,
+    "interpretation": "Five September-versus-August overlaps concern a different pair of exercises from the manuscript's 23 pilot-versus-August overlaps. They do not contradict the historical statement. No pooled accuracy estimate is made."
+  },
+  "blinding": "Initial AI columns hidden according to Matt; subsequent 46-record recheck followed comparison and was not blinded.",
+  "rationales": "The pasted table contained decisions, but no row-level rationale entries. V040 has a separate explicit author rationale: this manuscript's earlier preprint. No other final rationale was invented.",
+  "production_modified": false
+}

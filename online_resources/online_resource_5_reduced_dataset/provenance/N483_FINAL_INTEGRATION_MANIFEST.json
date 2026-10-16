@@ -1,0 +1,121 @@
+{
+  "bound_inputs": {
+    "n483_completed_family_review": {
+      "bytes": 744793,
+      "path": "controlled_source/N483_ALL_RECORD_FAMILY_REVIEW_COMPLETED.csv",
+      "sha256": "935eb5dd48a63abc8b05aece7dee4a25df9a9da1273e8d285bba330d7bf25054"
+    },
+    "source_checked_extraction": {
+      "bytes": 2865089,
+      "path": "controlled_source/COMBINED_CANONICAL_CHECKED_EXTRACTION_CORRECTED_V2.csv",
+      "sha256": "61b69a206a52929ecdb1b04fdcdcc9e6d8ec7b411d31c3dc7560c765f4d316d6"
+    },
+    "source_integration_manifest": {
+      "bytes": 9081,
+      "path": "controlled_source/SCOPUS_FINAL_INTEGRATION_CORRECTED_MANIFEST_V2.json",
+      "sha256": "39dbe763bc3ed2277734a769fd4d7a984205af54836adc52778220f80e55c7e8"
+    },
+    "source_metadata": {
+      "bytes": 2409034,
+      "path": "controlled_source/COMBINED_CANONICAL_METADATA_CORRECTED_V2.csv",
+      "sha256": "211fbaa4f3e3c296815fb1479ba22caddc3edc03b58825bb4e340621a1df1404"
+    },
+    "source_openalex": {
+      "bytes": 2388651,
+      "path": "controlled_source/COMBINED_CANONICAL_OPENALEX_CORRECTED_V2.csv",
+      "sha256": "e2a92e974104d793399595d6e83e38b5ef728db558d3d0f7939330814d4c7d2c"
+    },
+    "source_study_selection": {
+      "bytes": 211860,
+      "path": "controlled_source/COMBINED_STUDY_SELECTION_LEDGER_CORRECTED_V2.csv",
+      "sha256": "25f4769a0d092a3c2ca67956a94a0ec6c8027a1a653e62b0d762e72d802a5212"
+    },
+    "source_version_ledger": {
+      "bytes": 801493,
+      "path": "controlled_source/COMBINED_ELIGIBLE_PUBLICATION_VERSION_LEDGER_CORRECTED_V2.csv",
+      "sha256": "44f8ae7ecb6205d8d9df75b1b597929bd0c2bd157c627c4b3bd0a0ff3ebd4df7"
+    }
+  },
+  "contracts": {
+    "all_547_publication_records_preserved": true,
+    "analysis_performed": false,
+    "controlled_two_pair_reconciliation": true,
+    "corrected_authorities_only": true,
+    "manuscript_modified": false,
+    "one_preferred_report_per_483_families": true,
+    "output_no_clobber": true,
+    "preferred_report_checked_extraction_only": true,
+    "record_level_screening_unchanged": true,
+    "version_specific_classifications_not_unioned": true
+  },
+  "derived_counts": {
+    "alternate_publication_versions": 64,
+    "base_families_after_reconciliation": 456,
+    "canonical_extraction_rows": 483,
+    "canonical_metadata_rows": 483,
+    "canonical_openalex_rows": 483,
+    "combined_screening_exclude": 3372,
+    "combined_screening_include": 547,
+    "combined_screening_rows": 3919,
+    "eligible_publication_records": 547,
+    "scopus_corrected_includes": 30,
+    "unique_studies": 483
+  },
+  "evidence": [
+    {
+      "accessed_at_utc": "2026-08-26T12:25:53Z",
+      "correction_id": "N483-CORR-001",
+      "finding": "The Research Square report explicitly identifies the BMC Medical Education article as its version of record; the reports share the study, authors, intervention and randomized design.",
+      "preprint": "https://doi.org/10.21203/rs.3.rs-7382682/v1",
+      "published_report": "https://doi.org/10.1186/s12909-025-08308-y"
+    },
+    {
+      "accessed_at_utc": "2026-08-26T12:25:53Z",
+      "correction_id": "N483-CORR-002",
+      "finding": "JMIR identifies preprint 81673 as an earlier version of the published JMIR Medical Education article DOI 10.2196/81673; the reports share the study and author group.",
+      "preprint": "https://preprints.jmir.org/preprint/81673",
+      "published_report": "https://mededu.jmir.org/2026/1/e81673"
+    }
+  ],
+  "generated_at_utc": "2026-08-26T12:25:53Z",
+  "outputs": {
+    "audit": {
+      "bytes": 1043,
+      "path": "N483_RECONCILIATION_AUDIT.csv",
+      "sha256": "2f00337f577b666bd1fa28457f324d6a9c5a24e95a736a836f791fa193781990"
+    },
+    "extraction": {
+      "bytes": 2856664,
+      "path": "COMBINED_CANONICAL_CHECKED_EXTRACTION_N483.csv",
+      "sha256": "b69864abd38a17d1e936349b7f284081fdaeb4ac0c79b0c69e843cb236a6a86c"
+    },
+    "metadata": {
+      "bytes": 2402553,
+      "path": "COMBINED_CANONICAL_METADATA_N483.csv",
+      "sha256": "195d6f7b8be3ce88277213f4d788796087a57a6c02d32529ae9137eb502aea52"
+    },
+    "openalex": {
+      "bytes": 2378046,
+      "path": "COMBINED_CANONICAL_OPENALEX_N483.csv",
+      "sha256": "3cbbc71533713503d34fe978a527dcaf85b556d36b5ad8fd0e8d95b6f4fbab7d"
+    },
+    "qa": {
+      "bytes": 1276,
+      "path": "N483_FINAL_INTEGRATION_QA.json",
+      "sha256": "46e554db5a8d80282c52b5addfc69e9ce005c8963854dcab0e852d04b702fe5d"
+    },
+    "selection": {
+      "bytes": 212685,
+      "path": "COMBINED_STUDY_SELECTION_LEDGER_N483.csv",
+      "sha256": "c7e60c68702efebfd1c8efcb0d0f3e5b4a5bea398bc58b3cd7801bc0d28387ed"
+    },
+    "version_ledger": {
+      "bytes": 803934,
+      "path": "COMBINED_ELIGIBLE_PUBLICATION_VERSION_LEDGER_N483.csv",
+      "sha256": "b79af6e7596595325a58f68e760035cd955b3bf8d342946518c768fcd1550f51"
+    }
+  },
+  "pipeline": "gse_controlled_final_integration_n483_20260826",
+  "schema_version": "gse-controlled-final-integration-n483-v1.0",
+  "status": "frozen_corrected_combined_corpus_n483_analysis_not_performed"
+}

@@ -1,0 +1,13 @@
+Fig. 1 Study selection from 9,719 retrieval occurrences to 483 unique studies. The 1,086 records receiving focused resolution were a subset of the 3,919 screened candidates, and stage counts retain their stated units.
+
+Fig. 2 Geographic distribution of author affiliations and international collaboration across the 483 included studies. Panel A shows overlapping whole-study counts for the 15 leading affiliation countries among the 402 studies with usable country data; each study contributed once to every represented country. Panel B shows country-data coverage for all 483 studies and multi-country affiliations among the 402 studies with usable data. Ninety studies (22.39%) had affiliations in more than one country. These data describe author affiliations rather than study settings or learner populations. Complete whole and fractional country counts are supplied in Online Resource 3.
+
+Fig. 3 Same-study co-occurrence of the 12 most frequent substantive concept categories. Diagonal squares show the number of studies containing each concept; circles show how many studies contained both concepts. All 66 pairwise combinations are displayed. Co-occurrence indicates same-study reporting, not a causal or comparative relationship.
+
+Fig. 4 Model-family reporting across 483 studies. Panel A shows whether the audit established at least one named family from the available evidence; ‘not established’ does not mean that a full text omitted a model name. Panel B shows non-exclusive publication-level family counts, separating evidence reviews from other publication types. Review counts indicate synthesis rather than deployment.
+
+Fig. 5 Fine-grained non-technical-skills concept co-occurrence across 483 titles and 447 available abstracts. A controlled thesaurus of 78 concept groups and 303 exact lexical variants was applied with binary whole counting. The matrix displays the 18 most frequent eligible concepts. Diagonal squares show the number of studies containing each concept; off-diagonal circle area shows the number containing both concepts, and colour indicates cosine-normalised co-occurrence strength. Numbered rows and columns correspond to the concept key; numerals are printed within circles for pair counts of five or more. Co-occurrence indicates same-study title-or-abstract reporting, not full-text prevalence or a causal relationship.
+
+Fig. 6 Explicit non-technical-skill domains (Panel A) and principal study designs (Panel B) across 483 studies. Non-technical-skill domains can overlap; study design is single-choice.
+
+Fig. 7 Leading clinical-specialty and professional labels across 483 studies. Labels are non-exclusive, so one study may contribute to more than one category.

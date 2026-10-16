@@ -1,0 +1,33 @@
+FIELD GUIDE — ONLINE RESOURCE 6
+
+Identity
+audit_id / validation_id: stable identifier within the stated exercise. P identifiers belong to the Pilot (mapped to its original H identifiers); H identifiers in the human-comparison files belong to Eligibility Sample 1; V identifiers belong to Eligibility Sample 2. They do not identify different human reviewers.
+paper_id: saved production/source identifier, used for joining records; it is not necessarily a publication DOI.
+title / doi / source_url: retained bibliographic context. No new literature search or URL-availability check is implied.
+sample_group / sample_component / stratum: the preserved sampling group. Keep stratified results separate; a simple average is not a population accuracy estimate.
+record_origin / outside_candidate_frame: whether a record entered the candidate screening frame. An outside-frame record has no original paired production screening decision.
+
+Eligibility decisions
+INCLUDE / EXCLUDE: the stated reviewer's eligibility decision under the applicable criteria.
+UNCERTAIN: insufficient certainty at that recorded stage, not an automatic exclusion.
+BLANK_PENDING_CONFIRMATION: no definite initial answer was recorded. Later confirmation is a separate field.
+lead_author_initial_decision / initial_recorded: the originally preserved human decision.
+after_blank_clarification: initial answers with the two subsequently confirmed blank exclusions recorded separately.
+lead_author_post_comparison_decision / latest_post_comparison: the latest saved author answer after comparison/rechecking; not a new blinded answer.
+then_current_pipeline_decision / historical_model_decision: the decision against which the original Eligibility Sample 1 was compared, not necessarily the final six-source decision.
+frozen_production_decision / frozen_production: the retained production decision used by the current comparison; no later human answer has silently replaced it.
+production_A_initial_decision / production_B_initial_decision: original model-stream screening answers, before resolution.
+supplementary_Astra_A_* / supplementary_Astra_B_*: the separate September model reviews of Sample 2. These are not the production review streams; their rationales remain model-authored.
+initial_match / post_comparison_relationship / relationship_to_production: agreement at the named stage, not proof of correctness. Outside-frame records are identified separately.
+final_author_rationale_available / latest_rationale_recorded: whether a final row-level author rationale was recorded. False is missing evidence, not a blank to fill with an invented rationale.
+primary-code fields: exclusion/uncertainty code from the saved codebook. See Resource 2 for definitions; preserve historical codes rather than silently converting them.
+
+NTS classifications
+communication, teamwork, leadership, decision_making, situational_awareness, task_management, stress_management, professionalism, other: the nine areas assessed for each record.
+Y: supported in the material examined. NR: not reported there. U: unclear or insufficient information.
+material_examined / source_locator / evidence_notes / review_date: the saved workbook entries. Notes retain source/version qualifications and any uncertainty rather than claiming every whole paper was read.
+scope: whether the record is in the current analysed corpus or belongs to the other checked records. Only the current 38 corpus records enter the 342-comparison table.
+review_process: lead-author verification of AI-prepared NTS evidence summaries and labels.
+domain / lead_author_checked_label / frozen_production_label / comparison: one row per study-domain comparison. AGREE and DIFFER exclude U; UNCLEAR is retained separately. Counts include agreement on non-reporting as well as positive domain labels.
+
+No field in this resource claims a second human reviewer, independent blinded NTS extraction, completed review of the blank other-classifications sheet, or integration of the later decisions into the frozen 483-study results.

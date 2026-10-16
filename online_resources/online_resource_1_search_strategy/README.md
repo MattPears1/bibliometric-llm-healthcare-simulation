@@ -1,5 +1,7 @@
-# Online Resource 1: search strategy and retrieval
+# Online Resource 1. Search strategies
 
-`ONLINE_RESOURCE_1_EXACT_SOURCE_SEARCHES.csv` contains all 18 source-specific searches: three search groups for each of OpenAlex, PubMed, Europe PMC, Semantic Scholar, DOAJ, and Scopus.
+SEARCH_STRATEGIES_18.csv contains the 18 exact searches, source-specific settings, execution dates, eligibility dates and retrieval occurrences. SOURCE_TOTALS.csv contains the six totals, summing to 9,719. FOUR_CONCEPT_CANDIDATE_RULE.txt documents the candidate rule.
 
-The study window was 1 January 2020 through 13 August 2026 inclusive. Crossref was used only for exact-DOI metadata checking and was not a discovery source. A search match was a screening candidate, not an automatic inclusion.
+Eligibility dates: 1 January 2020–13 August 2026. The five primary sources were searched on 14 August 2026; Scopus was searched on 16 August. Retrieval occurrences precede duplicate handling and are not unique studies.
+
+The released strings document the completed searches. No new live search was used to create this release.

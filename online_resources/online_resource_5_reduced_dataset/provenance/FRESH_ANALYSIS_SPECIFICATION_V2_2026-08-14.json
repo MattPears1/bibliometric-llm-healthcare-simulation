@@ -1,0 +1,829 @@
+{
+  "schema_version": "2.0",
+  "specification_id": "gse_fresh_analysis_v2_2026-08-14",
+  "prepared_date": "2026-08-14",
+  "status": "prespecified_before_final_screening_and_outcome_analysis",
+  "applies_to": "fresh_search_ending_2026-08-13",
+  "does_not_apply_to": "preserved_march_2026_corpus",
+  "study_window": {
+    "from": "2020-01-01",
+    "through": "2026-08-13",
+    "inclusive": true,
+    "complete_calendar_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "partial_period": {
+      "year": 2026,
+      "from": "2026-01-01",
+      "through": "2026-08-13",
+      "annualize": false,
+      "forecast": false
+    }
+  },
+  "review_question": "What scholarly work substantively concerns an explicit large or generative language model used in simulation-based education, training, or assessment for healthcare professionals or health-professions learners?",
+  "analysis_units": {
+    "retrieval": "one_source_query_occurrence",
+    "deduplication": "one_bibliographic_record",
+    "screening": "one_candidate_record",
+    "version_review": "one_eligible_publication_version",
+    "primary_analysis": "one_canonical_scholarly_work",
+    "human_audit": "one_prospectively_selected_audit_record"
+  },
+  "input_gate": {
+    "required_status": "publication_version_consolidation_finalized_analysis_unit_ready",
+    "required_main_file": "ONE_WORK_ANALYSIS_CORPUS_V2.csv",
+    "one_preferred_record_per_work_family": true,
+    "human_audit_required": true,
+    "systematic_version_review_required": true,
+    "checked_work_level_extraction_required": true,
+    "hash_validation_required": true
+  },
+  "fixed_metadata": {
+    "citation_source": "OpenAlex",
+    "citation_snapshot_rule": "Record one exact UTC date and time in the snapshot manifest before the first work-level citation request; all citation values must come from that one snapshot.",
+    "mixed_snapshot_dates_allowed": false,
+    "citation_value_from_other_sources_allowed": false,
+    "crossref_role": "exact_doi_bibliographic_enrichment_only",
+    "open_access_source": "OpenAlex",
+    "authorship_source": "OpenAlex",
+    "affiliation_country_source": "OpenAlex_structured_authorships"
+  },
+  "denominators": {
+    "N": "all_canonical_works",
+    "annual_counts": "all_canonical_works",
+    "model_families": "all_canonical_works",
+    "simulation_methods": "all_canonical_works",
+    "nts_domains_primary": "all_canonical_works",
+    "nts_domains_secondary": "canonical_works_with_at_least_one_explicit_nts_domain",
+    "specialties": "all_canonical_works",
+    "study_designs": "all_canonical_works",
+    "open_access": "all_canonical_works",
+    "source_frequency": "all_canonical_works",
+    "country_specific": "canonical_works_with_at_least_one_usable_country_affiliation",
+    "country_coverage": "all_canonical_works",
+    "citations": "canonical_works_with_a_value_from_the_fixed_openalex_snapshot",
+    "citation_coverage": "all_canonical_works",
+    "author_productivity": "canonical_works_with_usable_openalex_authorship",
+    "author_coverage": "all_canonical_works",
+    "model_agreement": "all_candidate_records_before_resolution",
+    "phrase_frequency": "all_canonical_works",
+    "phrase_abstract_sensitivity": "canonical_works_with_a_retained_abstract"
+  },
+  "uncertainty": {
+    "descriptive_corpus_proportions": "no_confidence_interval_because_they_describe_the_identified_corpus",
+    "model_raw_agreement_ci": {
+      "method": "wilson",
+      "level": 0.95
+    },
+    "model_kappa_ci": {
+      "method": "record_level_percentile_bootstrap",
+      "replicates": 10000,
+      "seed": 2026081306,
+      "level": 0.95,
+      "undefined_replicate_rule": "count_and_omit; if_more_than_5_percent_undefined_report_kappa_without_ci_and_explain"
+    },
+    "human_agreed_strata_error_ci": {
+      "method": "clopper_pearson_exact",
+      "level": 0.95
+    },
+    "multiple_testing": "not_applicable_no_hypothesis_test_family_planned"
+  },
+  "rounding_and_missingness": {
+    "percentage_decimals": 1,
+    "nonzero_percent_rounding_to_zero": "<0.1%",
+    "zero_denominator": "not_estimable",
+    "missing_citation": "missing_not_zero",
+    "explicit_zero_citation": "zero",
+    "imputation": "none",
+    "multiple_response_note_required": true,
+    "mutually_exclusive_counts_must_sum_to_denominator": true,
+    "blank_checked_multi_response_field": "no_explicit_label_identified_in_available_evidence"
+  },
+  "analyses": [
+    {
+      "id": "selection_flow",
+      "placement": "main",
+      "unit": "stage_specific",
+      "outputs": [
+        "figure_1",
+        "table_1",
+        "complete_flow_supplement"
+      ],
+      "prohibitions": [
+        "full_text_screening_label_for_title_abstract_review"
+      ]
+    },
+    {
+      "id": "model_model_agreement",
+      "placement": "main",
+      "unit": "candidate_record_before_resolution",
+      "forms": [
+        "three_choice_include_exclude_uncertain",
+        "binary_include_vs_non_include"
+      ],
+      "outputs": [
+        "table_1"
+      ]
+    },
+    {
+      "id": "prospective_human_audit",
+      "placement": "main_and_supplementary",
+      "unit": "audit_record",
+      "report_separately": [
+        "difficult",
+        "agreed_include",
+        "agreed_exclude",
+        "boundary_negative"
+      ],
+      "overall_unweighted_error_rate_allowed": false
+    },
+    {
+      "id": "annual_publications",
+      "placement": "main",
+      "unit": "canonical_work",
+      "complete_years_only_for_main_sequence": true,
+      "partial_2026_separate": true,
+      "cagr": false,
+      "annualization": false,
+      "forecast": false,
+      "central_regression": false,
+      "outputs": [
+        "figure_2",
+        "table_2"
+      ]
+    },
+    {
+      "id": "journal_source_frequency",
+      "placement": "main_and_supplementary",
+      "unit": "canonical_work",
+      "normalization_keys": [
+        "openalex_source_id",
+        "issn_l",
+        "documented_name_fallback"
+      ],
+      "main_top_n": 10,
+      "unknown_source_separate": true,
+      "formal_bradford_law": false,
+      "outputs": [
+        "table_2",
+        "complete_source_supplement"
+      ]
+    },
+    {
+      "id": "author_productivity",
+      "placement": "supplementary_with_brief_main_summary",
+      "unit": "unique_author_per_canonical_work",
+      "preferred_identity_key": "openalex_author_id",
+      "merge_name_only_records": false,
+      "main_top_n": 10,
+      "formal_lotka_law": false,
+      "outputs": [
+        "table_2_summary",
+        "complete_author_supplement"
+      ]
+    },
+    {
+      "id": "predefined_phrase_frequency",
+      "placement": "main",
+      "unit": "canonical_work",
+      "binary_within_work": true,
+      "fields": [
+        "complete_title",
+        "complete_abstract",
+        "source_supplied_author_keywords"
+      ],
+      "outputs": [
+        "table_6",
+        "complete_phrase_supplement"
+      ]
+    },
+    {
+      "id": "phrase_cooccurrence",
+      "placement": "supplementary",
+      "unit": "same_canonical_work",
+      "minimum_pair_count": 3,
+      "network_minimum_phrase_count": 5,
+      "network_minimum_pair_count": 3,
+      "network_max_pairs": 25,
+      "network_exclude_groups": [
+        "scope_check"
+      ],
+      "community_detection": false,
+      "centrality": false,
+      "outputs": [
+        "complete_pair_table",
+        "conditional_network"
+      ]
+    },
+    {
+      "id": "model_families",
+      "placement": "main",
+      "unit": "canonical_work",
+      "multiple_response": true,
+      "market_share_claim": false,
+      "licensing_classification": false,
+      "outputs": [
+        "figure_3_panel_a",
+        "table_3",
+        "complete_model_supplement"
+      ]
+    },
+    {
+      "id": "simulation_methods",
+      "placement": "main",
+      "unit": "canonical_work",
+      "multiple_response": true,
+      "outputs": [
+        "figure_3_panel_b",
+        "table_3",
+        "complete_simulation_supplement"
+      ]
+    },
+    {
+      "id": "nts_domains",
+      "placement": "main",
+      "unit": "canonical_work",
+      "multiple_response": true,
+      "source": "final_checked_extraction_only",
+      "regex_or_phrase_counts_as_nts": false,
+      "formal_notss_or_notsus_application": false,
+      "outputs": [
+        "figure_4_panel_a",
+        "table_4",
+        "complete_nts_supplement"
+      ]
+    },
+    {
+      "id": "specialties_and_professions",
+      "placement": "main_and_supplementary",
+      "unit": "canonical_work",
+      "multiple_response": true,
+      "urology_only_analysis": false,
+      "outputs": [
+        "figure_5",
+        "complete_specialty_supplement"
+      ]
+    },
+    {
+      "id": "study_designs",
+      "placement": "main",
+      "unit": "canonical_work",
+      "multiple_response": false,
+      "include_unclear": true,
+      "outputs": [
+        "figure_4_panel_b",
+        "table_3"
+      ]
+    },
+    {
+      "id": "geography",
+      "placement": "main_and_supplementary",
+      "unit": "canonical_work",
+      "whole_count": true,
+      "fractional_count": true,
+      "impute_missing_country": false,
+      "main_top_n": 10,
+      "outputs": [
+        "table_5",
+        "complete_country_supplement"
+      ]
+    },
+    {
+      "id": "open_access",
+      "placement": "main",
+      "unit": "canonical_work",
+      "categories": [
+        "gold",
+        "green",
+        "hybrid",
+        "bronze",
+        "diamond",
+        "closed",
+        "unknown"
+      ],
+      "unknown_as_closed": false,
+      "outputs": [
+        "table_2",
+        "open_access_supplement"
+      ]
+    },
+    {
+      "id": "citations",
+      "placement": "main_and_supplementary",
+      "unit": "canonical_work_with_fixed_snapshot_value",
+      "statistics": [
+        "n",
+        "coverage",
+        "missing",
+        "sum",
+        "mean",
+        "median",
+        "q1",
+        "q3",
+        "minimum",
+        "maximum",
+        "zero_count"
+      ],
+      "quartile_method": "linear_interpolation",
+      "indices_omitted": [
+        "h_index",
+        "g_index",
+        "i10_index"
+      ],
+      "outputs": [
+        "table_2",
+        "citation_by_year_supplement"
+      ]
+    }
+  ],
+  "questioned_analysis_decisions": {
+    "bradford_law": {
+      "placement": "omitted",
+      "reason": "normalized_source_counts_are_clearer_and_formal_law_claim_is_sensitive_to_coverage_and_zone_definition"
+    },
+    "lotka_law": {
+      "placement": "omitted",
+      "reason": "stable_author_identity_is_incomplete_and_descriptive_work_counts_answer_the_practical_question"
+    },
+    "model_licensing": {
+      "placement": "omitted",
+      "reason": "model_family_does_not_establish_the_exact_version_license_and_terms_change"
+    },
+    "word_cloud": {
+      "placement": "omitted",
+      "reason": "exact_phrase_tables_and_bar_charts_are_more_auditable"
+    },
+    "urology_only": {
+      "placement": "omitted",
+      "reason": "all_specialties_are_described_under_one_rule_without_privileging_urology"
+    }
+  },
+  "phrase_matching": {
+    "unicode_normalization": "NFKC",
+    "case_sensitive": false,
+    "hyphen_space_equivalence_for_listed_variants": true,
+    "whole_word_or_phrase_required": true,
+    "stemming": false,
+    "automatic_synonyms": false,
+    "post_outcome_dictionary_additions": false,
+    "maximum_count_per_label_per_work": 1,
+    "scope_terms_interpreted_as_substantive_topics": false,
+    "dictionary": [
+      {
+        "group": "scope_check",
+        "label": "large language model",
+        "variants": [
+          "large language model",
+          "large language models",
+          "LLM",
+          "LLMs"
+        ]
+      },
+      {
+        "group": "scope_check",
+        "label": "generative artificial intelligence",
+        "variants": [
+          "generative artificial intelligence",
+          "generative AI",
+          "GenAI"
+        ]
+      },
+      {
+        "group": "scope_check",
+        "label": "retrieval-augmented generation",
+        "variants": [
+          "retrieval-augmented generation",
+          "retrieval augmented generation"
+        ]
+      },
+      {
+        "group": "interface",
+        "label": "chatbot or conversational agent",
+        "variants": [
+          "chatbot",
+          "chatbots",
+          "conversational agent",
+          "conversational agents",
+          "conversational AI"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "virtual patient",
+        "variants": [
+          "virtual patient",
+          "virtual patients",
+          "digital patient",
+          "digital patients"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "simulated patient",
+        "variants": [
+          "simulated patient",
+          "simulated patients"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "standardized patient",
+        "variants": [
+          "standardized patient",
+          "standardized patients",
+          "standardised patient",
+          "standardised patients"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "scenario-based simulation",
+        "variants": [
+          "scenario-based simulation",
+          "scenario based simulation",
+          "scenario-based training",
+          "scenario based training",
+          "clinical simulation scenario",
+          "clinical simulation scenarios"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "objective structured clinical examination",
+        "variants": [
+          "objective structured clinical examination",
+          "objective structured clinical examinations",
+          "OSCE",
+          "OSCEs"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "role-play",
+        "variants": [
+          "role-play",
+          "role play",
+          "role-playing",
+          "role playing"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "mannequin simulation",
+        "variants": [
+          "mannequin simulation",
+          "manikin simulation",
+          "high-fidelity mannequin",
+          "high fidelity mannequin",
+          "high-fidelity manikin",
+          "high fidelity manikin"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "task trainer",
+        "variants": [
+          "task trainer",
+          "task trainers",
+          "part-task trainer",
+          "part task trainer",
+          "part-task trainers",
+          "part task trainers"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "virtual reality",
+        "variants": [
+          "virtual reality"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "augmented or extended reality",
+        "variants": [
+          "augmented reality",
+          "mixed reality",
+          "extended reality"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "serious game",
+        "variants": [
+          "serious game",
+          "serious games",
+          "simulation game",
+          "simulation games"
+        ]
+      },
+      {
+        "group": "simulation",
+        "label": "debriefing",
+        "variants": [
+          "debrief",
+          "debriefing",
+          "debriefings"
+        ]
+      },
+      {
+        "group": "educational_method",
+        "label": "automated feedback",
+        "variants": [
+          "automated feedback",
+          "AI-generated feedback",
+          "AI generated feedback"
+        ]
+      },
+      {
+        "group": "educational_context",
+        "label": "medical or health-professions education",
+        "variants": [
+          "medical education",
+          "health-professions education",
+          "health professions education"
+        ]
+      },
+      {
+        "group": "educational_context",
+        "label": "surgical education",
+        "variants": [
+          "surgical education",
+          "surgical training",
+          "surgery education"
+        ]
+      },
+      {
+        "group": "educational_context",
+        "label": "nursing education",
+        "variants": [
+          "nursing education",
+          "nursing student",
+          "nursing students"
+        ]
+      },
+      {
+        "group": "educational_context",
+        "label": "dental education",
+        "variants": [
+          "dental education",
+          "dental student",
+          "dental students"
+        ]
+      },
+      {
+        "group": "educational_context",
+        "label": "interprofessional education",
+        "variants": [
+          "interprofessional education",
+          "interprofessional learning",
+          "interprofessional training"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "communication skills",
+        "variants": [
+          "communication skill",
+          "communication skills",
+          "patient communication",
+          "clinical communication"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "clinical reasoning",
+        "variants": [
+          "clinical reasoning",
+          "diagnostic reasoning"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "decision-making",
+        "variants": [
+          "decision-making",
+          "decision making",
+          "clinical decision",
+          "clinical decisions"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "teamwork",
+        "variants": [
+          "teamwork",
+          "team-based skill",
+          "team based skill",
+          "team-based skills",
+          "team based skills",
+          "interprofessional teamwork"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "leadership",
+        "variants": [
+          "leadership"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "situational awareness",
+        "variants": [
+          "situational awareness",
+          "situation awareness"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "task management",
+        "variants": [
+          "task management"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "stress management",
+        "variants": [
+          "stress management",
+          "coping with stress"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "professionalism",
+        "variants": [
+          "professionalism",
+          "professional behaviour",
+          "professional behavior"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "crisis resource management",
+        "variants": [
+          "crisis resource management",
+          "crew resource management"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "empathy",
+        "variants": [
+          "empathy",
+          "empathic communication",
+          "empathetic communication"
+        ]
+      },
+      {
+        "group": "skill_or_outcome",
+        "label": "assessment or scoring",
+        "variants": [
+          "assessment",
+          "scoring"
+        ]
+      }
+    ]
+  },
+  "study_level_labels": {
+    "model_families": [
+      "ChatGPT_unspecified",
+      "GPT-3.5",
+      "GPT-4",
+      "GPT-4o",
+      "GPT-4.1",
+      "GPT-5",
+      "OpenAI_o_series",
+      "Claude",
+      "Gemini",
+      "Bard",
+      "Llama",
+      "Mistral",
+      "DeepSeek",
+      "Qwen",
+      "Copilot",
+      "Med-PaLM",
+      "BioGPT",
+      "Grok",
+      "Gemma",
+      "Phi",
+      "Doubao",
+      "T5_FLAN",
+      "other_named",
+      "unspecified_generative_model"
+    ],
+    "simulation_methods": [
+      "virtual_patient",
+      "standardized_patient",
+      "scenario",
+      "osce",
+      "roleplay",
+      "mannequin",
+      "task_trainer",
+      "vr_ar_xr",
+      "serious_game",
+      "debriefing",
+      "other"
+    ],
+    "nts_domains": [
+      "communication",
+      "teamwork",
+      "leadership",
+      "decision_making",
+      "situational_awareness",
+      "task_management",
+      "stress_management",
+      "professionalism",
+      "other"
+    ],
+    "study_designs": [
+      "randomized_trial",
+      "nonrandomized_comparative",
+      "pre_post",
+      "observational",
+      "survey",
+      "qualitative",
+      "mixed_methods",
+      "development_evaluation",
+      "evidence_review",
+      "methods_framework",
+      "other",
+      "unclear"
+    ]
+  },
+  "surgical_grouping": [
+    "general_surgery",
+    "surgery",
+    "urology",
+    "orthopaedic_surgery",
+    "neurosurgery",
+    "otolaryngology",
+    "plastic_surgery",
+    "cardiothoracic_surgery",
+    "vascular_surgery",
+    "paediatric_surgery",
+    "transplant_surgery",
+    "obstetrics_gynaecology_when_explicitly_operative"
+  ],
+  "sensitivity_analyses": [
+    "exclude_standalone_preprints_or_repository_only_versions",
+    "for_metadata_dependent_summaries_only_exclude_records_without_exact_doi_pmid_or_stable_work_id_openalex_match",
+    "phrase_frequency_restricted_to_works_with_retained_abstract",
+    "report_corpus_change_from_any_human_audit_expansion",
+    "regenerate_all_dependent_outputs_after_any_corpus_change"
+  ],
+  "main_outputs": {
+    "figures": [
+      "figure_1_selection_flow",
+      "figure_2_annual_counts_complete_years_plus_partial_2026",
+      "figure_3_model_families_and_simulation_methods",
+      "figure_4_nts_domains_and_study_designs",
+      "figure_5_specialties_and_professions"
+    ],
+    "tables": [
+      "table_1_selection_agreement_and_human_audit",
+      "table_2_publication_source_open_access_citation_and_coverage",
+      "table_3_model_simulation_and_study_design",
+      "table_4_single_reconciled_nts_analysis",
+      "table_5_geography_with_missingness",
+      "table_6_predefined_phrase_frequencies"
+    ]
+  },
+  "prohibited_claims": [
+    "exhaustive_search_or_all_eligible_studies_found",
+    "model_agreement_as_human_interrater_reliability",
+    "model_agreement_as_accuracy_sensitivity_or_specificity",
+    "zero_errors_in_sample_as_zero_errors_in_corpus",
+    "unaudited_records_as_human_validated",
+    "title_abstract_review_as_full_text_screening",
+    "model_frequency_as_market_share_quality_safety_or_effectiveness",
+    "low_nts_or_specialty_count_as_proven_gap",
+    "geography_as_global_equity_or_national_performance_when_metadata_incomplete",
+    "open_access_status_as_affordability_reuse_permission_or_universal_access",
+    "citations_as_study_quality_or_educational_value",
+    "partial_2026_as_full_year_or_basis_for_cagr_forecast",
+    "bradford_law_conformity",
+    "lotka_law_conformity",
+    "model_family_as_license_classification",
+    "phrase_cooccurrence_as_causal_or_hidden_conceptual_relationship",
+    "urology_as_prespecified_gap_or_basis_for_product_promotion",
+    "frequency_as_evidence_of_educational_effectiveness"
+  ],
+  "change_control": {
+    "dated_amendment_required": true,
+    "required_fields": [
+      "change",
+      "reason",
+      "whether_outcome_counts_seen",
+      "affected_outputs",
+      "classification_as_correction_feasibility_or_exploratory"
+    ],
+    "unplanned_analysis_label": "exploratory"
+  }
+}

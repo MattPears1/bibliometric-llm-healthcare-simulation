@@ -1,2 +1,6 @@
+# Optional historical analysis/figure dependencies; public verification is standard-library only.
 matplotlib>=3.8,<4
 numpy>=1.26,<3
+pandas
+Pillow
+networkx

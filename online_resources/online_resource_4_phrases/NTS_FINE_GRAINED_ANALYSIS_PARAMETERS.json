@@ -1,0 +1,22 @@
+{
+  "schema_version": "nts_concept_landscape_v1",
+  "source": "COMBINED_CANONICAL_CHECKED_EXTRACTION_N483.csv (controlled authoritative input; not redistributed)",
+  "source_sha256": "b69864abd38a17d1e936349b7f284081fdaeb4ac0c79b0c69e843cb236a6a86c",
+  "metadata_source": "COMBINED_CANONICAL_METADATA_N483.csv (controlled authoritative metadata input; not redistributed)",
+  "metadata_source_sha256": "195d6f7b8be3ce88277213f4d788796087a57a6c02d32529ae9137eb502aea52",
+  "lexicon": "NTS_FINE_GRAINED_CONCEPT_THESAURUS.csv",
+  "lexicon_sha256": "46592a6e6b50e8c09f8a305717d427b68f4596e30e97cff67fdc775daf23ea63",
+  "studies": 483,
+  "title_coverage": 483,
+  "abstract_coverage": 447,
+  "concept_groups": 78,
+  "lexical_variants": 303,
+  "matching": "case-insensitive exact normalized phrase; no stemming or fuzzy matching; binary whole counting",
+  "network_nodes": 28,
+  "network_edges": 84,
+  "figure_matrix_concepts": 18,
+  "figure_matrix_encoding": "diagonal=concept frequency; off-diagonal bubble area=raw co-occurring studies; colour=cosine-normalised co-occurrence",
+  "network_node_rule": "28 most frequent eligible concepts in the largest connected component among the top 36 concepts with n>=2; rare priority micro-skills are reported in Panel B",
+  "network_edge_rule": "layout uses every co-occurrence>=2; display uses strongest 6 cosine-normalized links per node plus every raw co-occurrence>=8",
+  "layout": "networkx spring_layout, seed 190826, k 0.62, 900 iterations, cosine-normalized co-occurrence weight"
+}

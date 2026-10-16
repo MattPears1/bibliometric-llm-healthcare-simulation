@@ -1,15 +1,18 @@
 # Changelog
 
-## 2.0.0 - 2026-08-17
+## 3.0.0 — 16 October 2026
 
-- Published the final six-source study window through 13 August 2026.
-- Added Scopus to OpenAlex, PubMed, Europe PMC, Semantic Scholar, and DOAJ.
-- Froze 9,719 retrieval occurrences, 3,919 screened candidates, 547 eligible publication records, 62 alternate versions, and 485 canonical studies.
-- Replaced earlier numerical outputs with the independently checked V5 run02 tables, figures, sensitivity analyses, and claim register.
-- Added the exact 18-query search register, reduced 485-study dataset, data dictionary, and reduced publication-version audit.
-- Added rights-conscious redistribution rules, dual licensing, machine-readable citation metadata, release checksums, and a public integrity validator.
-- Preserved the original submission-era repository state under the historical Git tag `v1.0-submission`.
+- Replaced the current 485-study outputs with the frozen 483-study analysis: 547 eligible publication records and 64 alternate versions.
+- Published all six Online Resources and all seven current article figures.
+- Restored all 100 agent Pilot records, their decision rationales, source hashes and the verified 23-record overlap with the August human sample.
+- Restored the original August human decision/rationale fields and preserved the September initial and later answer stages.
+- Included the corrected model-name audit and its 470-study sensitivity outputs; retained unresolved later human-check differences separately.
+- Corrected Stathis T.H. Konstantinidis in citation metadata. Omitted his unconfirmed current affiliation.
+- Added offline integrity and scientific-consistency checks with regression tests.
+- Excluded restricted source text, private paths/workbooks and incidental contact details.
 
-## 1.0.0 - historical submission snapshot
+The v2.0.0 tag remains available as the superseded 485-study release; it should not be used as the current article's dataset.
 
-The original repository state is retained only for provenance. Its analysis outputs and headline counts are superseded by version 2.0.0.
+## 2.0.0 — 17 August 2026
+
+Historical six-source release containing 485 studies and 62 alternate versions. Preserved in version history.

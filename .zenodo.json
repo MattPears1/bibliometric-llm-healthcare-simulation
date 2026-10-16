@@ -14,15 +14,14 @@
       "affiliation": "Department of Urology, Manchester University Hospitals NHS Foundation Trust, Manchester, UK"
     },
     {
-      "name": "Konstantinidis, Stavros T",
-      "affiliation": "School of Health Sciences, University of Nottingham, Nottingham, UK"
+      "name": "Konstantinidis, Stathis T.H."
     },
     {
       "name": "Biyani, Chandra Shekhar",
       "affiliation": "Department of Urology, Leeds Teaching Hospitals NHS Trust, Leeds, UK"
     }
   ],
-  "description": "Rights-conscious reproducibility package for a six-source bibliometric analysis of large language models in healthcare simulation education. The frozen release contains 18 exact searches, 9,719 retrieval occurrences, 3,919 screened candidates, 547 eligible publication records, 62 alternate publication versions, and 485 canonical studies. Code is also available under the MIT License; original derived data, tables, figures, and documentation are released under CC BY 4.0.",
+  "description": "Publication resources for the frozen 483-study bibliometric analysis of large language models in healthcare simulation education: six Online Resources, 18 exact searches, 9,719 retrieval occurrences, 3,919 candidate records, 547 eligible publication records and 64 alternate versions. Includes the corrected model-name audit, seven article figures and recovered agent Pilot. Later lead-author checks remain separate from frozen analysis. Original derived material CC BY 4.0; code MIT; restricted source text excluded.",
   "keywords": [
     "large language models",
     "healthcare simulation",
@@ -33,8 +32,13 @@
   ],
   "language": "eng",
   "license": "cc-by-4.0",
-  "publication_date": "2026-08-17",
+  "publication_date": "2026-10-16",
   "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.1007/s44186-026-00592-6",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    },
     {
       "identifier": "https://doi.org/10.64898/2026.06.02.26354722",
       "relation": "isSupplementTo",
@@ -43,5 +47,5 @@
   ],
   "title": "Large Language Models in Healthcare Simulation Education: bibliometric analysis reproducibility package",
   "upload_type": "software",
-  "version": "2.0.0"
+  "version": "3.0.0"
 }

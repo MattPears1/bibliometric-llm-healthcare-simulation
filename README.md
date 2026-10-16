@@ -1,60 +1,43 @@
-# Large Language Models in Healthcare Simulation Education
+# Large language models in healthcare simulation education
 
-Reproducibility package for **Large Language Models in Healthcare Simulation Education: A Bibliometric Analysis with AI-Assisted Screening**.
+Publication resources for **Large language models in healthcare simulation education: a bibliometric analysis of simulation approaches and non-technical skills**, Global Surgical Education – Journal of the Association for Surgical Education.
 
-This is the corrected, six-source `v2.0.0` release. It is the authoritative public package for the study window **1 January 2020 through 13 August 2026**. The earlier computational material preserved under the Git tag `v1.0-submission` is historical and must not be used for the final manuscript's results.
+**Version 3.0.0 · 16 October 2026 · frozen 483-study analysis.**
 
-## Frozen study snapshot
-
-| Measure | Count |
-|---|---:|
-| Completed discovery sources | 6 |
+| Selection stage | Count |
+| --- | ---: |
+| Exact searches across six sources | 18 |
 | Retrieval occurrences | 9,719 |
-| Candidate records screened by both model streams | 3,919 |
+| Candidate records reviewed | 3,919 |
 | Eligible publication records | 547 |
-| Alternate publication versions | 62 |
-| Canonical unique studies | 485 |
+| Alternate publication versions | 64 |
+| Unique studies | **483** |
 
-The six completed discovery services were OpenAlex, PubMed, Europe PMC, Semantic Scholar, DOAJ, and Scopus. Crossref was used only for exact-DOI metadata checking. Search matches were candidates, not automatic inclusions. Counts for 2026 are partial through 13 August and were not annualized.
+The eligibility window is 1 January 2020–13 August 2026. Five sources were searched on 14 August and Scopus on 16 August 2026. The 2026 count is partial and is not annualised.
 
-The results describe publication activity, reported applications, and research coverage. They do not by themselves establish educational effectiveness.
+## The six Online Resources
 
-## Repository contents
+| Resource | Contents |
+| --- | --- |
+| [1. Searches](online_resources/online_resource_1_search_strategy/) | All 18 exact searches, dates, source totals and candidate rule |
+| [2. Selection and publication versions](online_resources/online_resource_2_selection_and_versions/) | All 3,919 screening decisions and 547 eligible publication records |
+| [3. Complete results](online_resources/online_resource_3_complete_results/) | Descriptive and sensitivity results, with the corrected model-family audit |
+| [4. Phrases and NTS](online_resources/online_resource_4_phrases/) | Dictionaries, per-study indicators, networks and fine-grained NTS concepts |
+| [5. Study dataset and code](online_resources/online_resource_5_reduced_dataset/) | One row per study, current model identities, dictionary, provenance and analysis code |
+| [6. Pilot and lead-author checks](online_resources/online_resource_6_validation/) | Recovered Pilot; both eligibility samples; disagreement recheck; NTS classification check |
 
-- [`online_resources/`](online_resources/) contains the five reader-facing Online Resource groups cited by the manuscript.
-- [`results/tables/`](results/tables/) contains all six main tables as matched CSV/JSON pairs.
-- [`results/figures/`](results/figures/) contains five main figures as 600-dpi PNG and vector EPS files.
-- [`methods/`](methods/) contains the locked screening codebook, model-review protocol, analysis specification, and final integration amendment.
-- [`code/`](code/) contains collection, integration, analysis, validation, and regression-test code.
-- [`audit/`](audit/) contains the frozen public release record, analysis summary, and claim-to-source register.
-- [`SHA256SUMS.csv`](SHA256SUMS.csv) binds every released file by relative path, SHA-256 digest, and byte count.
+[Download the six resource ZIP files](https://github.com/MattPears1/bibliometric-llm-healthcare-simulation/releases/tag/v3.0.0). [All seven article figures](results/figures/) and their captions are also included.
 
-The exact file-to-manuscript mapping is in [`docs/ONLINE_RESOURCE_MAP.md`](docs/ONLINE_RESOURCE_MAP.md).
+The Pilot contains 100 agent-generated workflow-test decisions. Its 23-record overlap with the August human sample has been verified from the original identifiers. It is not human validation. The two human eligibility samples share five records; these are a different pair of exercises.
 
-## Quick verification
+There was one lead author performing human checks. Initial answers, later comparison-assisted answers and unresolved differences remain separate. The later checks do not replace the frozen 483-study classifications. See [validation limitations](online_resources/online_resource_6_validation/README.md).
 
-Python 3.10 or later is sufficient for the public integrity check:
+## Verify and reuse
 
-```bash
-python code/verify_public_release.py .
-```
+Run **python -B code/verify_public_release.py .** from the repository root. This offline command checks every released file hash and key scientific counts and joins. Run **python -B -m unittest discover -s code -p test_verify_public_release.py** for its regression tests.
 
-The complete V5 production engine additionally requires NumPy and Matplotlib and the authorized, hash-bound provider inputs described in the input contract. Raw provider responses and other restricted inputs are intentionally not redistributed. See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
+The original derived material is under [CC BY 4.0](LICENSE-DATA.md); software is under the [MIT License](LICENSE). Raw provider responses, abstracts, source-keyword text, downloaded full texts and private workbooks are excluded. The public files support inspection and verification; a complete raw-data rerun requires the controlled source inputs. [Reproducibility guide](docs/REPRODUCIBILITY.md).
 
-## Rights-conscious release
+The earlier 485-study release remains in Git history and the v2.0.0 tag for provenance. It is superseded for the current article. Use the current corrected model-family fields rather than historical extraction wording.
 
-This repository includes derived aggregate outputs, exact query strings, checked study-level classifications, a reduced publication-version audit, figures, and code. It excludes raw Scopus or other provider responses, abstracts and full text, the complete record-level screening corpus, credentials, and internal execution logs.
-
-See [`docs/DATA_AND_CODE_AVAILABILITY.md`](docs/DATA_AND_CODE_AVAILABILITY.md) for the detailed inclusion/exclusion boundary.
-
-## Citation and archival status
-
-Use the citation metadata in [`CITATION.cff`](CITATION.cff). The GitHub release `v2.0.0` is the current versioned source. A Zenodo-ready metadata record is supplied in [`.zenodo.json`](.zenodo.json); when the GitHub repository is enabled in Zenodo, the release can be archived and assigned a DOI without changing the research files.
-
-An earlier manuscript version is available as a medRxiv preprint at [https://doi.org/10.64898/2026.06.02.26354722](https://doi.org/10.64898/2026.06.02.26354722). Its earlier numerical results are superseded by this six-source package.
-
-## Licence
-
-- Code is licensed under the [MIT License](LICENSE).
-- Original derived data, tables, figures, and documentation are licensed under [CC BY 4.0](LICENSE-DATA.md).
-- Third-party identifiers and source-linked material remain subject to the rights and terms of their originating services.
+Article identifier supplied in the publisher proof: [10.1007/s44186-026-00592-6](https://doi.org/10.1007/s44186-026-00592-6). Citation details are in [CITATION.cff](CITATION.cff).

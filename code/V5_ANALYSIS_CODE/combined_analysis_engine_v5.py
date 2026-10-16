@@ -2304,22 +2304,22 @@ def create_figures_v5(directory: Path, analysis: Mapping[str, Any]) -> list[Path
     fig, ax = v2.plt.subplots(figsize=(10.4, 11.4))
     ax.axis("off")
     main = [
-        ("Results returned by six sources\n" + " | ".join(source_lines[:3]) + "\n" + " | ".join(source_lines[3:]), stage["Retrieval occurrences"]),
-        ("Occurrences entering duplicate handling", stage["Occurrences entering duplicate handling"]),
-        ("Records after automatic duplicate merging", stage["Records after automatic duplicate merging"]),
-        ("Unique records after separately checked identity matches", stage["Unique bibliographic records after deduplication"]),
-        ("Records reviewed independently by both model reviewers", stage["Candidate records reviewed by both models"]),
+        ("Search results returned by six sources\n" + " | ".join(source_lines[:3]) + "\n" + " | ".join(source_lines[3:]), stage["Retrieval occurrences"]),
+        ("Search results entering duplicate removal", stage["Occurrences entering duplicate handling"]),
+        ("Records after automatic duplicate removal", stage["Records after automatic duplicate merging"]),
+        ("Distinct records after duplicate removal", stage["Unique bibliographic records after deduplication"]),
+        ("Candidate records from six sources\nassessed by both screening streams", stage["Candidate records reviewed by both models"]),
         ("Eligible publication records", stage["Eligible publication records"]),
-        ("Unique scholarly works analysed", stage["Canonical unique works"]),
+        ("Unique studies analysed", stage["Canonical unique works"]),
     ]
     side = [
-        (0, "Scopus results after 13 August removed", stage["Scopus results after the cutoff"]),
-        (1, "Automatically merged duplicate occurrences", stage["Automatically merged duplicate occurrences"]),
-        (2, "Same-record matches confirmed separately", stage["Separately confirmed same-record merges"]),
-        (3, "Records outside the broad review rule", stage["Records outside the four-domain candidate frame"]),
-        (4, "Review decisions checked separately", stage["All separately resolved review records"]),
-        (4, "Records excluded after resolution", stage["Records excluded after resolution"]),
-        (5, "Alternate publications describing the same work", stage["Alternate publication versions"]),
+        (0, "Search results after 13 August 2026 removed", stage["Scopus results after the cutoff"]),
+        (1, "Duplicate search results merged automatically", stage["Automatically merged duplicate occurrences"]),
+        (2, "Possible duplicate records confirmed separately", stage["Separately confirmed same-record merges"]),
+        (3, "Records outside the final\nsix-source candidate frame", stage["Records outside the four-domain candidate frame"]),
+        (4, "Flagged candidate records receiving\nfocused resolution (subset of 3,919)", stage["All separately resolved review records"]),
+        (4, "Candidates excluded after final resolution", stage["Records excluded after resolution"]),
+        (5, "Alternate publication versions", stage["Alternate publication versions"]),
     ]
     ys = v2.np.linspace(0.95, 0.06, len(main))
     for index, (label, count) in enumerate(main):
@@ -2353,7 +2353,7 @@ def create_figures_v5(directory: Path, analysis: Mapping[str, Any]) -> list[Path
     ax.text(
         0.64,
         0.015,
-        "Five-source date audit (reported separately, not serial losses): "
+        "Other date-status checks within the six-source records (reported separately; not sequential removals): "
         f"{stage['Primary-source results before or after the date window']:,} before/after the window; "
         f"{stage['Primary-source results with an unknown or unresolved date']:,} unknown/unresolved.",
         ha="left",

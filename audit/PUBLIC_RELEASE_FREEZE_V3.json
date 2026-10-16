@@ -1,0 +1,21 @@
+{
+  "version": "3.0.0",
+  "release_date": "2026-10-16",
+  "authoritative_counts": {
+    "completed_discovery_sources": 6,
+    "retrieval_occurrences": 9719,
+    "candidate_records": 3919,
+    "eligible_publication_records": 547,
+    "alternate_publication_versions": 64,
+    "unique_studies": 483
+  },
+  "frozen_integration_manifest_sha256": "b64b01ae57aaca386cfdb07b08e322f515e75e3dc2b5ed0cff1701cae9028bea",
+  "frozen_analysis_hash_ledger_sha256": "12d9923ef1c68c3fbc511f0ab0fa22da49f5256119a279cf8d8fea099372f6aa",
+  "current_model_authority": "online_resources/online_resource_5_reduced_dataset/MODEL_AUDIT_RECORDS_N483.csv",
+  "pilot_recovered_records": 100,
+  "pilot_august_overlap": 23,
+  "august_september_overlap": 5,
+  "later_human_checks_integrated_into_frozen_corpus": false,
+  "original_sources_modified": false,
+  "raw_search_rerun": false
+}

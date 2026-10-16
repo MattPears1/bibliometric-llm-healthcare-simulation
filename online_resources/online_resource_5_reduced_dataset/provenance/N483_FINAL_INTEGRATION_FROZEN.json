@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-08-26T12:25:53Z",
+  "hash_manifest": "N483_FINAL_INTEGRATION_HASHES.csv",
+  "hash_manifest_sha256": "5f8940dbc52c3e44e203f6a0e29a9e5b5c3ce805296603e61085bf21e5ca772b",
+  "manifest": "N483_FINAL_INTEGRATION_MANIFEST.json",
+  "manifest_sha256": "b64b01ae57aaca386cfdb07b08e322f515e75e3dc2b5ed0cff1701cae9028bea",
+  "pipeline": "gse_controlled_final_integration_n483_20260826",
+  "published_path": "controlled_source/n483_final_integration_run01",
+  "schema_version": "gse-controlled-final-integration-n483-v1.0",
+  "status": "frozen"
+}
